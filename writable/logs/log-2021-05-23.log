@@ -1,0 +1,11 @@
+CRITICAL - 2021-05-23 01:00:30 --> Unable to connect to the database.
+#0 E:\www\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\www\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 E:\www\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\www\pime_somali\app\Libraries\Tank_auth.php(702): App\Models\tank_auth\Login_attempts->get_attempts_num('::1', '')
+#4 E:\www\pime_somali\app\Controllers\Auth.php(102): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 E:\www\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 E:\www\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 E:\www\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\www\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

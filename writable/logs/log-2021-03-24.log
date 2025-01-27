@@ -1,0 +1,96 @@
+CRITICAL - 2021-03-24 02:56:01 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\district_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\district_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 02:57:32 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 02:57:35 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 02:57:37 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 02:57:47 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 02:59:04 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 02:59:11 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:23:08 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:23:12 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:23:13 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:23:16 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:31:41 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:33:39 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:34:32 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:35:17 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 03:35:41 --> Class 'App\Models\planning\district_strategic_plan_Model' not found
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\District_strategic_plan->index()
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_strategic_plan))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

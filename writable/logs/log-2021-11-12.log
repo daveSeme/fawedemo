@@ -1,0 +1,60 @@
+CRITICAL - 2021-11-12 11:46:16 --> Trait 'App\Controllers\myPHPnotes\Microsoft\Auth' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-12 11:47:00 --> Trait 'App\Controllers\myPHPnotes\Microsoft\Auth' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-12 11:55:19 --> Trait 'App\Controllers\myPHPnotes\Microsoft\Auth' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-12 12:20:06 --> Call to undefined function App\Controllers\get_instance()
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-12 12:23:15 --> Cannot call constructor
+#0 C:\xampp\htdocs\system\CodeIgniter.php(890): App\Controllers\Auth->__construct()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-12 12:23:36 --> Undefined property: App\Controllers\Auth::$load
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(890): App\Controllers\Auth->__construct()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-12 12:59:38 --> Undefined property: App\Controllers\Auth::$load
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(890): App\Controllers\Auth->__construct()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-12 12:59:39 --> Undefined property: App\Controllers\Auth::$load
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(890): App\Controllers\Auth->__construct()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-12 13:07:36 --> Call to undefined function App\Controllers\get_instance()
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-12 13:07:37 --> Call to undefined function App\Controllers\get_instance()
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-12 13:12:52 --> Call to undefined function App\Controllers\get_instance()
+#0 C:\xampp\htdocs\creaw\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#1 C:\xampp\htdocs\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\creaw\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

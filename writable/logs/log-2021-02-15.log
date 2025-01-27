@@ -1,0 +1,696 @@
+CRITICAL - 2021-02-15 06:46:27 --> Cannot use object of type stdClass as array
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-15 06:46:28 --> Cannot use object of type stdClass as array
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-15 06:46:28 --> Cannot use object of type stdClass as array
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-15 06:57:22 --> Cannot use object of type stdClass as array
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-15 06:57:22 --> Cannot use object of type stdClass as array
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-15 06:57:22 --> Cannot use object of type stdClass as array
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-15 07:02:38 --> Undefined variable: query
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 155, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:02:38 --> Undefined variable: query
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 155, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:02:38 --> Undefined variable: query
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 155, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:02:45 --> Undefined property: CodeIgniter\View\View::$uri
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 161, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:02:45 --> Undefined property: CodeIgniter\View\View::$uri
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 161, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:02:45 --> Undefined property: CodeIgniter\View\View::$uri
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 161, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:04:30 --> syntax error, unexpected '.'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 07:04:30 --> syntax error, unexpected '.'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 07:04:30 --> syntax error, unexpected '.'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 07:04:43 --> Undefined property: CodeIgniter\View\View::$db
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 165, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:04:43 --> Undefined property: CodeIgniter\View\View::$db
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 165, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:04:43 --> Undefined property: CodeIgniter\View\View::$db
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 165, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 07:06:39 --> Table 'pime_somali.org_thematic_areas' doesn't exist
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT  *    fr...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  *    fr...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  *    fr...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Database\BaseConnection->query('SELECT  *    fr...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#12 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-02-15 07:06:40 --> Table 'pime_somali.org_thematic_areas' doesn't exist
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT  *    fr...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  *    fr...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  *    fr...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Database\BaseConnection->query('SELECT  *    fr...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#12 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-02-15 07:06:40 --> Table 'pime_somali.org_thematic_areas' doesn't exist
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT  *    fr...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  *    fr...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  *    fr...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Database\BaseConnection->query('SELECT  *    fr...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#12 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-02-15 07:07:43 --> Table 'pime_somali.fydp_sector_priority' doesn't exist
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT  *    fr...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  *    fr...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  *    fr...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Database\BaseConnection->query('SELECT  *    fr...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#12 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-02-15 07:07:43 --> Table 'pime_somali.fydp_sector_priority' doesn't exist
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT  *    fr...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  *    fr...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  *    fr...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Database\BaseConnection->query('SELECT  *    fr...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#12 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-02-15 07:07:43 --> Table 'pime_somali.fydp_sector_priority' doesn't exist
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT  *    fr...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  *    fr...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  *    fr...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\logframe.php(165): CodeIgniter\Database\BaseConnection->query('SELECT  *    fr...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(189): view('template/index', Array)
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->logframe('19')
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#12 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-02-15 14:56:23 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:23 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:28 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:33 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:33 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:40 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:41 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:41 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:42 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:42 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:43 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:43 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:44 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:44 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:45 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:45 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:56:53 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:56:53 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:57:09 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:57:09 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:57:10 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:57:10 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:58:43 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:58:44 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:59:01 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:59:01 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:59:10 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:59:10 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 14:59:12 --> Unable to connect to the database.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(679): App\Models\tank_auth\Login_attempts->get_attempts_num('127.0.0.1', '')
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:59:12 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'G:\\xampp\\htdocs...', 100, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(308): include('G:\\xampp\\htdocs...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-15 15:08:40 --> Trying to get property 'name' of non-object
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\projects\profile\view.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\xampp\\htdocs...', 78, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Project.php(219): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Project->view('js', 'datagrid', 'datatables', 'datatables.bund...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Project))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-15 15:08:41 --> Trying to get property 'name' of non-object
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\projects\profile\view.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\xampp\\htdocs...', 78, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Project.php(219): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Project->view('js', 'datagrid', 'datatables', 'datatables.bund...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Project))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

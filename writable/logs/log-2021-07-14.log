@@ -1,0 +1,7 @@
+CRITICAL - 2021-07-14 23:57:18 --> Undefined offset: 0
+#0 E:\www\creaw\app\Controllers\Planning\Project_me_plan.php(353): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\www\\creaw\\ap...', 353, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Project_me_plan->add_goal('2')
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Project_me_plan))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

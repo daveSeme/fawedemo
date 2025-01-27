@@ -1,0 +1,24 @@
+CRITICAL - 2021-04-10 04:48:34 --> Trying to get property 'audit_enable' of non-object
+#0 /home/wwwmand/public_html/pimes/system/Common.php(1233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/wwwmand/p...', 1233, Array)
+#1 /home/wwwmand/public_html/pimes/app/Controllers/Master/Structure.php(100): trail(53, 'insert', 'Structure', Array)
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\master\structure->add()
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\structure))
+#4 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-10 04:50:20 --> Trying to get property 'audit_enable' of non-object
+#0 /home/wwwmand/public_html/pimes/system/Common.php(1233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/wwwmand/p...', 1233, Array)
+#1 /home/wwwmand/public_html/pimes/app/Controllers/Master/Structure.php(100): trail(54, 'insert', 'Structure', Array)
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\master\structure->add()
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\structure))
+#4 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-10 04:50:24 --> Trying to get property 'audit_enable' of non-object
+#0 /home/wwwmand/public_html/pimes/system/Common.php(1233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/wwwmand/p...', 1233, Array)
+#1 /home/wwwmand/public_html/pimes/app/Controllers/Master/Structure.php(100): trail(55, 'insert', 'Structure', Array)
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\master\structure->add()
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\structure))
+#4 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

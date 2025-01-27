@@ -1,0 +1,12 @@
+CRITICAL - 2021-05-01 04:34:42 --> Invalid file: office/master/unit/list.php
+#0 /home/wwwmand/public_html/pimes/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/master/u...')
+#1 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('office/master/u...', Array, true)
+#2 /home/wwwmand/public_html/pimes/app/Views/template/index.php(14): view('office/master/u...')
+#3 /home/wwwmand/public_html/pimes/system/View/View.php(246): include('/home/wwwmand/p...')
+#4 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 /home/wwwmand/public_html/pimes/app/Controllers/Master/Indicator_unit.php(64): view('template/index', Array)
+#6 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\master\indicator_unit->index()
+#7 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\indicator_unit))
+#8 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

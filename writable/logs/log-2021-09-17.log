@@ -1,0 +1,211 @@
+CRITICAL - 2021-09-17 07:20:54 --> Call to a member function get_user_by_login() on null
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->login('creaw@user', 'password', NULL, true, true)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 07:21:15 --> Call to a member function get_user_by_login() on null
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 09:40:47 --> Call to a member function get_user_by_login() on null
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->login('asdfasdfasdf', 'asdfadsfasdf', NULL, true, true)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 09:42:16 --> Call to a member function get_user_by_login() on null
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->login('asdfasdfasdf', 'asdfadsfasdf', NULL, true, true)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 09:44:20 --> Call to a member function get_user_by_login() on null
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->login('asdfasdfasdf', 'asdfadsfasdf', NULL, true, true)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 09:47:44 --> Call to a member function get_user_by_login() on null
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->login('asdfasdfasdf', 'asdfadsfasdf', NULL, true, true)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 09:48:01 --> Call to a member function get_user_by_login() on null
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->login('asdfasdfasdf', 'asdfadsfasdf', NULL, true, true)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 10:06:42 --> Call to a member function get_user_by_login() on null
+#0 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->login('asdfasdfasdf', 'asdfadsfasdf', NULL, true, true)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 13:20:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('select user_typ...')
+#1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('select user_typ...')
+#2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select user_typ...')
+#3 C:\xampp\htdocs\app\Controllers\Home.php(0): CodeIgniter\Database\BaseConnection->query('select user_typ...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 13:28:36 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/home', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 13:28:40 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app\Libraries\Tank_auth.php(0): App\Models\tank_auth\Login_attempts->get_attempts_num('47.31.130.7', '')
+#4 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-17 13:28:43 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app\Libraries\Tank_auth.php(0): App\Models\tank_auth\Login_attempts->get_attempts_num('47.31.130.7', '')
+#4 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-17 13:28:50 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app\Libraries\Tank_auth.php(0): App\Models\tank_auth\Login_attempts->get_attempts_num('47.31.130.7', '')
+#4 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-17 13:29:10 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/auth/index.php...', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 13:29:15 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/auth/index.php', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 13:29:23 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app\Libraries\Tank_auth.php(0): App\Models\tank_auth\Login_attempts->get_attempts_num('47.31.130.7', '')
+#4 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-17 13:29:31 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/auth/index.php...', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 13:29:49 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app\Libraries\Tank_auth.php(0): App\Models\tank_auth\Login_attempts->get_attempts_num('47.31.130.7', '')
+#4 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-17 13:31:13 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app\Libraries\Tank_auth.php(0): App\Models\tank_auth\Login_attempts->get_attempts_num('47.31.130.7', '')
+#4 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-17 13:31:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\app\Views\errors\html\error_exception.php:0
+Stack trace:
+#0 C:\xampp\htdocs\app\Views\errors\html\error_exception.php(0): CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 0, Array)
+#1 C:\xampp\htdocs\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-17 13:32:36 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app\Models\tank_auth\Login_attempts.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app\Libraries\Tank_auth.php(0): App\Models\tank_auth\Login_attempts->get_attempts_num('47.31.130.7', '')
+#4 C:\xampp\htdocs\app\Controllers\Auth.php(0): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-17 13:32:36 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\app\Views\errors\html\error_exception.php:0
+Stack trace:
+#0 C:\xampp\htdocs\app\Views\errors\html\error_exception.php(0): CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 0, Array)
+#1 C:\xampp\htdocs\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-17 13:32:48 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 13:35:19 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

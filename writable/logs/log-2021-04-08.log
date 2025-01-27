@@ -1,0 +1,94 @@
+CRITICAL - 2021-04-08 00:48:39 --> Undefined variable: row_sp
+#0 /home/wwwmand/public_html/pimes/app/Views/office/planning/mda_plans/strategic_plans/edit.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwmand/p...', 140, Array)
+#1 /home/wwwmand/public_html/pimes/system/View/View.php(246): include('/home/wwwmand/p...')
+#2 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 /home/wwwmand/public_html/pimes/app/Views/template/index.php(14): view('office/planning...')
+#4 /home/wwwmand/public_html/pimes/system/View/View.php(246): include('/home/wwwmand/p...')
+#5 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 /home/wwwmand/public_html/pimes/app/Controllers/Planning/Strategic_plans.php(225): view('template/index', Array)
+#7 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\Strategic_plans->edit('3')
+#8 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Strategic_plans))
+#9 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-08 00:48:40 --> Undefined variable: row_sp
+#0 /home/wwwmand/public_html/pimes/app/Views/office/planning/mda_plans/strategic_plans/edit.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwmand/p...', 140, Array)
+#1 /home/wwwmand/public_html/pimes/system/View/View.php(246): include('/home/wwwmand/p...')
+#2 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 /home/wwwmand/public_html/pimes/app/Views/template/index.php(14): view('office/planning...')
+#4 /home/wwwmand/public_html/pimes/system/View/View.php(246): include('/home/wwwmand/p...')
+#5 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 /home/wwwmand/public_html/pimes/app/Controllers/Planning/Strategic_plans.php(225): view('template/index', Array)
+#7 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\Strategic_plans->edit('3')
+#8 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Strategic_plans))
+#9 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-08 06:54:42 --> Call to a member function line() on null
+#0 /home/wwwmand/public_html/pimes/system/Filters/Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home', 'before')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 07:01:48 --> Call to a member function line() on null
+#0 /home/wwwmand/public_html/pimes/system/Filters/Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home', 'before')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-08 07:02:36 --> Undefined property: App\Filters\checkLogin::$lang
+#0 /home/wwwmand/public_html/pimes/app/Filters/CheckLogin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/wwwmand/p...', 28, Array)
+#1 /home/wwwmand/public_html/pimes/system/Filters/Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home', 'before')
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 07:39:30 --> Call to a member function clear() on null
+#0 /home/wwwmand/public_html/pimes/app/Controllers/Auth.php(373): App\Libraries\Tank_auth->reset_password('3', '4bfaafca1fc09fc...', 'password')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', '4bfaafca1fc09fc...')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 07:43:04 --> Call to a member function clear() on null
+#0 /home/wwwmand/public_html/pimes/app/Controllers/Auth.php(373): App\Libraries\Tank_auth->reset_password('3', '15365874d5e6f34...', 'password')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', '15365874d5e6f34...')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 07:44:20 --> Call to a member function clear() on null
+#0 /home/wwwmand/public_html/pimes/app/Controllers/Auth.php(373): App\Libraries\Tank_auth->reset_password('3', '870427612fa482a...', 'password')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', '870427612fa482a...')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 08:01:01 --> Call to a member function clear() on null
+#0 /home/wwwmand/public_html/pimes/app/Controllers/Auth.php(373): App\Libraries\Tank_auth->reset_password('3', '6260e7e7bd5b08b...', 'password')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', '6260e7e7bd5b08b...')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 08:01:56 --> Call to a member function clear() on null
+#0 /home/wwwmand/public_html/pimes/app/Controllers/Auth.php(373): App\Libraries\Tank_auth->reset_password('3', '75bc814ad778dfa...', 'password')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', '75bc814ad778dfa...')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 08:03:37 --> Call to a member function clear() on null
+#0 /home/wwwmand/public_html/pimes/app/Controllers/Auth.php(373): App\Libraries\Tank_auth->reset_password('3', '3c5f3ebe4436a17...', 'password')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', '3c5f3ebe4436a17...')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 08:14:56 --> Call to a member function clear() on null
+#0 /home/wwwmand/public_html/pimes/app/Controllers/Auth.php(373): App\Libraries\Tank_auth->reset_password('3', '995076eca84e409...', 'password')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', '995076eca84e409...')
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

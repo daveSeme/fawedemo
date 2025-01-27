@@ -1,0 +1,73 @@
+CRITICAL - 2021-01-17 12:32:35 --> Undefined variable: user
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 83, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 12:34:12 --> Undefined property: stdClass::$user_group_id
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 91, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 12:34:34 --> Undefined property: stdClass::$user_group_id
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 84, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 12:43:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(91): App\Models\Users->get_user_groupname('0')
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 12:59:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(91): App\Models\Users->get_user_groupname('0')
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 13:05:25 --> Table 'pime_somali.ctbl_usergroups' doesn't exist
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(132): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(91): App\Models\Users->get_user_groupname('0')
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-17 13:09:04 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-17 23:17:14 --> Table 'pime_somali.ctbl_audit_ssn' doesn't exist
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ct...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ct...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ct...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ct...', Array, false)
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(549): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(108): App\Models\Users->store_audit(Array, 'ctbl_audit_ssn')
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,192 @@
+CRITICAL - 2021-05-25 01:39:26 --> Invalid file: office/master/sector/list.php
+#0 E:\www\creaw\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/master/s...')
+#1 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/master/s...', Array, true)
+#2 E:\www\creaw\app\Views\template\index.php(14): view('office/master/s...')
+#3 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#4 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 E:\www\creaw\app\Controllers\Master\Sector.php(73): view('template/index', Array)
+#6 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Sector->index()
+#7 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Sector))
+#8 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-25 01:48:36 --> Class 'App\Models\master\SectorModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Counties->index()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 01:48:41 --> Class 'App\Models\master\SectorModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Counties->index()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 01:48:49 --> Class 'App\Models\master\SectorModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Counties->index()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 01:49:18 --> Class 'App\Controllers\master\SectorModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Counties->index()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:00:27 --> Class 'App\Controllers\master\SectorModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Counties->add()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:01:02 --> Class 'App\Controllers\master\SectorModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Counties->add()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:01:06 --> Class 'App\Controllers\master\SectorModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Counties->add()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:03:25 --> Class 'App\Controllers\master\SectorModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Counties->delete('49')
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:38:41 --> Class 'App\Controllers\master\DimensionsModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Dimensions->index()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Dimensions))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:51:54 --> Class 'App\Models\master\StructureModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->add()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:52:04 --> Class 'App\Models\master\StructureModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->edit('7')
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:53:24 --> Class 'App\Models\master\StructureModel' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->edit('7')
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-25 02:53:42 --> Table 'creaw.mas_structure' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\www\creaw\system\Common.php(1187): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\www\creaw\app\Views\office\user_management\users\list.php(54): get_by_id('id', '36', 'mas_structure')
+#6 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#7 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#8 E:\www\creaw\app\Views\template\index.php(14): view('office/user_man...')
+#9 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#10 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#11 E:\www\creaw\app\Controllers\User_management\Users.php(76): view('template/index', Array)
+#12 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->index()
+#13 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#14 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-25 02:53:43 --> Table 'creaw.mas_structure' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\www\creaw\system\Common.php(1187): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\www\creaw\app\Views\office\user_management\users\list.php(54): get_by_id('id', '36', 'mas_structure')
+#6 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#7 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#8 E:\www\creaw\app\Views\template\index.php(14): view('office/user_man...')
+#9 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#10 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#11 E:\www\creaw\app\Controllers\User_management\Users.php(76): view('template/index', Array)
+#12 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->index()
+#13 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#14 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-25 02:53:43 --> Table 'creaw.mas_structure' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\www\creaw\system\Common.php(1187): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\www\creaw\app\Views\office\user_management\users\list.php(54): get_by_id('id', '36', 'mas_structure')
+#6 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#7 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#8 E:\www\creaw\app\Views\template\index.php(14): view('office/user_man...')
+#9 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#10 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#11 E:\www\creaw\app\Controllers\User_management\Users.php(76): view('template/index', Array)
+#12 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->index()
+#13 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#14 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-25 02:54:32 --> Table 'creaw.mas_structure' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\www\creaw\system\Common.php(1187): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\www\creaw\app\Views\office\user_management\users\list.php(54): get_by_id('id', '36', 'mas_structure')
+#6 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#7 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#8 E:\www\creaw\app\Views\template\index.php(14): view('office/user_man...')
+#9 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#10 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#11 E:\www\creaw\app\Controllers\User_management\Users.php(76): view('template/index', Array)
+#12 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->index()
+#13 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#14 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-25 02:54:33 --> Table 'creaw.mas_structure' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\www\creaw\system\Common.php(1187): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\www\creaw\app\Views\office\user_management\users\list.php(54): get_by_id('id', '36', 'mas_structure')
+#6 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#7 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#8 E:\www\creaw\app\Views\template\index.php(14): view('office/user_man...')
+#9 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#10 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#11 E:\www\creaw\app\Controllers\User_management\Users.php(76): view('template/index', Array)
+#12 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->index()
+#13 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#14 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-25 02:54:33 --> Table 'creaw.mas_structure' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\www\creaw\system\Common.php(1187): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\www\creaw\app\Views\office\user_management\users\list.php(54): get_by_id('id', '36', 'mas_structure')
+#6 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#7 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#8 E:\www\creaw\app\Views\template\index.php(14): view('office/user_man...')
+#9 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#10 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#11 E:\www\creaw\app\Controllers\User_management\Users.php(76): view('template/index', Array)
+#12 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->index()
+#13 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#14 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 {main}

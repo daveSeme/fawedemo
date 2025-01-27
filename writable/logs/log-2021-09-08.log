@@ -1,0 +1,64 @@
+CRITICAL - 2021-09-08 23:38:09 --> Return value of set_value() must be of the type string, array returned
+#0 E:\www\creaw\app\Views\office\reporting\organizational_data\cases_database\add.php(304): set_value('type_gbv')
+#1 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#2 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/reportin...', Array, true)
+#3 E:\www\creaw\app\Views\template\index.php(14): view('office/reportin...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Cases_database.php(251): view('template/index', Array)
+#7 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Cases_database->add()
+#8 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Cases_database))
+#9 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-08 23:41:31 --> syntax error, unexpected '/', expecting ']'
+#0 E:\www\creaw\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/reporting/orga...')
+#1 E:\www\creaw\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/reporting/orga...')
+#2 E:\www\creaw\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-08 23:48:40 --> Table 'creaw.mda_activity' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `md...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `md...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `md...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `md...', Array, false)
+#4 E:\www\creaw\app\Controllers\Planning\Strategic_plans.php(1227): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Strategic_plans->delete('4')
+#6 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Strategic_plans))
+#7 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-08 23:49:00 --> Table 'creaw.mda_activity' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `md...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `md...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `md...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `md...', Array, false)
+#4 E:\www\creaw\app\Controllers\Planning\Strategic_plans.php(1227): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Strategic_plans->delete('3')
+#6 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Strategic_plans))
+#7 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-08 23:55:43 --> Table 'creaw.mda_activity' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `md...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `md...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `md...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `md...', Array, false)
+#4 E:\www\creaw\app\Controllers\Planning\Strategic_plans.php(1227): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Strategic_plans->delete('4')
+#6 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Strategic_plans))
+#7 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-08 23:57:48 --> Unknown column 'mda_plan_id' in 'where clause'
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `or...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `or...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `or...')
+#3 E:\www\creaw\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `or...', Array, false)
+#4 E:\www\creaw\app\Controllers\Planning\Strategic_plans.php(1227): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Strategic_plans->delete('4')
+#6 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Strategic_plans))
+#7 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

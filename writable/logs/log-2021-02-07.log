@@ -1,0 +1,46 @@
+CRITICAL - 2021-02-07 22:29:33 --> Undefined property: CodeIgniter\View\View::$session
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 66, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('auth/index', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(148): view('auth/index', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-07 22:41:20 --> Undefined index: flashSuccess
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\xampp\\htdocs...', 67, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('auth/index', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(148): view('auth/index', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-07 23:02:37 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('auth/forgot_pas...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(343): view('auth/forgot_pas...', Array)
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->forgot_password()
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-07 23:04:49 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(335): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'G:\\xampp\\htdocs...', 335, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->forgot_password()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-07 23:06:28 --> Undefined property: CodeIgniter\View\View::$session
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 73, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('auth/index', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(148): view('auth/index', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,411 @@
+CRITICAL - 2021-02-13 00:04:18 --> Undefined variable: login
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 49, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(398): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', '5aa1dfd31e8982d...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 00:08:01 --> Undefined variable: login
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 49, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(398): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', '5aa1dfd31e8982d...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 00:08:09 --> Undefined variable: login
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 49, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(398): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', '5aa1dfd31e8982d...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 00:08:10 --> Undefined variable: login
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 49, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(398): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', '5aa1dfd31e8982d...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 00:08:10 --> Undefined variable: login
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 49, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(398): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', '5aa1dfd31e8982d...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 00:08:10 --> Undefined variable: login
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 49, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(398): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', '5aa1dfd31e8982d...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 00:08:11 --> Undefined variable: login
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 49, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(398): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', '5aa1dfd31e8982d...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 00:08:11 --> Undefined variable: login
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 49, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(398): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', '5aa1dfd31e8982d...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 00:18:21 --> Object of class stdClass could not be converted to int
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'G:\\xampp\\htdocs...', 387, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(402): App\Models\Users->can_reset_password('1', 'b73b1f0e94d86a6...', 86400)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(392): App\Libraries\Tank_auth->can_reset_password('1', 'b73b1f0e94d86a6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-13 00:19:08 --> Object of class stdClass could not be converted to int
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'G:\\xampp\\htdocs...', 387, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(402): App\Models\Users->can_reset_password('1', 'b73b1f0e94d86a6...', 86400)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(392): App\Libraries\Tank_auth->can_reset_password('1', 'b73b1f0e94d86a6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-13 00:20:44 --> Object of class stdClass could not be converted to int
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(388): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'G:\\xampp\\htdocs...', 388, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(402): App\Models\Users->can_reset_password('1', 'b73b1f0e94d86a6...', 86400)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(392): App\Libraries\Tank_auth->can_reset_password('1', 'b73b1f0e94d86a6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-13 00:24:16 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\xampp\\htdocs...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\tank...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\tank...')
+#3 [internal function]: spl_autoload_call('App\\Models\\tank...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Database\ModelFactory.php(74): class_exists('App\\Models\\tank...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Database\ModelFactory.php(40): CodeIgniter\Database\ModelFactory::createClass('App\\Models\\tank...', NULL)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(774): CodeIgniter\Database\ModelFactory::get('App\\Models\\tank...', true, NULL)
+#7 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(37): model('App\\Models\\tank...')
+#8 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(45): App\Libraries\Tank_auth->__construct()
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(890): App\Controllers\Auth->__construct()
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-02-13 01:06:30 --> Object of class stdClass could not be converted to int
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(388): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'G:\\xampp\\htdocs...', 388, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(402): App\Models\Users->can_reset_password('1', 'b73b1f0e94d86a6...', 86400)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(392): App\Libraries\Tank_auth->can_reset_password('1', 'b73b1f0e94d86a6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-13 01:16:21 --> Unknown column 'new_password_key1' in 'where clause'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(385): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(402): App\Models\Users->can_reset_password('1', 'b73b1f0e94d86a6...', 86400)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(392): App\Libraries\Tank_auth->can_reset_password('1', 'b73b1f0e94d86a6...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-13 02:34:52 --> Object of class stdClass could not be converted to int
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(388): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'G:\\xampp\\htdocs...', 388, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(402): App\Models\Users->can_reset_password('1', 'b73b1f0e94d86a6...', 86400)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(392): App\Libraries\Tank_auth->can_reset_password('1', 'b73b1f0e94d86a6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-13 02:39:13 --> Object of class stdClass could not be converted to string
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(387): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'G:\\xampp\\htdocs...', 387, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(402): App\Models\Users->can_reset_password('1', 'b73b1f0e94d86a6...', 86400)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(392): App\Libraries\Tank_auth->can_reset_password('1', 'b73b1f0e94d86a6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-13 02:40:14 --> syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('G:\\xampp\\htdocs...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\tank...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\tank...')
+#3 [internal function]: spl_autoload_call('App\\Models\\tank...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Database\ModelFactory.php(74): class_exists('App\\Models\\tank...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Database\ModelFactory.php(40): CodeIgniter\Database\ModelFactory::createClass('App\\Models\\tank...', NULL)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(774): CodeIgniter\Database\ModelFactory::get('App\\Models\\tank...', true, NULL)
+#7 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(37): model('App\\Models\\tank...')
+#8 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(45): App\Libraries\Tank_auth->__construct()
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(890): App\Controllers\Auth->__construct()
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-02-13 02:48:44 --> Undefined property: CodeIgniter\View\View::$request
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 53, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(420): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 02:49:02 --> Undefined property: CodeIgniter\View\View::$request
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\reset_password_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 53, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('Auth/reset_pass...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(420): view('Auth/reset_pass...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 02:52:23 --> Uninitialized string offset: 3
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\phpass\PasswordHash.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'G:\\xampp\\htdocs...', 113, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\phpass\PasswordHash.php(231): App\Libraries\phpass\PasswordHash->crypt_private('password', '$P$')
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(423): App\Libraries\phpass\PasswordHash->HashPassword('password')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(375): App\Libraries\Tank_auth->reset_password('1', 'b73b1f0e94d86a6...', 'password')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 02:53:55 --> Undefined variable: new_pass
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(424): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 424, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(375): App\Libraries\Tank_auth->reset_password('1', 'b73b1f0e94d86a6...', 'password')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-13 02:54:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(426): App\Models\Users->reset_password('1', '$2y$10$qSQPVwfl...', 'b73b1f0e94d86a6...', 86400)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(375): App\Libraries\Tank_auth->reset_password('1', 'b73b1f0e94d86a6...', 'password')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-13 02:55:34 --> Undefined variable: builderwhere
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Users.php(409): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 409, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(426): App\Models\Users->reset_password('1', '$2y$10$0QE4MKbJ...', 'b73b1f0e94d86a6...', 86400)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(375): App\Libraries\Tank_auth->reset_password('1', 'b73b1f0e94d86a6...', 'password')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'b73b1f0e94d86a6...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-13 03:04:22 --> Object of class App\Models\User_Autologin could not be converted to string
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(430): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'G:\\xampp\\htdocs...', 430, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(375): App\Libraries\Tank_auth->reset_password('1', 'e85d5da084f705f...', 'password')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('1', 'e85d5da084f705f...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-13 03:09:22 --> Undefined property: App\Models\User_Autologin::$user_autologin
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(430): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 430, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(375): App\Libraries\Tank_auth->reset_password('3', 'f4eb6a7700c490c...', 'PASSWORD')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', 'f4eb6a7700c490c...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-13 03:12:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(430): App\Models\User_Autologin->clear('3')
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(375): App\Libraries\Tank_auth->reset_password('3', 'b56cb5ff7e89df6...', 'password')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->reset_password('3', 'b56cb5ff7e89df6...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-13 03:28:24 --> Class 'App\Models\planning\Results_frameworkModel' not found
+#0 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->index()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-13 04:05:55 --> Invalid file: office/planning/district_annual_plan/list_js.php
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/planning...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\footer.php(492): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/footer...', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(18): view('template/footer...')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#8 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\District_annual_plan.php(63): view('template/index', Array)
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\District_annual_plan->index()
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_annual_plan))
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-02-13 04:05:55 --> Invalid file: office/planning/district_annual_plan/list_js.php
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/planning...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\footer.php(492): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/footer...', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(18): view('template/footer...')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#8 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\District_annual_plan.php(63): view('template/index', Array)
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\District_annual_plan->index()
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_annual_plan))
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-02-13 04:05:55 --> Invalid file: office/planning/district_annual_plan/list_js.php
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/planning...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\footer.php(492): view('office/planning...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/footer...', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(18): view('template/footer...')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#7 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#8 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\District_annual_plan.php(63): view('template/index', Array)
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\District_annual_plan->index()
+#10 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\District_annual_plan))
+#11 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-02-13 17:27:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where startdate BETWEEN "2021-02-01" AND "2025-01-31" && enddate BETWEEN "202...' at line 1
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM f...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(90): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->select_list()
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 17:44:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where startdate BETWEEN "2021-02-01" AND "2025-01-31" && enddate BETWEEN "202...' at line 1
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM f...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(90): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->select_list()
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 17:45:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where startdate BETWEEN "2021-02-01" AND "2025-01-31" && enddate BETWEEN "202...' at line 1
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM f...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(90): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->select_list()
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 17:47:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where startdate BETWEEN "2021-02-01" AND "2025-01-31" && enddate BETWEEN "202...' at line 1
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM f...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(93): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->select_list()
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 17:48:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where startdate BETWEEN "2021-02-01" AND "2025-01-31" && enddate BETWEEN "202...' at line 1
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM f...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(93): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->select_list()
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-13 17:48:21 --> Object of class stdClass could not be converted to int
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'G:\\xampp\\htdocs...', 94, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->select_list()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 17:51:48 --> syntax error, unexpected '$startdate' (T_VARIABLE)
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/planning/resul...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/planning/resul...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 18:52:24 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/planning/resul...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/planning/resul...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 19:03:49 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/planning/resul...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/planning/resul...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 19:04:46 --> Undefined variable: main_title
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\office\planning\result_framework\select_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 7, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/planning...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(125): view('template/index', Array)
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->select_list()
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#9 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-13 21:03:51 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Planning\Results_framework.php(116): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'G:\\xampp\\htdocs...', 116, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->select_list()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 21:24:45 --> Class 'App\Controllers\Planning\StructureModel' not found
+#0 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Planning\Results_framework->add()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

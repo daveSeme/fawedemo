@@ -1,0 +1,30 @@
+CRITICAL - 2021-05-21 04:41:37 --> Encrypter needs a starter key.
+#0 /home/wwwmand/public_html/pimes/system/Encryption/Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 /home/wwwmand/public_html/pimes/system/Config/Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 /home/wwwmand/public_html/pimes/app/Controllers/Master/Structure.php(39): CodeIgniter\Config\Services::encrypter()
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(890): App\Controllers\master\structure->__construct()
+#4 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 04:42:07 --> Encrypter needs a starter key.
+#0 /home/wwwmand/public_html/pimes/system/Encryption/Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 /home/wwwmand/public_html/pimes/system/Config/Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 /home/wwwmand/public_html/pimes/app/Controllers/Master/Structure.php(39): CodeIgniter\Config\Services::encrypter()
+#3 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(890): App\Controllers\master\structure->__construct()
+#4 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 04:44:50 --> Invalid file: office/auth_access/view.php
+#0 /home/wwwmand/public_html/pimes/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/auth_acc...')
+#1 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('office/auth_acc...', Array, true)
+#2 /home/wwwmand/public_html/pimes/app/Views/template/index.php(14): view('office/auth_acc...')
+#3 /home/wwwmand/public_html/pimes/system/View/View.php(246): include('/home/wwwmand/p...')
+#4 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 /home/wwwmand/public_html/pimes/app/Controllers/Auth_access.php(68): view('template/index', Array)
+#6 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Auth_access->index()
+#7 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth_access))
+#8 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

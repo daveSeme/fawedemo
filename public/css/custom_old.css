@@ -1,0 +1,125 @@
+/*# Custom CSS */
+
+.system-heading{
+	text-align:center;
+	width:100%;
+	color:#fff;
+	line-height:60px;
+	font-weight:bold;
+}
+
+
+.page-logo, .page-sidebar, .nav-footer, .bg-brand-gradient{
+	background-color:#00a330;
+}
+
+.alert{
+	margin-bottom:0 !important;
+	padding:10px !important;
+}
+
+.page-logo img{
+	width:70% !important;
+}
+
+#toolbarContainer{
+	display:none !important;
+	
+}
+
+
+.page-header {
+    margin: -20px 0 0 0;
+}
+
+.page-logo img{
+	height:60px;
+}
+
+
+.nav-menu li a > [class*='fa-'], .nav-menu li a > .ni{
+	
+	color:#fff;
+}
+
+
+.nav-menu li a{
+	color:#fff;
+}
+
+.nav-menu li > ul li a {
+    color: #fff;
+}
+
+.nav-menu li.active > a{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu li > ul li a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu li ul li.active > a{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-menu li > ul li > ul li .active > a{
+	background-color: rgba(0, 0, 0, 0.1);
+	color: #fff;
+}
+
+.nav-menu li > ul li > ul li a{
+	background-color:#05913c;
+	color: #fff;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #4189dd;
+    border-color: #4189dd;
+}
+
+.bg-primary-600 {
+    background-color: #4189dd;
+    color: white;
+}
+
+.nav-menu b.collapse-sign{
+	color:#fff;
+}
+
+
+
+/*Dashboard Style CSS*/
+
+#number-box1, #number-box2, #number-box3, #number-box4 {
+    background: #67a767;
+    width: 200px;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 31px;
+    height: 149px;
+    line-height: normal;
+	color:#fff;
+}
+
+
+
+#number-box2 {
+    background: #7a9de0;
+}
+
+#number-box3 {
+    background: #ffacc2;
+}
+
+#number-box4 {
+    background: #e6a76e;
+}
+
+.style1 {
+    color: #FFFFFF;
+}

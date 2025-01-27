@@ -1,0 +1,29 @@
+CRITICAL - 2021-01-26 03:27:50 --> Invalid file: auth/forgot_password_form.php
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/forgot_pas...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('auth/forgot_pas...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(335): view('auth/forgot_pas...', Array)
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->forgot_password()
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-26 03:29:08 --> Undefined variable: login_by_username
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\forgot_password_form.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 11, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('auth/forgot_pas...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(335): view('auth/forgot_pas...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->forgot_password()
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-26 03:31:49 --> Undefined variable: login_label
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Views\Auth\forgot_password_form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 53, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('auth/forgot_pas...', Array, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(335): view('auth/forgot_pas...', Array)
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->forgot_password()
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

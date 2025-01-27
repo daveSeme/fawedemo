@@ -1,0 +1,12 @@
+CRITICAL - 2021-02-18 10:05:55 --> Table 'wwwmand_pimes.project_baseline_report' doesn't exist
+#0 /home/wwwmand/public_html/pimes/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/wwwmand/public_html/pimes/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/wwwmand/public_html/pimes/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/wwwmand/public_html/pimes/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/wwwmand/public_html/pimes/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/wwwmand/public_html/pimes/app/Controllers/Report_submission/Project_baseline_report.php(57): CodeIgniter\Model->findAll()
+#6 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\report_submission\project_baseline_report->index()
+#7 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_submission\project_baseline_report))
+#8 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

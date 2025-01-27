@@ -1,0 +1,7 @@
+CRITICAL - 2021-08-19 00:05:44 --> Undefined property: App\Controllers\user_management\Users::$users
+#0 E:\www\creaw\app\Controllers\User_management\Users.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\www\\creaw\\ap...', 190, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\user_management\Users->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\Users))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

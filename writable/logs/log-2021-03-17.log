@@ -1,0 +1,12 @@
+CRITICAL - 2021-03-17 04:03:31 --> Invalid file: office/dashboard/region_performance.php
+#0 /home/wwwmand/public_html/pimes/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/dashboar...')
+#1 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('office/dashboar...', Array, true)
+#2 /home/wwwmand/public_html/pimes/app/Views/template/index.php(14): view('office/dashboar...')
+#3 /home/wwwmand/public_html/pimes/system/View/View.php(246): include('/home/wwwmand/p...')
+#4 /home/wwwmand/public_html/pimes/system/Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 /home/wwwmand/public_html/pimes/app/Controllers/Dashboard.php(157): view('template/index', Array)
+#6 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Dashboard->region_performance()
+#7 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

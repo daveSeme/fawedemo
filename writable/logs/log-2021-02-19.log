@@ -1,0 +1,12 @@
+CRITICAL - 2021-02-19 05:38:34 --> Call to undefined function App\Controllers\Planning\get_by_id()
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\Results_framework->edit_indicator('25')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-19 05:40:24 --> Call to undefined function App\Controllers\Planning\get_by_id()
+#0 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(918): App\Controllers\Planning\Results_framework->edit_sector('25')
+#1 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Results_framework))
+#2 /home/wwwmand/public_html/pimes/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwmand/public_html/pimes/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

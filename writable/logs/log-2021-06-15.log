@@ -1,0 +1,88 @@
+CRITICAL - 2021-06-15 00:42:01 --> Class 'App\Controllers\Planning\ProjectProfile_model' not found
+#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Project->index()
+#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Project))
+#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 00:48:48 --> Table 'creaw.mas_sector' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT sector, ...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sector, ...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sector, ...')
+#3 E:\www\creaw\app\Views\office\planning\project_data\project\add.php(92): CodeIgniter\Database\BaseConnection->query('SELECT sector, ...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 E:\www\creaw\app\Views\template\index.php(14): view('office/planning...')
+#7 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#8 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 E:\www\creaw\app\Controllers\Planning\Project.php(245): view('template/index', Array)
+#10 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Project->add()
+#11 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Project))
+#12 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-15 00:48:48 --> Table 'creaw.mas_sector' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT sector, ...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sector, ...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sector, ...')
+#3 E:\www\creaw\app\Views\office\planning\project_data\project\add.php(92): CodeIgniter\Database\BaseConnection->query('SELECT sector, ...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 E:\www\creaw\app\Views\template\index.php(14): view('office/planning...')
+#7 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#8 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 E:\www\creaw\app\Controllers\Planning\Project.php(245): view('template/index', Array)
+#10 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Project->add()
+#11 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Project))
+#12 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-15 00:51:08 --> Table 'creaw.mas_sector' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT sector, ...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sector, ...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sector, ...')
+#3 E:\www\creaw\app\Views\office\planning\project_data\project\add.php(92): CodeIgniter\Database\BaseConnection->query('SELECT sector, ...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 E:\www\creaw\app\Views\template\index.php(14): view('office/planning...')
+#7 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#8 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 E:\www\creaw\app\Controllers\Planning\Project.php(245): view('template/index', Array)
+#10 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Project->add()
+#11 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Project))
+#12 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-15 00:51:08 --> Table 'creaw.mas_sector' doesn't exist
+#0 E:\www\creaw\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT sector, ...')
+#1 E:\www\creaw\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sector, ...')
+#2 E:\www\creaw\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sector, ...')
+#3 E:\www\creaw\app\Views\office\planning\project_data\project\add.php(92): CodeIgniter\Database\BaseConnection->query('SELECT sector, ...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
+#6 E:\www\creaw\app\Views\template\index.php(14): view('office/planning...')
+#7 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#8 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#9 E:\www\creaw\app\Controllers\Planning\Project.php(245): view('template/index', Array)
+#10 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Planning\Project->add()
+#11 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planning\Project))
+#12 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-15 09:00:43 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-15 09:00:53 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-15 09:01:05 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-15 09:01:16 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-15 09:01:36 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-15 09:01:48 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

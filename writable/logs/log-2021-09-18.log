@@ -1,0 +1,96 @@
+CRITICAL - 2021-09-18 15:54:32 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 15:54:33 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/favicon.ico', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 15:56:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 15:56:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/favicon.ico', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 16:01:10 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 18:31:39 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('azenv.net', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 21:01:12 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('example.com', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 21:08:11 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 21:08:14 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 21:14:44 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 21:14:47 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-18 23:43:49 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Filters\CheckLogin.php(0): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 C:\xampp\htdocs\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

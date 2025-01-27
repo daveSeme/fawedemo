@@ -1,0 +1,30 @@
+CRITICAL - 2021-02-09 13:50:41 --> You must set the database table to be used with your query.
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Model.php(1789): CodeIgniter\Model->builder()
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Models\tank_auth\Login_attempts.php(33): CodeIgniter\Model->__isset('config')
+#3 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(666): App\Models\tank_auth\Login_attempts->__construct()
+#4 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(104): App\Libraries\Tank_auth->is_max_login_attempts_exceeded('')
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-09 14:00:00 --> Invalid file: office/master/structure/list.php
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/master/s...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/master/s...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/master/s...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\master\Structure.php(56): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\master\structure->index()
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\structure))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-09 14:14:35 --> syntax error, unexpected '/', expecting ',' or ';'
+#0 G:\xampp\htdocs\UBS\pime_somali\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/master/structu...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/master/structu...')
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,178 @@
+CRITICAL - 2021-09-09 00:10:02 --> Undefined variable: row_data
+#0 E:\www\creaw\app\Views\office\reporting\organizational_data\org_quarterly_narrative_report\add.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 263, Array)
+#1 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#2 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/reportin...', Array, true)
+#3 E:\www\creaw\app\Views\template\index.php(14): view('office/reportin...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(177): view('template/index', Array)
+#7 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#8 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#9 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-09 00:10:03 --> Undefined variable: row_data
+#0 E:\www\creaw\app\Views\office\reporting\organizational_data\org_quarterly_narrative_report\add.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 263, Array)
+#1 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#2 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/reportin...', Array, true)
+#3 E:\www\creaw\app\Views\template\index.php(14): view('office/reportin...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(177): view('template/index', Array)
+#7 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#8 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#9 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-09 06:36:46 --> Undefined property: CodeIgniter\View\View::$db
+#0 E:\www\creaw\app\Views\office\reporting\organizational_data\org_quarterly_narrative_report\add.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\www\\creaw\\ap...', 281, Array)
+#1 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#2 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/reportin...', Array, true)
+#3 E:\www\creaw\app\Views\template\index.php(14): view('office/reportin...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(177): view('template/index', Array)
+#7 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#8 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#9 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-09 06:36:46 --> Undefined property: CodeIgniter\View\View::$db
+#0 E:\www\creaw\app\Views\office\reporting\organizational_data\org_quarterly_narrative_report\add.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\www\\creaw\\ap...', 281, Array)
+#1 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#2 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/reportin...', Array, true)
+#3 E:\www\creaw\app\Views\template\index.php(14): view('office/reportin...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(177): view('template/index', Array)
+#7 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#8 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#9 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-09 06:39:00 --> Undefined variable: sm_info
+#0 E:\www\creaw\app\Views\office\reporting\organizational_data\org_quarterly_narrative_report\add.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 283, Array)
+#1 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#2 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/reportin...', Array, true)
+#3 E:\www\creaw\app\Views\template\index.php(14): view('office/reportin...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(177): view('template/index', Array)
+#7 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#8 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#9 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-09 06:39:00 --> Undefined variable: sm_info
+#0 E:\www\creaw\app\Views\office\reporting\organizational_data\org_quarterly_narrative_report\add.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 283, Array)
+#1 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#2 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('office/reportin...', Array, true)
+#3 E:\www\creaw\app\Views\template\index.php(14): view('office/reportin...')
+#4 E:\www\creaw\system\View\View.php(246): include('E:\\www\\creaw\\ap...')
+#5 E:\www\creaw\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#6 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(177): view('template/index', Array)
+#7 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#8 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#9 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-09-09 07:23:10 --> Undefined variable: newName
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 147, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:23:29 --> Undefined variable: newName
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 147, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:24:43 --> Undefined index: file
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\www\\creaw\\ap...', 116, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:29:19 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getFile
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\www\\creaw\\ap...', 116, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:30:18 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getFile
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\www\\creaw\\ap...', 116, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:40:18 --> Undefined variable: newName
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 156, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:42:29 --> Undefined variable: newName
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 157, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:42:53 --> Undefined variable: newName
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 157, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:43:15 --> Undefined variable: newName
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\www\\creaw\\ap...', 157, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:45:05 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'E:\\www\\creaw\\ap...', 116, Array)
+#1 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(116): count(NULL)
+#2 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#3 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#4 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 07:45:59 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'E:\\www\\creaw\\ap...', 116, Array)
+#1 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(116): count(NULL)
+#2 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#3 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#4 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 07:48:28 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php on line 116 and exactly 1 expected
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(116): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 07:50:16 --> Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP)
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\www\\creaw\\ap...', 116, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 08:14:34 --> Undefined index: file
+#0 E:\www\creaw\app\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\www\\creaw\\ap...', 158, Array)
+#1 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report->add()
+#2 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporting\Organizational_data\Org_quarterly_narrative_report))
+#3 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

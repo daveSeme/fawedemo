@@ -1,0 +1,36 @@
+CRITICAL - 2021-01-27 02:08:31 --> Invalid file: office/user_management/user_roles/add.php
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/user_man...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/user_man...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\user_management\User_roles.php(76): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\user_management\user_roles->add()
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\user_roles))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 02:10:07 --> Invalid file: office/user_management/user_roles/add.php
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/user_man...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/user_man...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\user_management\User_roles.php(76): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\user_management\user_roles->add()
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\user_roles))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 02:11:05 --> Invalid file: office/user_management/user_roles/add.php
+#0 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('office/user_man...')
+#1 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('office/user_man...', Array, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Views\template\index.php(14): view('office/user_man...')
+#3 G:\xampp\htdocs\UBS\pime_somali\system\View\View.php(246): include('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\UBS\pime_somali\system\Common.php(1119): CodeIgniter\View\View->render('template/index', Array, true)
+#5 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\user_management\User_roles.php(76): view('template/index', Array)
+#6 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\user_management\user_roles->add()
+#7 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_management\user_roles))
+#8 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

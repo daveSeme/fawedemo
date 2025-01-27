@@ -1,0 +1,92 @@
+CRITICAL - 2021-01-16 00:28:48 --> Undefined property: App\Controllers\Auth::$load
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(517): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 517, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(135): App\Controllers\Auth->_create_captcha()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-16 00:29:25 --> Undefined property: App\Controllers\Auth::$form_validation
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 103, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-16 00:32:27 --> Call to undefined function App\Controllers\create_captcha()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(140): App\Controllers\Auth->_create_captcha()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-16 02:28:57 --> Call to undefined function App\Controllers\create_captcha()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(140): App\Controllers\Auth->_create_captcha()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-16 02:31:24 --> Call to undefined function App\Controllers\create_captcha()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(140): App\Controllers\Auth->_create_captcha()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-16 02:49:03 --> Undefined property: App\Controllers\Auth::$config
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(525): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 525, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(140): App\Controllers\Auth->_create_captcha()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-16 02:59:04 --> Undefined property: App\Controllers\Auth::$config
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(525): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 525, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(140): App\Controllers\Auth->_create_captcha()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-16 03:03:47 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(140): App\Controllers\Auth->_create_captcha()
+#1 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-16 03:25:18 --> Trying to get property 'session' of non-object
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'G:\\xampp\\htdocs...', 83, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-16 03:27:15 --> Undefined property: stdClass::$user_group_id
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\xampp\\htdocs...', 89, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-16 03:28:56 --> print_r() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expec...', 'G:\\xampp\\htdocs...', 83, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(83): print_r()
+#2 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-16 03:42:45 --> Undefined variable: user
+#0 G:\xampp\htdocs\UBS\pime_somali\app\Libraries\Tank_auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 78, Array)
+#1 G:\xampp\htdocs\UBS\pime_somali\app\Controllers\Auth.php(117): App\Libraries\Tank_auth->login('admin@super', 'password', NULL, true, true)
+#2 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#3 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 G:\xampp\htdocs\UBS\pime_somali\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\xampp\htdocs\UBS\pime_somali\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

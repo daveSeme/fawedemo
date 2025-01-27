@@ -1,0 +1,166 @@
+/*# Custom CSS */
+
+.system-heading{
+	text-align:center;
+	width:100%;
+	color:#fff;
+	line-height:60px;
+	font-weight:bold;
+}
+
+.page-header {
+    margin: -20px 0 0 0;
+}
+
+.page-logo img {
+    height: 65px;
+}
+.page-logo img {
+    width: 110px;
+}
+
+
+/*
+/*.page-logo, .page-sidebar, .nav-footer, .bg-brand-gradient{
+	background-color:#66e39c;
+}
+
+.alert{
+	margin-bottom:0 !important;
+	padding:10px !important;
+}
+
+.page-logo img{
+	width:110px;
+}
+
+#toolbarContainer{
+	display:none !important;
+	
+}
+
+
+.page-header {
+    margin: -20px 0 0 0;
+}
+
+.page-logo img{
+	height:65px;
+}
+
+
+.nav-menu li a > [class*='fa-'], .nav-menu li a > .ni{
+	
+	color:#000;
+}
+
+
+.nav-menu li a{
+	color:#000;
+}
+
+.nav-menu li > ul li a {
+    color: #000;
+}
+
+/*
+
+.nav-menu li.active > a{
+	/*background-color: rgba(0, 0, 0, 0.1);*/
+	background-color:#22bf66;
+}
+
+.nav-menu li.active > a{
+	/*background-color: rgba(0, 0, 0, 0.1);*/
+	background-color:#22bf66;
+}
+
+/*
+
+.nav-menu li.active > a > [class*='fa-']{
+	color: #fff;
+}
+
+
+.nav-menu li ul li.active > a{
+	background-color: #0a9145;
+}
+
+
+.nav-menu li > ul li > ul li .active > a{
+	background-color: #0a9145;
+	color: #fff;
+}
+
+.nav-menu li > ul li > ul li a{
+	background-color:#05913c;
+	color: #fff;
+}
+
+.mod-nav-link:not(.nav-function-top):not(.nav-function-minify):not(.mod-hide-nav-icons) ul.nav-menu:not(.nav-menu-compact) > li > ul > li a:after{
+	background-color:#000;
+}
+
+.nav-menu li.active:not(.open) > a:before{
+	color:#fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4189dd;
+    border-color: #4189dd;
+}
+
+.bg-primary-600 {
+    background-color: #4189dd;
+    color: white;
+}
+
+.nav-menu b.collapse-sign{
+	color:#000;
+}
+*/
+
+
+/*Dashboard Style CSS*/
+
+#number-box1, #number-box2, #number-box3, #number-box4, #number-box5 {
+   /* width: 200px;*/
+    font-size: 64px;
+    text-align: center;
+    padding-top: 31px;
+    height: 149px;
+    line-height: normal;
+	color:#fff;
+}
+
+
+#number-box1 {
+    background: #7030a0;
+}
+
+
+#number-box2 {
+    background: #ffc000;
+}
+
+#number-box3 {
+    background: #ed7d31;
+}
+
+#number-box4 {
+    background: #e6a76e;
+}
+
+#number-box5 {
+    background: #B22222   ;
+}
+
+
+.style1 {
+    color: #FFFFFF;
+}
+
+.ex-pr-div a:hover{
+	color:#FFFFFF;
+}
