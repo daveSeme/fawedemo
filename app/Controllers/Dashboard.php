@@ -31,10 +31,10 @@ class Dashboard extends BaseController
         $data["user_id"] = $this->tank_auth->get_user_id();
         $data["username"] = $this->tank_auth->get_username();
         $data["user_level"] = $this->tank_auth->get_user_level();
-        $data["title"] = "Overall Performance ";//"Overall Performance ";
+        $data["title"] = "Overall Performance ";
         $data["main_title"] = "Dashboard";
         $data["js_file"] = "office/dashboard/js_file";
-        $data["main_content"] = "office/dashboard/list"; // list
+        $data["main_content"] = "office/dashboard/list";
         echo view("template/index", $data);
     }
     public function project_overview()
@@ -87,17 +87,6 @@ class Dashboard extends BaseController
         $data["main_title"] = "Dashboard";
         $data["js_file"] = "office/dashboard/county_performance_js";
         $data["main_content"] = "office/dashboard/county_performance";
-        echo view("template/index", $data);
-    }
-    public function components_performance()
-    {
-        $data["user_id"] = $this->tank_auth->get_user_id();
-        $data["username"] = $this->tank_auth->get_username();
-        $data["user_level"] = $this->tank_auth->get_user_level();
-        $data["title"] = "Components Dashboard ";
-        $data["main_title"] = "Dashboard";
-        $data["js_file"] = "office/dashboard/components_performance_js";
-        $data["main_content"] = "office/dashboard/components_performance";
         echo view("template/index", $data);
     }
     public function thematic_area_performance()
