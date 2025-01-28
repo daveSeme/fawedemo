@@ -11,7 +11,8 @@ class Filters extends BaseConfig
 		'csrf'     => \CodeIgniter\Filters\CSRF::class,
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
-	   'CheckLogin' => \App\Filters\CheckLogin::class,
+	   	'CheckLogin' => \App\Filters\CheckLogin::class,
+	   	//'api'       => \App\Filters\Api::class,
 
 	];
 
@@ -20,7 +21,7 @@ class Filters extends BaseConfig
 		'before' => [
 			// 'honeypot',
 			 // 'csrf',
-			  'CheckLogin' => ['except' => ['auth/login', 'Auth/microsoft_login', 'auth/forgot_password', 'api/import_activities','api/import_activities_dimension', 'auth/reset_password/*/*' ]],
+			  'CheckLogin' => ['except' => ['/', 'auth/login', 'Auth/microsoft_login', 'auth/forgot_password', 'api/import_activities','api/import_activities_dimension', 'auth/reset_password/*/*', 'api/*' ]],
 		],
 		'after'  => [
 			//'toolbar',
@@ -36,5 +37,11 @@ class Filters extends BaseConfig
 	// List filter aliases and any before/after uri patterns
 	// that they should run on, like:
 	//    'isLoggedIn' => ['before' => ['account/*', 'profiles/*']],
-	public $filters = [];
+	public $filters = [
+		// 'api' => [
+		// 	'before' => [
+		// 		'api/nema_resource/*', // Secure all routes under api/protected/
+		// 	],
+		// ]
+	];
 }
