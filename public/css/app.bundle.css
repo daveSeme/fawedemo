@@ -1714,7 +1714,7 @@ html {
       height: 4.125rem;
       background-image: -webkit-gradient(linear, right top, left top, from(rgba(51, 148, 225, 0.18)), to(transparent));
       background-image: linear-gradient(270deg, rgba(51, 148, 225, 0.18), transparent);
-      background-color: #584475;
+      background-color: #feffff;
       position: absolute;
       top: 0;
       right: 0;
@@ -6521,7 +6521,7 @@ body.mod-pace-custom {
       height: 100%;
       width: 100%;
       background-color: #886ab5;
-      background-image: linear-gradient(135deg, #886ab5 0%, #886ab5 25%, #6e4e9e 25%, #6e4e9e 50%, #886ab5 50%, #886ab5 75%, #6e4e9e 75%, #6e4e9e 100%);
+      background-image: linear-gradient(135deg, #886ab5 0%, #886ab5 25%, #6e4e9e 25%, #6e4e9e 50%, #886ab5 50%, #886ab5 75%, #6e4e9e 75%, #feffff 100%);
       background-repeat: repeat;
       background-position: 0 0;
       background-size: 13px 13px;
@@ -7309,10 +7309,10 @@ html:not(.root-text-sm):not(.root-text-lg):not(.root-text-xl) [data-class="root-
   color: #886ab5; }
 
 .color-primary-600 {
-  color: #7a59ad; }
+  color: #feffff; }
 
 .color-primary-700 {
-  color: #6e4e9e; }
+  color: #feffff; }
 
 .color-primary-800 {
   color: #62468d; }
