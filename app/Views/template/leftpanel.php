@@ -8,7 +8,7 @@
 
 echo "\r\n<aside class=\"page-sidebar list-filter-active\">\r\n  <div class=\"page-logo align-items-center justify-content-center text-center\"> \r\n    <!--<a href=\"#\" class=\"page-logo-link press-scale-down d-flex align-items-center position-relative\" data-toggle=\"modal\" data-target=\"#modal-shortcut\">--> \r\n    <img src=\"";
 echo base_url();
-echo "/public/img/logo.png\" alt=\"M&E CREAW Kenya\" aria-roledescription=\"logo\"> \r\n    <!--<span class=\"page-logo-text mr-1\">M&E PMIS</span>\r\n                <span class=\"position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2\"></span>\r\n                <i class=\"fal fa-angle-down d-inline-block ml-1 fs-lg color-primary-300\"></i>\r\n               </a>--> \r\n  </div>\r\n  <!-- BEGIN PRIMARY NAVIGATION -->\r\n  <nav id=\"js-primary-nav\" class=\"primary-nav\" role=\"navigation\">\r\n    <div class=\"nav-filter\">\r\n      <div class=\"position-relative\">\r\n        <input type=\"text\" id=\"nav_filter_input\" placeholder=\"Filter menu\" class=\"form-control\" tabindex=\"0\">\r\n        <!--<a href=\"#\" onclick=\"return false;\" class=\"btn-primary btn-search-close js-waves-off\" data-action=\"toggle\" data-class=\"list-filter-active\" data-target=\".page-sidebar\">\r\n                            <i class=\"fal fa-chevron-up\"></i>--> \r\n        </a> </div>\r\n    </div>\r\n    <ul id=\"js-nav-menu\" class=\"nav-menu\">\r\n      <li  class=\"";
+echo "/public/img/logo.png\" alt=\"M&E FAWE Kenya\" aria-roledescription=\"logo\"> \r\n    <!--<span class=\"page-logo-text mr-1\">M&E PMIS</span>\r\n                <span class=\"position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2\"></span>\r\n                <i class=\"fal fa-angle-down d-inline-block ml-1 fs-lg color-primary-300\"></i>\r\n               </a>--> \r\n  </div>\r\n  <!-- BEGIN PRIMARY NAVIGATION -->\r\n  <nav id=\"js-primary-nav\" class=\"primary-nav\" role=\"navigation\">\r\n    <div class=\"nav-filter\">\r\n      <div class=\"position-relative\">\r\n        <input type=\"text\" id=\"nav_filter_input\" placeholder=\"Filter menu\" class=\"form-control\" tabindex=\"0\">\r\n        <!--<a href=\"#\" onclick=\"return false;\" class=\"btn-primary btn-search-close js-waves-off\" data-action=\"toggle\" data-class=\"list-filter-active\" data-target=\".page-sidebar\">\r\n                            <i class=\"fal fa-chevron-up\"></i>--> \r\n        </a> </div>\r\n    </div>\r\n    <ul id=\"js-nav-menu\" class=\"nav-menu\">\r\n      <li  class=\"";
 if (getSegment(1) == "home") {
     echo "active open'";
 }
@@ -104,7 +104,7 @@ if ($this->session->get("user_type") == "admin") {
     }
     echo "      \r\n      \r\n      ";
 }
-if ($this->session->get("user_type") == "CREAW User" || $this->session->get("user_type") == "Implementing Partner") {
+if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user_type") == "Implementing Partner") {
     echo "      <li  class=\"";
     if (getSegment(1) == "dashboard") {
         echo "active open'";

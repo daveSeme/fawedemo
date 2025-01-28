@@ -65,7 +65,7 @@ echo " </div>\r\n                    </div>\r\n                  </div>\r\n     
                             <div class=\"col-lg-6 pl-lg-1 my-2\">\r\n                      
 <button id=\"js-login-btn\" type=\"submit\" class=\"btn btn-primary btn-block btn-lg\">Sign in</button>\r\n       
 
-<a href=\"http://localhost:8888/creaw/Auth/microsoft_login?oauth_init=1\">Sign in with Microsoft</a>\r\n
+<a href=\"http://localhost:8888/FAWE/Auth/microsoft_login?oauth_init=1\">Sign in with Microsoft</a>\r\n
    
 
 

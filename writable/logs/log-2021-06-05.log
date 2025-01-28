@@ -1,18 +1,18 @@
 CRITICAL - 2021-06-05 00:22:02 --> Class 'App\Models\master\Implementing_partner_Model' not found
-#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\implementing_partner->index()
-#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\implementing_partner))
-#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\implementing_partner->index()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\implementing_partner))
+#2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-06-05 01:09:08 --> Class 'App\Controllers\master\Implementing_partner_Model' not found
-#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Funding_partner->index()
-#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Funding_partner))
-#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Funding_partner->index()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Funding_partner))
+#2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-06-05 01:10:47 --> Class 'App\Controllers\master\Implementing_partner_Model' not found
-#0 E:\www\creaw\system\CodeIgniter.php(918): App\Controllers\master\Funding_partner->index()
-#1 E:\www\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Funding_partner))
-#2 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Funding_partner->index()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Funding_partner))
+#2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}

@@ -31,11 +31,11 @@ if ($validation->getErrors()) {
 echo "          </div>\r\n          <div class=\"panel-content p-0\">\r\n            \r\n         \r\n                                                ";
 $insert_url = "user_management/user_roles/add";
 echo form_open($insert_url, "method=\"post\" id=\"Form\"  enctype=\"multipart/form-data\" class=\"needs-validation\" validate");
-echo "              <div class=\"panel-content\">\r\n                <div class=\"form-row\">\r\n\r\n\r\n\t\t\t\t<!-- Form Starts here  --> \r\n                \r\n\t\t\t\t\r\n\t\t\t\t<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"base_id\">User Type <span class=\"text-danger\">*</span></label>\r\n                   <select name=\"user_type\" id=\"user_type\" class=\"custom-select\" onchange=\"get_inst();\" required>\r\n                      <option value=\"\">Select User Type</option>\r\n\t\t\t\t\t   \r\n                      <option value=\"CREAW User\" ";
-if (set_value("user_type") == "CREAW User") {
+echo "              <div class=\"panel-content\">\r\n                <div class=\"form-row\">\r\n\r\n\r\n\t\t\t\t<!-- Form Starts here  --> \r\n                \r\n\t\t\t\t\r\n\t\t\t\t<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"base_id\">User Type <span class=\"text-danger\">*</span></label>\r\n                   <select name=\"user_type\" id=\"user_type\" class=\"custom-select\" onchange=\"get_inst();\" required>\r\n                      <option value=\"\">Select User Type</option>\r\n\t\t\t\t\t   \r\n                      <option value=\"FAWE User\" ";
+if (set_value("user_type") == "FAWE User") {
     echo " selected=\"selected\" ";
 }
-echo "> CREAW User</option>\r\n                      <option value=\"Implementing Partner\" ";
+echo "> FAWE User</option>\r\n                      <option value=\"Implementing Partner\" ";
 if (set_value("user_type") == "Implementing Partner") {
     echo " selected=\"selected\" ";
 }

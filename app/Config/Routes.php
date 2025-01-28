@@ -29,7 +29,7 @@ $routes->setAutoRoute(true);
  */
 
 // We get a performance increase by specifying the default
-// route since we don't have to scan directories. http://localhost:8888/creaw/Auth/microsoftlogin?oauth_init=1
+// route since we don't have to scan directories. http://localhost:8888/FAWE/Auth/microsoftlogin?oauth_init=1
 $routes->get('/', 'Login::index');
 $routes->get('/auth/microsoft_login?oauth_init=1', 'Auth::microsoft_login');
 //$routes->addRedirect('login', 'register');

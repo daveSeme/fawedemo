@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "creaw_db";
+$dbname = "FAWE_db";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection

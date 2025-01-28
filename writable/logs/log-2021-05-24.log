@@ -1,8 +1,8 @@
 CRITICAL - 2021-05-24 01:10:53 --> Unable to connect to the database.
-#0 E:\www\creaw\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
-#1 E:\www\creaw\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
-#2 E:\www\creaw\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
-#3 E:\www\creaw\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
-#4 E:\www\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#5 E:\www\creaw\index.php(45): CodeIgniter\CodeIgniter->run()
+#0 E:\www\FAWE\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\www\FAWE\app\Filters\CheckLogin.php(19): CodeIgniter\Database\BaseConnection->query('select token  F...')
+#2 E:\www\FAWE\system\Filters\Filters.php(173): App\Filters\checkLogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\www\FAWE\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 {main}

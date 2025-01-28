@@ -447,7 +447,7 @@ CRITICAL - 2021-09-19 14:03:20 --> You have an error in your SQL syntax; check t
 #6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 {main}
-CRITICAL - 2021-09-19 14:31:32 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:31:32 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -466,7 +466,7 @@ CRITICAL - 2021-09-19 14:31:32 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:33:46 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:33:46 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -485,7 +485,7 @@ CRITICAL - 2021-09-19 14:33:46 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:33:54 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:33:54 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -504,7 +504,7 @@ CRITICAL - 2021-09-19 14:33:54 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:34:00 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:34:00 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -523,7 +523,7 @@ CRITICAL - 2021-09-19 14:34:00 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:35:06 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:35:06 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -542,7 +542,7 @@ CRITICAL - 2021-09-19 14:35:06 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:37:04 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:37:04 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -561,7 +561,7 @@ CRITICAL - 2021-09-19 14:37:04 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:37:51 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:37:51 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -580,7 +580,7 @@ CRITICAL - 2021-09-19 14:37:51 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:38:45 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:38:45 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -599,7 +599,7 @@ CRITICAL - 2021-09-19 14:38:45 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:38:55 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:38:55 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -618,7 +618,7 @@ CRITICAL - 2021-09-19 14:38:55 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:40:50 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:40:50 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -652,7 +652,7 @@ CRITICAL - 2021-09-19 14:42:16 --> Unable to connect to the database.
 #11 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #12 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #13 {main}
-CRITICAL - 2021-09-19 14:42:29 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:42:29 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -671,7 +671,7 @@ CRITICAL - 2021-09-19 14:42:29 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:44:01 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:44:01 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -690,7 +690,7 @@ CRITICAL - 2021-09-19 14:44:01 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:46:22 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:46:22 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -709,7 +709,7 @@ CRITICAL - 2021-09-19 14:46:22 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:46:31 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:46:31 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
@@ -728,7 +728,7 @@ CRITICAL - 2021-09-19 14:46:31 --> Table 'creaw_db.c:\xampp\htdocs\writable\sess
 #15 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
-CRITICAL - 2021-09-19 14:46:36 --> Table 'creaw_db.c:\xampp\htdocs\writable\session' doesn't exist
+CRITICAL - 2021-09-19 14:46:36 --> Table 'FAWE_db.c:\xampp\htdocs\writable\session' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `data`\nF...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')

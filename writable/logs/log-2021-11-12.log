@@ -53,8 +53,8 @@ CRITICAL - 2021-11-12 13:07:37 --> Call to undefined function App\Controllers\ge
 #3 C:\xampp\htdocs\index.php(46): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-11-12 13:12:52 --> Call to undefined function App\Controllers\get_instance()
-#0 C:\xampp\htdocs\creaw\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
-#1 C:\xampp\htdocs\creaw\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
-#2 C:\xampp\htdocs\creaw\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 C:\xampp\htdocs\creaw\index.php(46): CodeIgniter\CodeIgniter->run()
+#0 C:\xampp\htdocs\FAWE\system\CodeIgniter.php(918): App\Controllers\Auth->login('')
+#1 C:\xampp\htdocs\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAWE\index.php(46): CodeIgniter\CodeIgniter->run()
 #4 {main}

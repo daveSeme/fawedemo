@@ -62,7 +62,7 @@ CRITICAL - 2021-10-12 16:52:02 --> file_get_contents(): php_network_getaddresses
 #4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 {main}
-CRITICAL - 2021-10-12 16:55:42 --> Table 'creaw_db.db_ctbl_users_login_attempts' doesn't exist
+CRITICAL - 2021-10-12 16:55:42 --> Table 'FAWE_db.db_ctbl_users_login_attempts' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
@@ -75,7 +75,7 @@ CRITICAL - 2021-10-12 16:55:42 --> Table 'creaw_db.db_ctbl_users_login_attempts'
 #9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #11 {main}
-CRITICAL - 2021-10-12 16:55:42 --> Table 'creaw_db.db_ctbl_users_login_attempts' doesn't exist
+CRITICAL - 2021-10-12 16:55:42 --> Table 'FAWE_db.db_ctbl_users_login_attempts' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
@@ -88,7 +88,7 @@ CRITICAL - 2021-10-12 16:55:42 --> Table 'creaw_db.db_ctbl_users_login_attempts'
 #9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #11 {main}
-CRITICAL - 2021-10-12 16:56:12 --> Table 'creaw_db.db_ctbl_users_login_attempts' doesn't exist
+CRITICAL - 2021-10-12 16:56:12 --> Table 'FAWE_db.db_ctbl_users_login_attempts' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
@@ -101,7 +101,7 @@ CRITICAL - 2021-10-12 16:56:12 --> Table 'creaw_db.db_ctbl_users_login_attempts'
 #9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
 #11 {main}
-CRITICAL - 2021-10-12 17:00:14 --> Table 'creaw_db.db_ctbl_users' doesn't exist
+CRITICAL - 2021-10-12 17:00:14 --> Table 'FAWE_db.db_ctbl_users' doesn't exist
 #0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
 #1 C:\xampp\htdocs\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
 #2 C:\xampp\htdocs\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')

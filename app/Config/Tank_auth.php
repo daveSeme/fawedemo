@@ -12,8 +12,8 @@ class tank_auth extends \CodeIgniter\Config\BaseConfig
 | These details are used in emails sent by authentication library.
 |--------------------------------------------------------------------------
 */
-public $website_name = 'CREAW Kenya 1.0';// application 
-public $webmaster_email = 'creaw@mandeonline.com';
+public $website_name = 'FAWE Kenya 1.0';// application 
+public $webmaster_email = 'FAWE@mandeonline.com';
 
 
 /*|--------------------------------------------------------------------------

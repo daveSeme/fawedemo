@@ -26,7 +26,7 @@ class Email extends BaseConfig
    *
    * @var string
    */
-  public $userAgent = 'CREAW Kenya';
+  public $userAgent = 'FAWE Kenya';
 
   /**
    * The mail sending protocol: mail, sendmail, smtp
