@@ -34,7 +34,7 @@ class Auth_access extends BaseController
         $query_users = $this->db->query("select user_type, 0 as Office_id from ctbl_users where id=" . $data["user_id"]);
         $row_a1 = $query_users->getRowArray();
         $data["base_id"] = $row_a1["Office_id"];
-        $data["title"] = "CREAW Kenya M&E System";
+        $data["title"] = "FAWE M&E SYSTEM";
         $data["main_title"] = "Home";
         $data["js_file"] = "office/auth_access/js_file";
         $data["main_content"] = "office/auth_access/view";
