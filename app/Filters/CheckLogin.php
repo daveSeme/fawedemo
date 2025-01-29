@@ -13,27 +13,27 @@ class checkLogin implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-	$db = \Config\Database::connect();
-	 $this->tank_auth    = new \App\Libraries\Tank_auth();
- 	   $this->session = \Config\Services::session();
-	  $result_token = $db->query("select token  FROM user_token where username='".$this->session->get('username')."'");
-      $row_token   = $result_token->getRowArray();
+	// $db = \Config\Database::connect();
+	//  $this->tank_auth    = new \App\Libraries\Tank_auth();
+ 	//    $this->session = \Config\Services::session();
+	//   $result_token = $db->query("select token  FROM user_token where username='".$this->session->get('username')."'");
+    //   $row_token   = $result_token->getRowArray();
 	  
-	   $token = $row_token['token']; 
-	   if($this->session->get('token') != $token){
-         $this->no_cache();
-        $this->tank_auth->logout();
+	//    $token = $row_token['token']; 
+	//    if($this->session->get('token') != $token){
+    //      $this->no_cache();
+    //     $this->tank_auth->logout();
 	
-        $this->_show_message(lang('tank_auth.auth_message_logged_out'));
-		// return redirect()->to('/auth/login/');
+    //     $this->_show_message(lang('tank_auth.auth_message_logged_out'));
+	// 	// return redirect()->to('/auth/login/');
     
-	    //return redirect()->to(site_url().'/auth/logout'); 
-	   }
+	//     //return redirect()->to(site_url().'/auth/logout'); 
+	//    }
         
-       //$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-         if (!$this->tank_auth->is_logged_in()) {
- 		    return redirect()->to(base_url().'/auth/login/'); 
-          }
+    //    //$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+    //      if (!$this->tank_auth->is_logged_in()) {
+ 	// 	    return redirect()->to(base_url().'/auth/login/'); 
+    //       }
 		  
  			
 // 				    $_url = "https://mandemobile.com/manage_projects/index.php?project_name=Pimes_Somali";
@@ -51,7 +51,6 @@ class checkLogin implements FilterInterface
 			
  
     }
-
     public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
     {
         // Do something here
