@@ -654,10 +654,8 @@ RESULT:
   --theme-primary-300: #a38cc6;
   --theme-primary-400: #967bbd;
   --theme-primary-500: #886ab5;
-  /* --theme-primary-600: #7a59ad;
-  --theme-primary-700: #6e4e9e; */
-  --theme-primary-600: #f5fcff;
-  --theme-primary-700: #f5fcff;
+  --theme-primary-600: #7a59ad;
+  --theme-primary-700: #6e4e9e;
   --theme-primary-800: #62468d;
   --theme-primary-900: #563d7c;
   --theme-success-50: #7aece0;
@@ -1714,7 +1712,7 @@ html {
       height: 4.125rem;
       background-image: -webkit-gradient(linear, right top, left top, from(rgba(51, 148, 225, 0.18)), to(transparent));
       background-image: linear-gradient(270deg, rgba(51, 148, 225, 0.18), transparent);
-      background-color: #feffff;
+      background-color: #584475;
       position: absolute;
       top: 0;
       right: 0;
@@ -6521,7 +6519,7 @@ body.mod-pace-custom {
       height: 100%;
       width: 100%;
       background-color: #886ab5;
-      background-image: linear-gradient(135deg, #886ab5 0%, #886ab5 25%, #6e4e9e 25%, #6e4e9e 50%, #886ab5 50%, #886ab5 75%, #6e4e9e 75%, #feffff 100%);
+      background-image: linear-gradient(135deg, #886ab5 0%, #886ab5 25%, #6e4e9e 25%, #6e4e9e 50%, #886ab5 50%, #886ab5 75%, #6e4e9e 75%, #6e4e9e 100%);
       background-repeat: repeat;
       background-position: 0 0;
       background-size: 13px 13px;
@@ -7267,13 +7265,13 @@ html:not(.root-text-sm):not(.root-text-lg):not(.root-text-xl) [data-class="root-
     color: white; }
 
 .bg-primary-600 {
-  background-color: #f5fcff;
+  background-color: #7a59ad;
   color: white; }
   .bg-primary-600:hover {
     color: white; }
 
 .bg-primary-700 {
-  background-color: #f5fcff;
+  background-color: #6e4e9e;
   color: white; }
   .bg-primary-700:hover {
     color: white; }
@@ -7309,10 +7307,10 @@ html:not(.root-text-sm):not(.root-text-lg):not(.root-text-xl) [data-class="root-
   color: #886ab5; }
 
 .color-primary-600 {
-  color: #feffff; }
+  color: #7a59ad; }
 
 .color-primary-700 {
-  color: #feffff; }
+  color: #6e4e9e; }
 
 .color-primary-800 {
   color: #62468d; }
