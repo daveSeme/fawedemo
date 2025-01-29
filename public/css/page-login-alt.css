@@ -316,9 +316,9 @@ h6 small,
 
 /* text-gradient */
 .text-gradient {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #feffff), color-stop(50%, #feffff), color-stop(75%, #0c7cd5), to(#0960a5));
-  background: linear-gradient(180deg, #feffff 25%, #62468d 50%, #0c7cd5 75%, #0960a5 100%);
-  color: #feffff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #6e4e9e), color-stop(50%, #62468d), color-stop(75%, #0c7cd5), to(#0960a5));
+  background: linear-gradient(180deg, #6e4e9e 25%, #62468d 50%, #0c7cd5 75%, #0960a5 100%);
+  color: #886ab5;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -434,7 +434,7 @@ html body {
   html body .blankpage-footer {
     padding: 10px 0;
     font-size: 0.75rem;
-    color: #feffff; }
+    color: #73579d; }
   html body .login-footer {
     position: absolute;
     top: 0;
