@@ -703,7 +703,7 @@ if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user
         echo "active open'";
     }
     echo "\"> \r\n          \t<a href=\"";
-    echo base_url() . "/public/uploads/user_manual/crew_user_manual.pdf";
+    echo base_url() . "/public/uploads/user_manual/user_manual.pdf";
     echo "\" title=\"Access User Manual\" data-filter-tags=\"system management access user mannual\"> <span class=\"nav-link-text\" data-i18n=\"nav.system_management_access_user_mannual\">Access User Manual </span> </a> \r\n          </li>\r\n          \r\n        </ul>\r\n      </li>\r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      ";
 }
 echo "      \r\n      <!----------------------------------------------------------------Viewer--------------------------------------------------------------------------------------------------> \r\n      <!----------------------------------------------------------------Viewer-------------------------------------------------------------------------------------------------->\r\n      \r\n      \r\n";
@@ -910,7 +910,7 @@ if ($this->session->get("user_type") == "Viewer") {
         echo "active open'";
     }
     echo "\"> \r\n          \t<a href=\"";
-    echo base_url() . "/public/uploads/user_manual/crew_user_manual.pdf";
+    echo base_url() . "/public/uploads/user_manual/user_manual.pdf";
     echo "\" title=\"Access User Manual\" data-filter-tags=\"system management access user mannual\"> <span class=\"nav-link-text\" data-i18n=\"nav.system_management_access_user_mannual\">Access User Manual </span> </a> \r\n          </li>\r\n          \r\n          \r\n        </ul>\r\n      </li>\r\n      \r\n      \r\n";
 }
 echo "      \r\n      \r\n\r\n  <!----------------------------------------------------------------Viewer--------------------------------------------------------------------------------------------------> \r\n  <!----------------------------------------------------------------Viewer-------------------------------------------------------------------------------------------------->\r\n\r\n\r\n\r\n\r\n      \r\n      ";
