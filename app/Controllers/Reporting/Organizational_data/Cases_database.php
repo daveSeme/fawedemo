@@ -51,17 +51,17 @@ class Cases_database extends \App\Controllers\BaseController
         $data["main_title"] = "Organizational Data // Reporting";
         $data["base_id"] = $this->session->get("office");
         if ($this->request->getMethod() === "post") {
-            $this->validate->setRules(["date" => ["label" => "Date", "rules" => "required|trim"], "case_type" => ["label" => "Case Type", "rules" => "required|trim"], "case_number" => ["label" => "Case Number", "rules" => "required|trim"], "field_office" => ["label" => "Field Office", "rules" => "required|trim"], "age_survivor" => ["label" => "Age of Survivor", "rules" => "required|trim"], "gender" => ["label" => "Gender", "rules" => "required|trim"], "diversity" => ["label" => "Diversity", "rules" => "required|trim"], "diversity_male" => ["label" => "Diversity Male", "rules" => "required|trim"], "diversity_female" => ["label" => "Diversity Female", "rules" => "required|trim"], "place_residence" => ["label" => "Place of Residence", "rules" => "required|trim"], "marital_status" => ["label" => "marital status", "rules" => "required|trim"], "case_status" => ["label" => "case Status", "rules" => "trim"], "comments" => ["label" => "Additional Comments", "rules" => "trim"]]);
+            $this->validate->setRules(["date" => ["label" => "Date", "rules" => "required|trim"], "case_type" => ["label" => "Case Type", "rules" => "required|trim"], "case_number" => ["label" => "Case Number", "rules" => "required|trim"], "field_office" => ["label" => "Field Office", "rules" => "required|trim"], "case_status" => ["label" => "case Status", "rules" => "trim"], "comments" => ["label" => "Additional Comments", "rules" => "trim"]]);
             $data["errors"] = [];
             if ($this->validate->withRequest($this->request)->run()) {
-                $postdata = ["base_id" => $this->session->get("office"), "date" => changeDateFormat("Y-m-d", $this->request->getVar("date")), "case_type" => $this->request->getVar("case_type"), "case_number" => $this->request->getVar("case_number"), "file_number" => $this->request->getVar("file_number"), "field_office" => $this->request->getVar("field_office"), "age_survivor" => $this->request->getVar("age_survivor"), "gender" => $this->request->getVar("gender"), "diversity" => $this->request->getVar("diversity"), "diversity_male" => $this->request->getVar("diversity_male"), "diversity_female" => $this->request->getVar("diversity_female"), "economic_status" => $this->request->getVar("economic_status"), "place_residence" => $this->request->getVar("place_residence"), "county" => $this->request->getVar("county"), "marital_status" => $this->request->getVar("marital_status"), "more_details_on_services_provided" => $this->request->getVar("more_details_on_services_provided"), "case_status" => $this->request->getVar("case_status"), "comments" => $this->request->getVar("comments"), "createdby" => $data["user_id"], "createdtime" => date("Y-m-d H:i:s")];
+                $postdata = ["base_id" => $this->session->get("office"), "date" => changeDateFormat("Y-m-d", $this->request->getVar("date")), "case_type" => $this->request->getVar("case_type"), "case_number" => $this->request->getVar("case_number"), "file_number" => $this->request->getVar("file_number"), "field_office" => $this->request->getVar("field_office"), "county" => $this->request->getVar("county"), "marital_status" => $this->request->getVar("marital_status"), "more_details_on_services_provided" => $this->request->getVar("more_details_on_services_provided"), "case_status" => $this->request->getVar("case_status"), "comments" => $this->request->getVar("comments"), "createdby" => $data["user_id"], "createdtime" => date("Y-m-d H:i:s")];
                 $model = new \App\Models\reporting\organizational_data\Cases_database_model();
                 $inserted_id = $model->insert($postdata);
                 trail($inserted_id, "insert", $data["title"], $postdata);
-                if (is_array($this->request->getVar("type_gbv"))) {
-                    foreach ($this->request->getVar("type_gbv") as $value) {
-                        $post_map_Data = ["workflow_id" => $inserted_id, "type_gbv" => $value];
-                        $this->db->table("cases_map_type_gbv")->insert($post_map_Data);
+                if (is_array($this->request->getVar("case_category"))) {
+                    foreach ($this->request->getVar("case_category") as $value) {
+                        $post_map_Data = ["workflow_id" => $inserted_id, "case_category" => $value];
+                        $this->db->table("cases_map_case_category")->insert($post_map_Data);
                     }
                 }
                 if (is_array($this->request->getVar("case_context"))) {
@@ -117,11 +117,11 @@ class Cases_database extends \App\Controllers\BaseController
                 trail(1, "update", $data["title"], $postdata, $previous_values);
                 $Model = new \App\Models\reporting\organizational_data\Cases_database_model();
                 $Model->update($id, $postdata);
-                $this->db->table("cases_map_type_gbv")->delete(["workflow_id" => $id]);
-                if (is_array($this->request->getVar("type_gbv"))) {
-                    foreach ($this->request->getVar("type_gbv") as $value) {
-                        $post_map_Data = ["workflow_id" => $id, "type_gbv" => $value];
-                        $this->db->table("cases_map_type_gbv")->insert($post_map_Data);
+                $this->db->table("cases_map_case_category")->delete(["workflow_id" => $id]);
+                if (is_array($this->request->getVar("case_category"))) {
+                    foreach ($this->request->getVar("case_category") as $value) {
+                        $post_map_Data = ["workflow_id" => $id, "case_category" => $value];
+                        $this->db->table("cases_map_case_category")->insert($post_map_Data);
                     }
                 }
                 $this->db->table("cases_map_case_context")->delete(["workflow_id" => $id]);
@@ -162,7 +162,7 @@ class Cases_database extends \App\Controllers\BaseController
         $model = new \App\Models\reporting\organizational_data\Cases_database_model();
         $status = $model->where("id", $id)->delete($id);
         $where = $id;
-        $this->db->table("cases_map_type_gbv")->delete(["workflow_id" => $id]);
+        $this->db->table("cases_map_case_category")->delete(["workflow_id" => $id]);
         $this->db->table("cases_map_case_context")->delete(["workflow_id" => $id]);
         $this->db->table("cases_map_incidents_referred")->delete(["workflow_id" => $id]);
         $this->db->table("cases_map_services_provided")->delete(["workflow_id" => $id]);
