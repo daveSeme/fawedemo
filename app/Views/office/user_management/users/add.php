@@ -43,11 +43,11 @@ echo "\" required>\r\n                    <div class=\"invalid-feedback\"> Pleas
 echo set_value("email");
 echo "\" required>\r\n                    <div class=\"invalid-feedback\"> Please enter the Email Address </div>\r\n                  </div>\r\n\t\t\t\t  \r\n\t\t\t\t  \r\n\t\t\t\t  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"contact_number\">Contact Number <span class=\"text-danger\">*</span></label>\r\n                   <input type=\"number\" name=\"contact_number\" class=\"form-control\" id=\"contact_number\" placeholder=\"Please enter the Contact Number \" value=\"";
 echo set_value("contact_number");
-echo "\"  >\r\n                    <div class=\"invalid-feedback\"> Please enter the Contact Number </div>\r\n                  </div>\r\n\t\t\t\t  \r\n\t\t\t\t   <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"base_id\">User Type <span class=\"text-danger\">*</span></label>\r\n                   <select name=\"user_type\" id=\"user_type\" class=\"custom-select\" onchange=\"get_inst();\" required>\r\n                      <option value=\"\">Select User Type</option>\r\n                      <option value=\"NEMA User\" ";
-if (set_value("user_type") == "NEMA User") {
+echo "\"  >\r\n                    <div class=\"invalid-feedback\"> Please enter the Contact Number </div>\r\n                  </div>\r\n\t\t\t\t  \r\n\t\t\t\t   <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"base_id\">User Type <span class=\"text-danger\">*</span></label>\r\n                   <select name=\"user_type\" id=\"user_type\" class=\"custom-select\" onchange=\"get_inst();\" required>\r\n                      <option value=\"\">Select User Type</option>\r\n                      <option value=\"FAWEUser\" ";
+if (set_value("user_type") == "FAWEUser") {
     echo " selected=\"selected\" ";
 }
-echo "> NEMA User</option>\r\n                      <option value=\"Implementing Partner\" ";
+echo "> FAWEUser</option>\r\n                      <option value=\"Implementing Partner\" ";
 if (set_value("user_type") == "Implementing Partner") {
     echo " selected=\"selected\" ";
 }

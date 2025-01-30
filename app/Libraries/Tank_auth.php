@@ -930,7 +930,7 @@ class Tank_auth {
 
 
             $data['subject'] = 'Attack injection on ROTA System';
-            $email = 'mukesh@ubsgroup.me';
+            $email = 'dseme@lociafrica';
 
             // Send email reminder  to user 
             $this->_send_email('attack', $email, $data, $data['subject'], $message);

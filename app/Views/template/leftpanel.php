@@ -104,7 +104,7 @@ if ($this->session->get("user_type") == "admin") {
     }
     echo "      \r\n      \r\n      ";
 }
-if ($this->session->get("user_type") == "NEMA User" || $this->session->get("user_type") == "Implementing Partner") {
+if ($this->session->get("user_type") == "FAWEUser" || $this->session->get("user_type") == "Implementing Partner") {
     echo "      <li  class=\"";
     if (getSegment(1) == "dashboard") {
         echo "active open'";
