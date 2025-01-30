@@ -58,8 +58,8 @@ class Project extends \App\Controllers\BaseController
                 $model = new \App\Models\project\Project_model();
                 $p_id = $model->insert($postdata);
                 trail($p_id, "insert", $data["title"], $postdata);
-                if (is_array($this->request->getVar("counties"))) {
-                    foreach ($this->request->getVar("counties") as $value) {
+                if (is_array($this->request->getVar("countries"))) {
+                    foreach ($this->request->getVar("countries") as $value) {
                         $post_district = ["project_id" => $p_id, "county_id" => $value];
                         $this->db->table("project_map_county")->insert($post_district);
                     }
@@ -141,8 +141,8 @@ class Project extends \App\Controllers\BaseController
                 $Model = new \App\Models\project\Project_model();
                 $Model->update($id, $postdata);
                 $this->db->table("project_map_county")->delete(["project_id" => $id]);
-                if (is_array($this->request->getVar("counties"))) {
-                    foreach ($this->request->getVar("counties") as $value) {
+                if (is_array($this->request->getVar("countries"))) {
+                    foreach ($this->request->getVar("countries") as $value) {
                         $post_district = ["project_id" => $id, "county_id" => $value];
                         $this->db->table("project_map_county")->insert($post_district);
                     }

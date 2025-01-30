@@ -8,7 +8,7 @@
 
 namespace App\Models\master;
 
-class CountiesModel extends \CodeIgniter\Model
+class countriesModel extends \CodeIgniter\Model
 {
     protected $table = "mas_county";
     protected $primaryKey = "id";

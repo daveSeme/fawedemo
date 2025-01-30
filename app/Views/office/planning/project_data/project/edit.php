@@ -14,7 +14,7 @@ echo "/public/js/jquery.min.js\"></script>\r\n\r\n<script src=\"";
 echo base_url();
 echo "/public/js/select2/select2.min.js\" defer></script>\r\n\r\n<link href=\"";
 echo base_url();
-echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#counties').select2({placeholder: \"Select Counties\"});\r\n\t\$('#thematic_area').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n    \$('#person_responsible').select2();\r\n    \$('#implementing_partner').select2();\r\n    \$('#notification_recepient').select2();\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
+echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#countries').select2({placeholder: \"Select countries\"});\r\n\t\$('#thematic_area').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n    \$('#person_responsible').select2();\r\n    \$('#implementing_partner').select2();\r\n    \$('#notification_recepient').select2();\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
 echo base_url() . "/home";
 echo "\">Home</a></li>\r\n     <li class=\"breadcrumb-item active\">";
 echo $main_title;
@@ -1263,7 +1263,7 @@ for ($i = 1; $i <= 31; $i++) {
     echo $i;
     echo "</option>\r\n                              ";
 }
-echo "                            </select>   \r\n                            </div>\r\n                          </div>  \r\n                        \r\n                        </div>\r\n                        \r\n                        \r\n                        \r\n                        \r\n                        </div>                      \r\n                  \r\n\t\t\t\t\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">Counties <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"counties[]\" id=\"counties\" class=\"custom-select counties\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Counties</option>\r\n                                ";
+echo "                            </select>   \r\n                            </div>\r\n                          </div>  \r\n                        \r\n                        </div>\r\n                        \r\n                        \r\n                        \r\n                        \r\n                        </div>                      \r\n                  \r\n\t\t\t\t\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"countries\">countries <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"countries[]\" id=\"countries\" class=\"custom-select countries\" multiple=\"multiple\">\r\n                                <option value=\"\">Select countries</option>\r\n                                ";
 $db = Config\Database::connect();
 $county_list = [];
 $query_county = $db->query("SELECT * FROM project_map_county where project_id=\"" . $pid . "\" ");
@@ -1314,7 +1314,7 @@ foreach ($results as $row) {
     echo $row->name;
     echo "</option>\r\n                        ";
 }
-echo "                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Implementing Partner. </div>\r\n                  </div>\r\n                    \r\n\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">Thematic Area  <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"thematic_area[]\" id=\"thematic_area\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Thematic Area</option>\r\n                                ";
+echo "                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Implementing Partner. </div>\r\n                  </div>\r\n                    \r\n\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"countries\">Thematic Area  <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"thematic_area[]\" id=\"thematic_area\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Thematic Area</option>\r\n                                ";
 $db = Config\Database::connect();
 $thematic_area_list = [];
 $query_th_area = $db->query("SELECT * FROM project_map_thematic_area where project_id=\"" . $pid . "\" ");

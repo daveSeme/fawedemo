@@ -11,50 +11,50 @@ CRITICAL - 2021-05-25 01:39:26 --> Invalid file: office/master/sector/list.php
 #9 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #10 {main}
 CRITICAL - 2021-05-25 01:48:36 --> Class 'App\Models\master\SectorModel' not found
-#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Counties->index()
-#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\countries->index()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\countries))
 #2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-05-25 01:48:41 --> Class 'App\Models\master\SectorModel' not found
-#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Counties->index()
-#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\countries->index()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\countries))
 #2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-05-25 01:48:49 --> Class 'App\Models\master\SectorModel' not found
-#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Counties->index()
-#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\countries->index()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\countries))
 #2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-05-25 01:49:18 --> Class 'App\Controllers\master\SectorModel' not found
-#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Counties->index()
-#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\countries->index()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\countries))
 #2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-05-25 02:00:27 --> Class 'App\Controllers\master\SectorModel' not found
-#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Counties->add()
-#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\countries->add()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\countries))
 #2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-05-25 02:01:02 --> Class 'App\Controllers\master\SectorModel' not found
-#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Counties->add()
-#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\countries->add()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\countries))
 #2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-05-25 02:01:06 --> Class 'App\Controllers\master\SectorModel' not found
-#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Counties->add()
-#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\countries->add()
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\countries))
 #2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
 CRITICAL - 2021-05-25 02:03:25 --> Class 'App\Controllers\master\SectorModel' not found
-#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\Counties->delete('49')
-#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\Counties))
+#0 E:\www\FAWE\system\CodeIgniter.php(918): App\Controllers\master\countries->delete('49')
+#1 E:\www\FAWE\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\master\countries))
 #2 E:\www\FAWE\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}

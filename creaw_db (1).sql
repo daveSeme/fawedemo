@@ -710,7 +710,7 @@ CREATE TABLE `ctbl_user_access_model` (
 --
 
 INSERT INTO `ctbl_user_access_model` (`id`, `modelname`, `model_var`, `group_name`, `permission`, `order_id`, `flag`) VALUES
-(1, 'Counties', 'counties', 'System Configuration', '1,2,3', 1, 0),
+(1, 'countries', 'countries', 'System Configuration', '1,2,3', 1, 0),
 (46, 'Reporting->Quarterly Report->Narrative Report', 'project_quarterly_narrative_report', 'Project Data', '1,2,3', 3, 0),
 (45, 'Reporting->Cases Database', 'cases_database', 'Organizational Data', '1,2,3', 2, 0),
 (44, 'Reporting->Monitoring Visit Report', 'monitoring_visit_report', 'Organizational Data', '1,2,3', 2, 0),

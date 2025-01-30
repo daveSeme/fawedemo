@@ -18,27 +18,27 @@ echo "\" title=\"Home\" data-filter-tags=\"home\"> <i class=\"fal fa-home\"></i>
 $this->session = Config\Services::session();
 if ($this->session->get("user_type") == "admin") {
     echo "      ";
-    $counties = explode(",", $this->session->get("counties"));
+    $countries = explode(",", $this->session->get("countries"));
     $unit = explode(",", $this->session->get("unit"));
     $dimensions = explode(",", $this->session->get("dimensions"));
     $implementing_partner = explode(",", $this->session->get("implementing_partner"));
     $funding_partner = explode(",", $this->session->get("funding_partner"));
     $field_office = explode(",", $this->session->get("field_office"));
     $currency = explode(",", $this->session->get("currency"));
-    if (in_array("1", $counties) || in_array("1", $unit) || in_array("1", $dimensions) || in_array("1", $implementing_partner) || in_array("1", $funding_partner) || in_array("1", $field_office) || in_array("1", $currency) || $this->session->get("user_type") == "admin") {
+    if (in_array("1", $countries) || in_array("1", $unit) || in_array("1", $dimensions) || in_array("1", $implementing_partner) || in_array("1", $funding_partner) || in_array("1", $field_office) || in_array("1", $currency) || $this->session->get("user_type") == "admin") {
         echo "                                \r\n                                \r\n      <li class=\"";
         if (getSegment(1) == "master") {
             echo "active open'";
         }
         echo "\"> \r\n      \t\t<a href=\"#\" title=\"System Configuration\" data-filter-tags=\"config\"> <i class=\"fal fa-tasks\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.planning\">System Configuration </span> </a>\r\n        \r\n        <ul>\r\n        \r\n          ";
-        if (in_array("1", $counties) || $this->session->get("user_type") == "admin") {
+        if (in_array("1", $countries) || $this->session->get("user_type") == "admin") {
             echo "          <li  class=\"";
-            if (getSegment(2) == "counties") {
+            if (getSegment(2) == "countries") {
                 echo "active open'";
             }
             echo "\"> <a href=\"";
-            echo base_url() . "/master/counties";
-            echo "\" title=\"Counties\" data-filter-tags=\"config counties\"> <span class=\"nav-link-text\" data-i18n=\"nav.config_counties\">Counties </span> </a> </li>\r\n          ";
+            echo base_url() . "/master/countries";
+            echo "\" title=\"countries\" data-filter-tags=\"config countries\"> <span class=\"nav-link-text\" data-i18n=\"nav.config_countries\">countries </span> </a> </li>\r\n          ";
         }
         echo "          \r\n          \r\n          ";
         if (in_array("1", $unit) || $this->session->get("user_type") == "admin") {

@@ -74,7 +74,7 @@ foreach ($results as $row_fis_fin3) {
 $green_color_code = ["#6B8E23", "#556B2F", "#808000", "#2E8B57", "#20B2AA", "#3CB371", "#8FBC8F", "#98FB98", "#90EE90", "#00FA9A", "#00FF7F", "#9ACD32", "#ADFF2F", "#006400", "#008000", "#228B22", "#00FF00", "#32CD32", "#7FFF00", "#7CFC00"];
 echo "      \r\n  <!--Map code starts-->          \r\n<script async defer\r\n        src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAtzs8v7u5EzSTY0x10MwGRx9weXfkJ0hs&callback=initMap\">\r\n</script>\r\n\r\n<script type=\"text/javascript\">\r\n    var map;\r\n    function initMap() {\r\n\r\n        // MAP1 START\r\n    map = new google.maps.Map(document.getElementById('map'), {\r\n\t\t\r\n    zoom: 6,\r\n\t//mapTypeId: 'satellite',\r\n\t\r\n\tcenter: {lat:  1.286389, lng: 36.817223}\r\n\t\r\n    });\r\n    // NOTE: This uses cross-domain XHR, and may not work on older browsers.\r\n    map.data.loadGeoJson(\r\n            //Replace with url of GeoJSON on your server\r\n            '";
 echo base_url();
-echo "/public/kenyan-counties.json');\r\n    map.data.setStyle(function(feature) {\r\n    var SD_NAME = feature.getProperty('COUNTY');\r\n    var color = \"\";\r\n\r\n\r\n";
+echo "/public/kenyan-countries.json');\r\n    map.data.setStyle(function(feature) {\r\n    var SD_NAME = feature.getProperty('COUNTY');\r\n    var color = \"\";\r\n\r\n\r\n";
 $color = "0";
 foreach ($county_data as $c_name => $county_d) {
     echo "        if (SD_NAME == \"";

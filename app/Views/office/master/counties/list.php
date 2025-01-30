@@ -17,17 +17,17 @@ echo $main_title;
 echo "</li>\r\n  <li class=\"position-absolute pos-top pos-right d-none d-sm-block\"><span class=\"js-get-date\"></span></li>\r\n</ol>\r\n<div class=\"row\">\r\n  <div class=\"col-xl-12\">\r\n    <div id=\"panel-1\" class=\"panel\">\r\n      <div class=\"panel-hdr\">\r\n        <h2> ";
 echo $title;
 echo " </h2>\r\n        <div class=\"panel-toolbar\"> <a href=\"";
-echo base_url() . "/master/counties/add";
-echo "\" class=\"btn btn-primary btn-sm waves-effect waves-themed\"><i class=\"fal fa-plus\"></i> Add</a> &nbsp;&nbsp; </div>\r\n      </div>\r\n      <div class=\"panel-container show\">\r\n        <div class=\"panel-content\"> \r\n          \r\n          <!-- datatable start -->\r\n          <table id=\"dt-basic-example\" class=\"table table-bordered table-hover table-striped w-100\">\r\n            <thead class=\"bg-primary-600\">\r\n              <tr>\r\n                <th>Counties Name</th>\r\n                <th>Action</th>\r\n              </tr>\r\n            </thead>\r\n            <tbody>\r\n              ";
+echo base_url() . "/master/countries/add";
+echo "\" class=\"btn btn-primary btn-sm waves-effect waves-themed\"><i class=\"fal fa-plus\"></i> Add</a> &nbsp;&nbsp; </div>\r\n      </div>\r\n      <div class=\"panel-container show\">\r\n        <div class=\"panel-content\"> \r\n          \r\n          <!-- datatable start -->\r\n          <table id=\"dt-basic-example\" class=\"table table-bordered table-hover table-striped w-100\">\r\n            <thead class=\"bg-primary-600\">\r\n              <tr>\r\n                <th>countries Name</th>\r\n                <th>Action</th>\r\n              </tr>\r\n            </thead>\r\n            <tbody>\r\n              ";
 if ($data) {
     echo "              ";
     foreach ($data as $record) {
         echo "              <tr>\r\n                <td>";
         echo $record["name"];
         echo "</td>\r\n                <td><div class=\"d-flex demo\"> <a href=\"#\"  onClick=\"javascript:del_rec_1('";
-        echo base_url("master/counties/delete/" . $record["id"]);
+        echo base_url("master/countries/delete/" . $record["id"]);
         echo "')\" class=\"btn btn-sm btn-outline-danger btn-icon btn-inline-block mr-1\" title=\"Delete Record\"><i class=\"fal fa-times\"></i></a> <a  href=\"#\" onClick=\"javascript:edit1('";
-        echo base_url("master/counties/edit/" . $record["id"]);
+        echo base_url("master/countries/edit/" . $record["id"]);
         echo "')\" class=\"btn btn-sm btn-outline-primary btn-icon btn-inline-block mr-1\" title=\"Edit\"><i class=\"fal fa-edit\"></i></a> </div></td>\r\n              </tr>\r\n              ";
     }
     echo "              ";

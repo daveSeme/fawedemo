@@ -95,7 +95,7 @@ CRITICAL - 2021-06-16 05:28:01 --> Table 'FAWE.mas_sector' doesn't exist
 #13 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #14 {main}
 CRITICAL - 2021-06-16 06:23:42 --> Return value of set_value() must be of the type string, array returned
-#0 E:\www\FAWE\app\Views\office\planning\project_data\project\add.php(794): set_value('counties')
+#0 E:\www\FAWE\app\Views\office\planning\project_data\project\add.php(794): set_value('countries')
 #1 E:\www\FAWE\system\View\View.php(246): include('E:\\www\\FAWE\\ap...')
 #2 E:\www\FAWE\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
 #3 E:\www\FAWE\app\Views\template\index.php(14): view('office/planning...')
@@ -108,7 +108,7 @@ CRITICAL - 2021-06-16 06:23:42 --> Return value of set_value() must be of the ty
 #10 E:\www\FAWE\index.php(45): CodeIgniter\CodeIgniter->run()
 #11 {main}
 CRITICAL - 2021-06-16 06:32:05 --> Return value of set_value() must be of the type string, array returned
-#0 E:\www\FAWE\app\Views\office\planning\project_data\project\add.php(794): set_value('counties')
+#0 E:\www\FAWE\app\Views\office\planning\project_data\project\add.php(794): set_value('countries')
 #1 E:\www\FAWE\system\View\View.php(246): include('E:\\www\\FAWE\\ap...')
 #2 E:\www\FAWE\system\Common.php(1119): CodeIgniter\View\View->render('office/planning...', Array, true)
 #3 E:\www\FAWE\app\Views\template\index.php(14): view('office/planning...')
