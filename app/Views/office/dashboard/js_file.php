@@ -13,7 +13,7 @@ echo "<script type=\"text/javascript\">\r\n\t\$(document).ready(function() {\r\n
 echo "<script type=\"text/javascript\">\r\n child_dept = [], xAxisTitle = 'Total number of Projects', yLabels = [], yLabelsFull = [], series=[], series1=[], series3=[], yLabelsTotalProjects = [], redVals = [], orangeVals = [], yellowVals = [], greenVals = [], blueVals = [], blackVals = [];\r\n\r\n";
 
 $db = Config\Database::connect();
-$prjQuery = $db->query("select * from project where id = 3");
+$prjQuery = $db->query("select * from project where id = 1");
 $prjResults = $prjQuery->getRowArray();
 
 $query = $db->query("select pwi.* from project_output_indicator pwi left join  project_output po on po.id = pwi.output_id right join project_outcome poc on poc.id = po.outcome_id right join project_goal pg on pg.id = poc.goal_id where pg.project_id = \"" . $prjResults["id"] . "\" and pwi.id is not null");
