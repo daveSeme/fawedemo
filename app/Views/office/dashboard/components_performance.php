@@ -16,13 +16,17 @@ echo "\">";
 echo $main_title;
 echo "</a></li>\r\n  <li class=\"breadcrumb-item active\">";
 echo $title;
-echo "</li>\r\n  <li class=\"position-absolute pos-top pos-right d-none d-sm-block\"><span class=\"js-get-date\"></span></li>\r\n</ol>\r\n<div id=\"panel-5\" class=\"panel\">\r\n  <ul class=\"nav nav-tabs \" role=\"tablist\">\r\n    <li class=\"nav-item\"> <a class=\"nav-link active\" data-toggle=\"tab\" href=\"#tab_borders_icons-1\" role=\"tab\"><i class=\"fal fa-chart-bar mr-1\"></i> Overall Performance</a> </li>\r\n    <li class=\"nav-item\"> <a class=\"nav-link\" href=\"";
+echo "</li>\r\n  <li class=\"position-absolute pos-top pos-right d-none d-sm-block\"><span class=\"js-get-date\"></span></li>\r\n</ol>\r\n<div id=\"panel-5\" class=\"panel\">\r\n  <ul class=\"nav nav-tabs \" role=\"tablist\">\r\n    ";
+echo "<li class=\"nav-item\"> <a class=\"nav-link\" href=\"";
+echo site_url("dashboard");
+echo "\" ><i class=\"fal fa-chart-bar mr-1\"></i> Overall Performance</a> </li>\r\n    ";
+echo "<li class=\"nav-item\"> <a class=\"nav-link\" href=\"";
 echo site_url("dashboard/project_overview");
 echo "\" role=\"tab\"><i class=\"fal fa-chart-bar mr-1\"></i> Projects</a> </li>\r\n    ";
 // echo "<li class=\"nav-item\"> <a class=\"nav-link \" href=\"";
 // echo site_url("dashboard/county_performance");
 // echo "\" role=\"tab\"><i class=\"fal fa-chart-bar mr-1\"></i> County</a> </li>\r\n    ";
-echo "<li class=\"nav-item\"> <a class=\"nav-link \" href=\"";
+echo "<li class=\"nav-item\"> <a class=\"nav-link active\" href=\"";
 echo site_url("dashboard/components_performance");
 echo "\" role=\"tab\"><i class=\"fal fa-chart-bar mr-1\"></i> Components</a> </li>\r\n    ";
 // echo "<li class=\"nav-item\"> <a class=\"nav-link\" href=\"";
@@ -40,19 +44,80 @@ echo "<li class=\"nav-item\"> <a class=\"nav-link\" href=\"";
 echo site_url("dashboard/budget_performance");
 echo "\" role=\"tab\"><i class=\"fal fa-chart-bar mr-1\"></i>Budget Performance</a></li>\r\n  </ul>\r\n  \r\n  \r\n  <div class=\"tab-content border border-top-0 p-3\">\r\n    <div class=\"tab-pane fade show active\" id=\"tab_borders_icons-1\" role=\"tabpanel\">\r\n      ";
 
-// Project Duration
+// Project Components
 echo "<div class=\"row\"> \r\n";
-echo "<div class=\"col-lg-6\">";
-echo "<div class=\"panel-hdr\">\r\n                <h2> Project Timeline</h2>\r\n              </div>\r\n";
-echo "<div class=\"panel-content\">\r\n                <div id=\"container2\"></div>\r\n              </div>";
+    echo "<div class=\"col-lg-12\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Component Targets</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container2\"></div>\r\n              </div>";
+    echo "</div>";
 echo "</div>";
-echo "<div class=\"col-lg-6\">";
-echo "<div class=\"panel-hdr\">\r\n                <h2> Project Targets/Achievements</h2>\r\n              </div>\r\n";
-echo "<div class=\"panel-content\">\r\n                <div id=\"container3\"></div>\r\n              </div>";
+echo "<div class=\"row\"> \r\n";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Components Targets (Quarterly)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container3\"></div>\r\n              </div>";
+    echo "</div>";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Component Targets (Semi-Annually)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container8\"></div>\r\n              </div>";
+    echo "</div>";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Component Targets (Annually)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container9\"></div>\r\n              </div>";
+    echo "</div>";
 echo "</div>";
+
+// echo "<div class=\"panel-hdr\">\r\n                <h2> Component Indicator Targets</h2>\r\n              </div>\r\n              \r\n              ";
+// echo "<div class=\"row\"> \r\n                <div class=\"col-lg-12\">\r\n                    <div id=\"container1\"></div>\r\n                </div>\r\n                \r\n                \r\n                \r\n              </div>\r\n              \r\n              \r\n            </div>\r\n          </div> \r\n              \r\n";
+
+// Project Outcomes
+echo "<div class=\"row\"> \r\n";
+    echo "<div class=\"col-lg-12\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Outcome Targets</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container4\"></div>\r\n              </div>";
+    echo "</div>";
 echo "</div>";
-echo "<div class=\"panel-hdr\">\r\n                <h2> Project Output Indicator</h2>\r\n              </div>\r\n              \r\n              ";
-echo "<div class=\"row\"> \r\n                <div class=\"col-lg-12\">\r\n                    <div id=\"container1\"></div>\r\n                </div>\r\n                \r\n                \r\n                \r\n              </div>\r\n              \r\n              \r\n            </div>\r\n          </div> \r\n              \r\n";
+echo "<div class=\"row\"> \r\n";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Outcome Targets (Quarterly)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container5\"></div>\r\n              </div>";
+    echo "</div>";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Outcome Targets (Semi-Annually)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container10\"></div>\r\n              </div>";
+    echo "</div>";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Outcome Targets (Annually)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container11\"></div>\r\n              </div>";
+    echo "</div>";
+echo "</div>";
+
+// echo "<div class=\"panel-hdr\">\r\n                <h2> Outcome Indicator Targets</h2>\r\n              </div>\r\n              \r\n              ";
+// echo "<div class=\"row\"> \r\n                <div class=\"col-lg-12\">\r\n                    <div id=\"container6\"></div>\r\n                </div>\r\n                \r\n                \r\n                \r\n              </div>\r\n              \r\n              \r\n            </div>\r\n          </div> \r\n              \r\n";
+
+// Project Outputs
+echo "<div class=\"row\"> \r\n";
+    echo "<div class=\"col-lg-12\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Output Targets</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container6\"></div>\r\n              </div>";
+    echo "</div>";
+echo "</div>";
+echo "<div class=\"row\"> \r\n";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Output Targets (Quarterly)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container7\"></div>\r\n              </div>";
+    echo "</div>";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Output Targets (Semi-Annually)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container12\"></div>\r\n              </div>";
+    echo "</div>";
+    echo "<div class=\"col-lg-4\">";
+        echo "<div class=\"panel-hdr\">\r\n                <h2> Output Targets (Annually)</h2>\r\n              </div>\r\n";
+        echo "<div class=\"panel-content\">\r\n                <div id=\"container13\"></div>\r\n              </div>";
+    echo "</div>";
+echo "</div>";
+
+// echo "<div class=\"panel-hdr\">\r\n                <h2> Output Indicator Targets</h2>\r\n              </div>\r\n              \r\n              ";
+// echo "<div class=\"row\"> \r\n                <div class=\"col-lg-12\">\r\n                    <div id=\"container9\"></div>\r\n                </div>\r\n                \r\n                \r\n                \r\n              </div>\r\n              \r\n              \r\n            </div>\r\n          </div> \r\n              \r\n";
 
 // echo "<div class=\"row\"> \r\n        \r\n        <!---------Row 2 Starts --->\r\n        <div class=\"col-lg-6\">\r\n        \r\n          <div id=\"panel-2\" class=\"panel\" data-panel-fullscreen=\"false\">\r\n            <div class=\"panel-hdr\">\r\n              <h2> Annual Indicator Performace </h2>\r\n            </div>\r\n            <div class=\"panel-container show\">\r\n              <div class=\"panel-content\">\r\n                <div id=\"container\"></div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          \r\n          \r\n          <div id=\"panel-3\" class=\"panel\">\r\n            <div class=\"panel-hdr\">\r\n              <h2>Indicator Performace to Date</h2>\r\n            </div>\r\n            <div class=\"panel-container show\">\r\n              <div class=\"panel-content\">\r\n                <div id=\"container_2\"></div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          \r\n          \r\n        </div>\r\n        <!---------Row 2 Ends --->\r\n        \r\n        <div class=\"col-lg-6\">\r\n        \r\n        \r\n          <div id=\"panel-4\" class=\"panel\">\r\n            <div class=\"panel-hdr\">\r\n              <h2>Annual Output Indicator Performace</h2>\r\n            </div>\r\n            <div class=\"panel-container show\">\r\n             \r\n              <table class=\"highchart\"   data-graph-container-before=\"1\"  data-graph-type=\"bar\"  style=\"display:none\">\r\n                <caption></caption>\r\n                \r\n                <thead>\r\n                  <tr>\r\n                    <th>Output Performance to Completion</th>\r\n                    <th>Number of Output Targets</th>\r\n                  </tr>\r\n                </thead>\r\n                \r\n                <tbody>\r\n                \r\n                  <tr>\r\n                    <td>Total Number of Output Indicator Targets to Date </td>\r\n                    <td data-graph-item-color=\"blue\">\r\n\t\t\t\t\t";
 // $query = $db->query("select count(*) as total from project_output_indicator");
