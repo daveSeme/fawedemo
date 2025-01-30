@@ -13,7 +13,7 @@ class tank_auth extends \CodeIgniter\Config\BaseConfig
 |--------------------------------------------------------------------------
 */
 public $website_name = 'FAWE Kenya 1.0';// application 
-public $webmaster_email = 'FAWE@mandeonline.com';
+public $webmaster_email = '';
 
 
 /*|--------------------------------------------------------------------------

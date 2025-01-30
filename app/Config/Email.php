@@ -55,14 +55,14 @@ class Email extends BaseConfig
    *
    * @var string
    */
-  public $SMTPUser = 'pimes@mandeonline.com';
+  public $SMTPUser = '';
 
   /**
    * SMTP Password
    *
    * @var string
    */
-  public $SMTPPass = '*kyKyEv;jE3T';
+  public $SMTPPass = '';
 
   /**
    * SMTP Port
