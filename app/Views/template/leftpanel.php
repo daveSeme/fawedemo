@@ -227,15 +227,42 @@ if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user
             echo "                 \r\n               \r\n                 \r\n                \r\n            </ul>\r\n          </li>\r\n          ";
         }
         echo "          \r\n\t\t";
-        if (in_array("1", $cases_database)) {
-            echo " \r\n        <li class=\"";
-            if (getSegment(3) == "cases_database") {
+        if (in_array("1", $cases_database) || in_array("1", $case_types)) {
+            echo "          \r\n          <li  class=\"";
+            if (getSegment(3) == "case_types" || getSegment(3) == "cases_database") {
                 echo "active open'";
             }
-            echo "\">\r\n        <a href=\"";
-            echo base_url() . "/reporting/organizational_data/cases_database";
-            echo "\" title=\"Cases Database Reports\" data-filter-tags=\"cases database\">  <span class=\"nav-link-text\" data-i18n=\"nav.cases_database\">Cases Database</span> </a> \r\n        </li>\r\n        ";
+            echo "\"> <a href=\"#\" title=\"Cases\" data-filter-tags=\"cases\"> <span class=\"nav-link-text\" data-i18n=\"nav.case_types\">Cases</span> </a>\r\n            <ul>\r\n             \r\n              ";
+            if (in_array("1", $case_types)) {
+                echo "              <li class=\"";
+                if (getSegment(3) == "case_types") {
+                    echo "active open'";
+                }
+                echo "\"> <a href=\"";
+                echo base_url() . "/reporting/organizational_data/case_types";
+                echo "\" title=\"Case Types\" data-filter-tags=\"cases case types\"> <span class=\"nav-link-text\" data-i18n=\"nav.case_types\">Case Types</span> </a> </li>\r\n              ";
+            }
+            echo "              \r\n              ";
+            if (in_array("1", $cases_database)) {
+                echo "              <li  class=\"";
+                if (getSegment(3) == "cases_database") {
+                    echo "active open'";
+                }
+                echo "\"> <a href=\"";
+                echo base_url() . "/reporting/organizational_data/cases_database";
+                echo "\" title=\"Cases Database\" data-filter-tags=\"cases cases database\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_database\">Cases Database</span> </a> </li>\r\n               ";
+            }
+            echo "            </ul>\r\n          </li>\r\n          \r\n          ";
         }
+        // if (in_array("1", $cases_database)) {
+        //     echo " \r\n        <li class=\"";
+        //     if (getSegment(3) == "cases_database") {
+        //         echo "active open'";
+        //     }
+        //     echo "\">\r\n        <a href=\"";
+        //     echo base_url() . "/reporting/organizational_data/cases_database";
+        //     echo "\" title=\"Cases Database Reports\" data-filter-tags=\"cases database\">  <span class=\"nav-link-text\" data-i18n=\"nav.cases_database\">Cases Database</span> </a> \r\n        </li>\r\n        ";
+        // }
         echo "          \r\n        </ul>\r\n        \r\n               \r\n                \r\n\r\n      </li>\r\n      ";
     }
     echo "      ";
