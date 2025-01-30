@@ -650,7 +650,7 @@ body:not(.mod-skin-light):not(.mod-skin-dark) #skin-default:before {
   .mod-skin-dark:not(.mod-skin-light) .custom-control-input:checked ~ .custom-control-label::before {
     background-color: rgba(136, 106, 181, 0.8);
     background-color: rgba(var(--theme-rgb-primary), 0.8);
-    border-color: #886ab5;
+    border-color: #27408b;
     border-color: rgba(var(--theme-rgb-primary), 1); }
   .mod-skin-dark:not(.mod-skin-light) .custom-control-input[disabled] ~ .custom-control-label::before,
   .mod-skin-dark:not(.mod-skin-light) .custom-control-input:disabled ~ .custom-control-label::before {

@@ -390,7 +390,7 @@ aside.page-sidebar ($nav-width, $nav-background)
 /* SHORTCUT BUTTON (appears on bottom right of the page) */
 /* GULP WARNINGS */
 .toast {
-  background-color: #886ab5;
+  background-color: #27408b;
   background-image: none !important; }
   .toast:before {
     content: "\f05a";

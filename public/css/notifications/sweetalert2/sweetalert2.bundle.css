@@ -622,7 +622,7 @@ aside.page-sidebar ($nav-width, $nav-background)
     border: 0;
     border-radius: 0.25em;
     background: initial;
-    background-color: #886ab5;
+    background-color: #27408b;
     color: #fff;
     font-size: 0.875em; }
   .swal2-styled.swal2-cancel {
@@ -919,7 +919,7 @@ aside.page-sidebar ($nav-width, $nav-background)
     color: #2196F3; }
   .swal2-icon.swal2-question {
     border-color: #beaed7;
-    color: #886ab5; }
+    color: #27408b; }
   .swal2-icon.swal2-success {
     border-color: #1dc9b7;
     color: #1dc9b7; }
@@ -1011,12 +1011,12 @@ aside.page-sidebar ($nav-width, $nav-background)
     width: 2em;
     height: 2em;
     border-radius: 2em;
-    background: #886ab5;
+    background: #27408b;
     color: #fff;
     line-height: 2em;
     text-align: center; }
     .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step {
-      background: #886ab5; }
+      background: #27408b; }
       .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step {
         background: #beaed7;
         color: #fff; }
@@ -1027,7 +1027,7 @@ aside.page-sidebar ($nav-width, $nav-background)
     width: 2.5em;
     height: .4em;
     margin: 0 -1px;
-    background: #886ab5; }
+    background: #27408b; }
 
 [class^='swal2'] {
   -webkit-tap-highlight-color: transparent; }

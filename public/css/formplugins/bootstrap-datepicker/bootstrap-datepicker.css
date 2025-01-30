@@ -997,7 +997,7 @@ h6 small,
 .text-gradient {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #6e4e9e), color-stop(50%, #62468d), color-stop(75%, #0c7cd5), to(#0960a5));
   background: linear-gradient(180deg, #6e4e9e 25%, #62468d 50%, #0c7cd5 75%, #0960a5 100%);
-  color: #886ab5;
+  color: #27408b;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -1089,7 +1089,7 @@ RESULT:
 .datepicker table tr td span.active.active,
 .datepicker table tr td span.focused {
   background-color: #967bbd;
-  border-color: #886ab5;
+  border-color: #27408b;
   color: #fff; }
 
 .datepicker table tr td.active:active:hover,

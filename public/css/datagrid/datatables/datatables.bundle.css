@@ -1187,7 +1187,7 @@ table.dataTable.dtr-column > tbody > tr > th.control:before {
   border-radius: 0;
   border: 0;
   margin: 0;
-  background-color: #886ab5; }
+  background-color: #27408b; }
 
 table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before,
 table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before,
@@ -1307,12 +1307,12 @@ div.dt-autofill-background {
   padding-right: 2rem !important; }
 
 div.dt-autofill-handle {
-  background: #886ab5;
+  background: #27408b;
   height: 0.875rem;
   width: 0.875rem; }
 
 div.dt-autofill-select {
-  background-color: #886ab5; }
+  background-color: #27408b; }
 
 /* FixedColumns */
 .DTFC_LeftHeadWrapper:before,
@@ -1337,8 +1337,8 @@ div.dt-autofill-select {
 /* KeyTable */
 table.dataTable tbody th.focus,
 table.dataTable tbody td.focus {
-  -webkit-box-shadow: inset 0 0 0px 1px #886ab5;
-          box-shadow: inset 0 0 0px 1px #886ab5;
+  -webkit-box-shadow: inset 0 0 0px 1px #27408b;
+          box-shadow: inset 0 0 0px 1px #27408b;
   background: rgba(136, 106, 181, 0.1);
   font-weight: 500; }
 
@@ -1368,7 +1368,7 @@ tr.dt-rowReorder-moving {
   outline-offset: -2px; }
 
 table.dt-rowReorder-float {
-  outline: 2px solid #886ab5;
+  outline: 2px solid #27408b;
   outline-offset: -2px; }
 
 /* w-100 bug for some tables */
@@ -1390,8 +1390,8 @@ table.dataTable.table-bordered td.selected {
 
 table.dataTable tbody > tr.selected,
 table.dataTable tbody > tr > .selected {
-  -webkit-box-shadow: inset 0 0 0px 1px #886ab5;
-          box-shadow: inset 0 0 0px 1px #886ab5;
+  -webkit-box-shadow: inset 0 0 0px 1px #27408b;
+          box-shadow: inset 0 0 0px 1px #27408b;
   background: rgba(136, 106, 181, 0.1);
   font-weight: 500;
   color: inherit; }
