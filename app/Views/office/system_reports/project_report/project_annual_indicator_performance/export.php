@@ -47,7 +47,7 @@ if (!empty($results_plan)) {
     echo "\t </td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td>Report Date </td>\r\n    <td>";
     echo $newDate = date("d/m/Y", strtotime($row_plan->createtime));
     echo "</td>\r\n  </tr>\r\n  \r\n</table>\r\n\r\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"1\" style=\"width:100%;border-collapse:collapse;\">\r\n  <thead class=\"bg-highlight\">\r\n    <tr>\r\n      <th>Indicator</th>\r\n      <th>Target</th>\r\n      <th>Achievement</th>\r\n      <th>Variance</th>\r\n    </tr>\r\n  </thead>\r\n  <tbody id=\"project_div\">\r\n\t";
-    $query_mon_progress_report = $db->query("select * from project_annual_indicator_tracking_report_map where workflow_id = '" . $row_plan->id . "' and category = 'Goal Indicator' order by indicator_id");
+    $query_mon_progress_report = $db->query("select * from project_annual_indicator_tracking_report_map where workflow_id = '" . $row_plan->id . "' and category = 'Component Indicator' order by indicator_id");
     $results_mon_progress_report = $query_mon_progress_report->getResultArray();
     foreach ($results_mon_progress_report as $row_mon_progress_report) {
         $unit_data = get_by_id("id", $row_mon_progress_report["unit"], "mas_unit");

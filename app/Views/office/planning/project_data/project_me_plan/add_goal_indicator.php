@@ -39,7 +39,7 @@ if ($validation->getErrors()) {
     echo $validation->listErrors();
     echo "</div>";
 }
-echo "                <div class=\"form-row\">\r\n\r\n                  <div class=\"col-12 mb-3 mt-5\">\r\n                    <label class=\"form-label\" for=\"name\">Goal </label>\r\n                    <div class=\"form-control\">";
+echo "                <div class=\"form-row\">\r\n\r\n                  <div class=\"col-12 mb-3 mt-5\">\r\n                    <label class=\"form-label\" for=\"name\">Component </label>\r\n                    <div class=\"form-control\">";
 echo $goal_data["name"];
 echo "</div>\r\n                  </div>\r\n                \r\n\r\n\t\t\t\t<!-- Form Starts here  --> \r\n                \r\n                  <div class=\"col-12 mb-3 mt-5\">\r\n                    <label class=\"form-label\" for=\"indicator\">Indicator Name <span class=\"text-danger\">*</span></label>\r\n                    <input type=\"text\" name=\"indicator\" class=\"form-control\" id=\"name\" placeholder=\"Please enter indicator\"  value=\"";
 echo set_value("indicator");

@@ -14,7 +14,7 @@ echo "/public/js/jquery.min.js\"></script>\r\n\r\n<script src=\"";
 echo base_url();
 echo "/public/js/select2/select2.min.js\" defer></script>\r\n\r\n<link href=\"";
 echo base_url();
-echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#type_gbv').select2({placeholder: \"Select Thematic Area\"});\r\n\t\$('#incidents_referred').select2({placeholder: \"Select Thematic Area\"});\r\n\t\$('#case_context').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n\t\$('#services_provided').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n    \$('#person_responsible').select2();\r\n    \$('#implementing_partner').select2();\r\n\t\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
+echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#case_category').select2({placeholder: \"Select Thematic Area\"});\r\n\t\$('#incidents_referred').select2({placeholder: \"Select Thematic Area\"});\r\n\t\$('#case_context').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n\t\$('#services_provided').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n    \$('#person_responsible').select2();\r\n    \$('#implementing_partner').select2();\r\n\t\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
 echo base_url() . "/home";
 echo "\">Home</a></li>\r\n     <li class=\"breadcrumb-item active\">";
 echo $main_title;
@@ -106,52 +106,52 @@ echo ">Separated</option>\r\n                      <option value=\"Widowed\" ";
 if ($stdata["marital_status"] == "Widowed") {
     echo "selected=\"selected\"";
 }
-echo ">Widowed</option>\r\n                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Marital Status of Survivor. </div>\r\n                  </div>\r\n\r\n\r\n\r\n                     \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n\r\n\r\n\r\n\r\n\t\t\t\t  \r\n                  \r\n\t\t\t\t  \r\n                  \r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"countries\">Type of GBV reported  <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"type_gbv[]\" id=\"type_gbv\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                  <option value=\"\">Select Type of GBV reported</option>\r\n                               \r\n\t\t\t\t\t\t\t\t\t";
+echo ">Widowed</option>\r\n                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Marital Status of Survivor. </div>\r\n                  </div>\r\n\r\n\r\n\r\n                     \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n\r\n\r\n\r\n\r\n\t\t\t\t  \r\n                  \r\n\t\t\t\t  \r\n                  \r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">Type of GBV reported  <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"case_category[]\" id=\"case_category\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                  <option value=\"\">Select Type of GBV reported</option>\r\n                               \r\n\t\t\t\t\t\t\t\t\t";
 $db = Config\Database::connect();
-$type_gbv_list = [];
-$query_gbv = $db->query("SELECT * FROM cases_map_type_gbv where workflow_id = \"" . $pid . "\" ");
+$case_category_list = [];
+$query_gbv = $db->query("SELECT * FROM cases_map_case_category where workflow_id = \"" . $pid . "\" ");
 $gbv_listar = $query_gbv->getResultArray();
 foreach ($gbv_listar as $row) {
-    array_push($type_gbv_list, $row["type_gbv"]);
+    array_push($case_category_list, $row["case_category"]);
 }
 echo "                                  \r\n                                  <option value=\"Rape\" ";
-if (in_array("Rape", $type_gbv_list)) {
+if (in_array("Rape", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Rape</option>\r\n                                  <option value=\"Defilement\" ";
-if (in_array("Defilement", $type_gbv_list)) {
+if (in_array("Defilement", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Defilement</option>\r\n                                  <option value=\"Sexual Assault\" ";
-if (in_array("Sexual Assault", $type_gbv_list)) {
+if (in_array("Sexual Assault", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Sexual Assault</option>\r\n                                  <option value=\"Physical Assault\" ";
-if (in_array("Physical Assault", $type_gbv_list)) {
+if (in_array("Physical Assault", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Physical Assault</option>\r\n                                  <option value=\"Sodomy\" ";
-if (in_array("Sodomy", $type_gbv_list)) {
+if (in_array("Sodomy", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Sodomy</option>\r\n                                  <option value=\"Incest\" ";
-if (in_array("Incest", $type_gbv_list)) {
+if (in_array("Incest", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Incest</option>\r\n                                  <option value=\"Forced Marriage\" ";
-if (in_array("Forced Marriage", $type_gbv_list)) {
+if (in_array("Forced Marriage", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Forced Marriage</option>\r\n                                  <option value=\"Denial of Resources\" ";
-if (in_array("Denial of Resources", $type_gbv_list)) {
+if (in_array("Denial of Resources", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Denial of Resources</option>\r\n                                  <option value=\"Psych\" ";
-if (in_array("Psych", $type_gbv_list)) {
+if (in_array("Psych", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Psych</option>\r\n                                  <option value=\"Emotional Abuse\" ";
-if (in_array("Emotional Abuse", $type_gbv_list)) {
+if (in_array("Emotional Abuse", $case_category_list)) {
     echo "selected=\"selected\"";
 }
 echo ">Emotional Abuse</option>\r\n                                </select>\r\n                    \t<div class=\"invalid-feedback\"> Please select a valid Type of GBV reported . </div>\r\n                  </div>\r\n\r\n\t\t\t\t  \r\n                  \r\n                  \r\n                  \r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"case_context\">Case Context <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"case_context[]\" id=\"case_context\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Case Context</option>\r\n\t\t\t\t\t\t\t\t\t";

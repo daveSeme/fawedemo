@@ -376,13 +376,13 @@ if (!empty($results_plan)) {
         echo "</td>\r\n    \r\n  </tr>\r\n   ";
     }
     echo "   \r\n   \r\n   \r\n   \r\n   <tr>\r\n    <td colspan=\"17\">&nbsp;</td>\r\n   </tr>\r\n\r\n\t\r\n\r\n\r\n\t<!------------------------------------------------------------------Type of GBV reported Data-------------------------------------------------------------------->\r\n\t<!------------------------------------------------------------------Type of GBV reported Data-------------------------------------------------------------------->\r\n\r\n\t";
-    $query_data = $db->query("select * from cases_database left join cases_map_type_gbv  on cases_map_type_gbv.workflow_id = cases_database.id\r\n\t\r\n\t\r\n\t\r\n\twhere Year(date) = '" . $year . "' and  Month(date) = '" . $month . "' and county = '" . $county . "' group by cases_map_type_gbv.type_gbv ");
+    $query_data = $db->query("select * from cases_database left join cases_map_case_category  on cases_map_case_category.workflow_id = cases_database.id\r\n\t\r\n\t\r\n\t\r\n\twhere Year(date) = '" . $year . "' and  Month(date) = '" . $month . "' and county = '" . $county . "' group by cases_map_case_category.case_category ");
     $results_data = $query_data->getResultArray();
     foreach ($results_data as $row_data) {
         echo "  \r\n  <tr>\r\n    <td>Type of GBV reported</td>\r\n    <td>";
-        echo $row_data["type_gbv"];
+        echo $row_data["case_category"];
         echo "</td>\r\n    \r\n    ";
-        $query_week1 = $db->query("select sum(male) as male, sum(female) as female from cases_database left join cases_map_type_gbv  on cases_map_type_gbv.workflow_id = cases_database.id WHERE date BETWEEN '" . $year . "-" . $month . "-01' AND '" . $year . "-" . $month . "-07' and type_gbv = '" . $row_data["type_gbv"] . "' ");
+        $query_week1 = $db->query("select sum(male) as male, sum(female) as female from cases_database left join cases_map_case_category  on cases_map_case_category.workflow_id = cases_database.id WHERE date BETWEEN '" . $year . "-" . $month . "-01' AND '" . $year . "-" . $month . "-07' and case_category = '" . $row_data["case_category"] . "' ");
         $results_week1 = $query_week1->getResult();
         $row_week1 = $query_week1->getRow();
         echo "    <td>";
@@ -400,7 +400,7 @@ if (!empty($results_plan)) {
         echo "</td>\r\n    <td>";
         echo $total_week1 = $total_week1_male + $total_week1_female;
         echo "</td>\r\n\r\n    \r\n    \r\n    \r\n    ";
-        $query_week2 = $db->query("select sum(male) as male, sum(female) as female  from cases_database left join cases_map_type_gbv  on cases_map_type_gbv.workflow_id = cases_database.id  WHERE date BETWEEN '" . $year . "-" . $month . "-08' AND '" . $year . "-" . $month . "-14' and type_gbv = '" . $row_data["type_gbv"] . "' ");
+        $query_week2 = $db->query("select sum(male) as male, sum(female) as female  from cases_database left join cases_map_case_category  on cases_map_case_category.workflow_id = cases_database.id  WHERE date BETWEEN '" . $year . "-" . $month . "-08' AND '" . $year . "-" . $month . "-14' and case_category = '" . $row_data["case_category"] . "' ");
         $results_week2 = $query_week2->getResult();
         $row_week2 = $query_week2->getRow();
         echo "    <td>";
@@ -418,7 +418,7 @@ if (!empty($results_plan)) {
         echo "    </td>\r\n    <td>";
         echo $total_week2 = $total_week2_male + $total_week2_female;
         echo "</td>\r\n\t\r\n\r\n\r\n    ";
-        $query_week3 = $db->query("select sum(male) as male, sum(female) as female  from cases_database left join cases_map_type_gbv  on cases_map_type_gbv.workflow_id = cases_database.id  WHERE date BETWEEN '" . $year . "-" . $month . "-15' AND '" . $year . "-" . $month . "-22' and type_gbv = '" . $row_data["type_gbv"] . "' ");
+        $query_week3 = $db->query("select sum(male) as male, sum(female) as female  from cases_database left join cases_map_case_category  on cases_map_case_category.workflow_id = cases_database.id  WHERE date BETWEEN '" . $year . "-" . $month . "-15' AND '" . $year . "-" . $month . "-22' and case_category = '" . $row_data["case_category"] . "' ");
         $results_week3 = $query_week3->getResult();
         $row_week3 = $query_week3->getRow();
         echo "    <td>";
@@ -436,7 +436,7 @@ if (!empty($results_plan)) {
         echo "    </td>\r\n    <td>";
         echo $total_week3 = $total_week3_male + $total_week3_female;
         echo "</td>\r\n\r\n\r\n    ";
-        $query_week4 = $db->query("select sum(male) as male, sum(female) as female  from cases_database left join cases_map_type_gbv  on cases_map_type_gbv.workflow_id = cases_database.id  WHERE date BETWEEN '" . $year . "-" . $month . "-23' AND '" . $year . "-" . $month . "-31' and type_gbv = '" . $row_data["type_gbv"] . "' ");
+        $query_week4 = $db->query("select sum(male) as male, sum(female) as female  from cases_database left join cases_map_case_category  on cases_map_case_category.workflow_id = cases_database.id  WHERE date BETWEEN '" . $year . "-" . $month . "-23' AND '" . $year . "-" . $month . "-31' and case_category = '" . $row_data["case_category"] . "' ");
         $results_week4 = $query_week4->getResult();
         $row_week4 = $query_week4->getRow();
         echo "    <td>";

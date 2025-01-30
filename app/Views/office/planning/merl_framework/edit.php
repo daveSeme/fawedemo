@@ -67,7 +67,7 @@ foreach ($results_issue as $row_issue) {
             echo $row_obj_ind["indicator"];
             echo "</td>\r\n                        \r\n                        <td>\r\n\t\t\t\t\t\t\t";
             $unit_data = get_by_id("id", $row_obj_ind["unit"], "mas_unit");
-            // echo $unit_name = $unit_data["name"];
+            echo $unit_name = $unit_data["name"];
             echo "                        </td>\r\n                        \r\n                        <td>";
             echo $row_obj_ind["baseline"];
             echo "</td>\r\n                        \r\n                        \r\n\t\t\t\t\t\t";

@@ -91,7 +91,7 @@ if ($stdata["report_file"] != "") {
     echo "\"><span class=\"fal fa-download mr-1\"></span> Download File</a>\r\n                           ";
 }
 echo "                          </td>\r\n                        </tr>\r\n                          \r\n                          \r\n                   </tbody>\r\n                 </table>         \r\n<!--##########################################################################################################################################################-->\r\n<h2>Report Details</h2> \r\n              \r\n\t\t\t <table class=\"table table-bordered\">\r\n                     \r\n                     <thead class=\"bg-highlight\">\r\n                          <tr>\r\n                           <th>Indicator</th>\r\n                           <th>Target</th>\r\n                           <th>Quarter Achievement</th>\r\n                           <th>Comments</th>\r\n                          </tr>\r\n                      </thead>\r\n                      \r\n                      <tbody id=\"project_div\">\r\n                          \r\n                      ";
-$query_mon_progress_report = $db->query("select * from project_quarterly_indicator_tracking_report_map where workflow_id = '" . $stdata["id"] . "' and category = 'Goal Indicator' order by indicator_id");
+$query_mon_progress_report = $db->query("select * from project_quarterly_indicator_tracking_report_map where workflow_id = '" . $stdata["id"] . "' and category = 'Component Indicator' order by indicator_id");
 $results_mon_progress_report = $query_mon_progress_report->getResultArray();
 foreach ($results_mon_progress_report as $row_mon_progress_report) {
     $unit_data = get_by_id("id", $row_mon_progress_report["unit"], "mas_unit");

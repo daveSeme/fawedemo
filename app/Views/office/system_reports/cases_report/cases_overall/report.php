@@ -104,11 +104,11 @@ if (!empty($results_plan)) {
         echo "</td>\r\n\r\n    \r\n    \r\n  </tr>\r\n   ";
     }
     echo "   \r\n   \r\n   \r\n   \r\n   \r\n   \r\n   <tr>\r\n    <td colspan=\"17\">&nbsp;</td>\r\n   </tr>\r\n\r\n\t<!------------------------------------------------------------------Type of GBV reported Data-------------------------------------------------------------------->\r\n\t<!------------------------------------------------------------------Type of GBV reported Data-------------------------------------------------------------------->\r\n\r\n\t";
-    $query_data = $db->query("select * from cases_database left join cases_map_type_gbv  on cases_map_type_gbv.workflow_id = cases_database.id\r\n\t\r\n\t\r\n\t\r\n\twhere Year(date) = '" . $year . "' and  Month(date) = '" . $month . "'  group by cases_map_type_gbv.type_gbv ");
+    $query_data = $db->query("select * from cases_database left join cases_map_case_category  on cases_map_case_category.workflow_id = cases_database.id\r\n\t\r\n\t\r\n\t\r\n\twhere Year(date) = '" . $year . "' and  Month(date) = '" . $month . "'  group by cases_map_case_category.case_category ");
     $results_data = $query_data->getResultArray();
     foreach ($results_data as $row_data) {
         echo "  \r\n  <tr>\r\n    <td>Type of GBV reported</td>\r\n    <td>";
-        echo $row_data["type_gbv"];
+        echo $row_data["case_category"];
         echo "</td>\r\n    \r\n    <td>";
         if (isset($row_data["male"])) {
             echo $total_male = $row_data["male"];
@@ -122,7 +122,7 @@ if (!empty($results_plan)) {
             echo $total_female = 0;
         }
         echo "</td>\r\n    <td>";
-        echo $total_type_gbv = $total_male + $total_female;
+        echo $total_case_category = $total_male + $total_female;
         echo "</td>\r\n\r\n    \r\n    \r\n    \r\n  </tr>\r\n   ";
     }
     echo "   \r\n   \r\n   <tr>\r\n    <td colspan=\"17\">&nbsp;</td>\r\n   </tr>\r\n\r\n\t<!------------------------------------------------------------------Case Context Data-------------------------------------------------------------------->\r\n\t<!------------------------------------------------------------------Case Context Data-------------------------------------------------------------------->\r\n\r\n\t";

@@ -27,7 +27,7 @@ if ($validation->getErrors()) {
     echo "</div>";
 }
 echo "          </div>\r\n          <div class=\"panel-content p-0\">\r\n             ";
-$insert_url = "master/implementing_partner/add";
+$insert_url = "master/funding_partner/add";
 echo form_open($insert_url, "method=\"post\" id=\"Form\"  enctype=\"multipart/form-data\" class=\"needs-validation\" novalidate");
 echo "            \r\n              <div class=\"panel-content\">\r\n                <div class=\"form-row\">\r\n\r\n\r\n\t\t\t\t<!-- Form Starts here  --> \r\n                \r\n                  \r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"name\"><span id=\"title\">Partner Name</span> <span class=\"text-danger\">*</span></label>\r\n                    <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" value=\"";
 echo set_value("name");
@@ -38,7 +38,7 @@ echo set_value("contact_person");
 echo "\"  placeholder=\"Please enter the Contact Person\" required>\r\n                    <div class=\"invalid-feedback\"> Please enter the Contact Person.</div>\r\n                  </div>\r\n\r\n\r\n\r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"contact_email\"><span id=\"title\">Contact Email</span> <span class=\"text-danger\">*</span></label>\r\n                    <input type=\"email\" name=\"contact_email\" class=\"form-control\" id=\"contact_email\" value=\"";
 echo set_value("contact_email");
 echo "\"  placeholder=\"Please enter the Contact Email\" required>\r\n                    <div class=\"invalid-feedback\"> Please enter the Contact Email. </div>\r\n                  </div>\r\n                  \r\n\t\t\t\t\t\r\n                    \r\n                   <!-- Form Ends here  --> \r\n                </div>\r\n              </div>\r\n              \r\n              \r\n              \r\n              <div class=\"panel-content border-faded border-left-0 border-right-0 border-bottom-0 d-flex flex-row align-items-center\">\r\n                <div class=\"col-lg-offset-5 col-lg-7\">\r\n                  <button class=\"btn btn-primary ml-auto waves-effect waves-themed\" name=\"action\" value=\"save\" type=\"submit\"><span class=\"fal fa-check mr-1\"></span> Save</button>\r\n                  <button class=\"btn btn-success ml-auto waves-effect waves-themed\" type=\"submit\"><span class=\"fal fa-undo mr-1\"></span> Save &amp; Go back to list</button>\r\n                  <a href=\"";
-echo base_url() . "/master/implementing_partner";
+echo base_url() . "/master/funding_partner";
 echo "\" class=\"btn btn-outline-default waves-themed waves-effect waves-themed\"><span class=\"fal fa-exclamation-triangle mr-1\"></span>Cancel</a> </div>\r\n              </div>\r\n              \r\n              \r\n            </form>\r\n            \r\n            \r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  \r\n \r\n</main>\r\n<!-- this overlay is activated only when mobile menu is triggered -->\r\n<div class=\"page-content-overlay\" data-action=\"toggle\" data-class=\"mobile-nav-on\"></div>\r\n<!-- END Page Content --> \r\n\r\n ";
 
 ?>
