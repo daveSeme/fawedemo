@@ -8,7 +8,7 @@
 
 echo "\r\n<aside class=\"page-sidebar list-filter-active\">\r\n  <div class=\"page-logo align-items-center justify-content-center text-center\"> \r\n    <!--<a href=\"#\" class=\"page-logo-link press-scale-down d-flex align-items-center position-relative\" data-toggle=\"modal\" data-target=\"#modal-shortcut\">--> \r\n    <img src=\"";
 echo base_url();
-echo "/public/img/logo.png\" alt=\"M&E FAWE Kenya\" aria-roledescription=\"logo\"> \r\n    <!--<span class=\"page-logo-text mr-1\">M&E PMIS</span>\r\n                <span class=\"position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2\"></span>\r\n                <i class=\"fal fa-angle-down d-inline-block ml-1 fs-lg color-primary-300\"></i>\r\n               </a>--> \r\n  </div>\r\n  <!-- BEGIN PRIMARY NAVIGATION -->\r\n  <nav id=\"js-primary-nav\" class=\"primary-nav\" role=\"navigation\">\r\n    <div class=\"nav-filter\">\r\n      <div class=\"position-relative\">\r\n        <input type=\"text\" id=\"nav_filter_input\" placeholder=\"Filter menu\" class=\"form-control\" tabindex=\"0\">\r\n        <!--<a href=\"#\" onclick=\"return false;\" class=\"btn-primary btn-search-close js-waves-off\" data-action=\"toggle\" data-class=\"list-filter-active\" data-target=\".page-sidebar\">\r\n                            <i class=\"fal fa-chevron-up\"></i>--> \r\n        </a> </div>\r\n    </div>\r\n    <ul id=\"js-nav-menu\" class=\"nav-menu\">\r\n      <li  class=\"";
+echo "/public/img/logo.png\" alt=\"M&E FAWE\" aria-roledescription=\"logo\"> \r\n    <!--<span class=\"page-logo-text mr-1\">M&E PMIS</span>\r\n                <span class=\"position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2\"></span>\r\n                <i class=\"fal fa-angle-down d-inline-block ml-1 fs-lg color-primary-300\"></i>\r\n               </a>--> \r\n  </div>\r\n  <!-- BEGIN PRIMARY NAVIGATION -->\r\n  <nav id=\"js-primary-nav\" class=\"primary-nav\" role=\"navigation\">\r\n    <div class=\"nav-filter\">\r\n      <div class=\"position-relative\">\r\n        <input type=\"text\" id=\"nav_filter_input\" placeholder=\"Filter menu\" class=\"form-control\" tabindex=\"0\">\r\n        <!--<a href=\"#\" onclick=\"return false;\" class=\"btn-primary btn-search-close js-waves-off\" data-action=\"toggle\" data-class=\"list-filter-active\" data-target=\".page-sidebar\">\r\n                            <i class=\"fal fa-chevron-up\"></i>--> \r\n        </a> </div>\r\n    </div>\r\n    <ul id=\"js-nav-menu\" class=\"nav-menu\">\r\n      <li  class=\"";
 if (getSegment(1) == "home") {
     echo "active open'";
 }
@@ -18,27 +18,27 @@ echo "\" title=\"Home\" data-filter-tags=\"home\"> <i class=\"fal fa-home\"></i>
 $this->session = Config\Services::session();
 if ($this->session->get("user_type") == "admin") {
     echo "      ";
-    $countries = explode(",", $this->session->get("countries"));
+    $counties = explode(",", $this->session->get("counties"));
     $unit = explode(",", $this->session->get("unit"));
     $dimensions = explode(",", $this->session->get("dimensions"));
     $implementing_partner = explode(",", $this->session->get("implementing_partner"));
     $funding_partner = explode(",", $this->session->get("funding_partner"));
     $field_office = explode(",", $this->session->get("field_office"));
     $currency = explode(",", $this->session->get("currency"));
-    if (in_array("1", $countries) || in_array("1", $unit) || in_array("1", $dimensions) || in_array("1", $implementing_partner) || in_array("1", $funding_partner) || in_array("1", $field_office) || in_array("1", $currency) || $this->session->get("user_type") == "admin") {
+    if (in_array("1", $counties) || in_array("1", $unit) || in_array("1", $dimensions) || in_array("1", $implementing_partner) || in_array("1", $funding_partner) || in_array("1", $field_office) || in_array("1", $currency) || $this->session->get("user_type") == "admin") {
         echo "                                \r\n                                \r\n      <li class=\"";
         if (getSegment(1) == "master") {
             echo "active open'";
         }
         echo "\"> \r\n      \t\t<a href=\"#\" title=\"System Configuration\" data-filter-tags=\"config\"> <i class=\"fal fa-tasks\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.planning\">System Configuration </span> </a>\r\n        \r\n        <ul>\r\n        \r\n          ";
-        if (in_array("1", $countries) || $this->session->get("user_type") == "admin") {
+        if (in_array("1", $counties) || $this->session->get("user_type") == "admin") {
             echo "          <li  class=\"";
-            if (getSegment(2) == "countries") {
+            if (getSegment(2) == "counties") {
                 echo "active open'";
             }
             echo "\"> <a href=\"";
-            echo base_url() . "/master/countries";
-            echo "\" title=\"countries\" data-filter-tags=\"config countries\"> <span class=\"nav-link-text\" data-i18n=\"nav.config_countries\">countries </span> </a> </li>\r\n          ";
+            echo base_url() . "/master/counties";
+            echo "\" title=\"Counties\" data-filter-tags=\"config counties\"> <span class=\"nav-link-text\" data-i18n=\"nav.config_counties\">Counties </span> </a> </li>\r\n          ";
         }
         echo "          \r\n          \r\n          ";
         if (in_array("1", $unit) || $this->session->get("user_type") == "admin") {
@@ -120,6 +120,7 @@ if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user
     $org_annual_indicator_tracking_report = explode(",", $this->session->get("org_annual_indicator_tracking_report"));
     $monitoring_visit_report = explode(",", $this->session->get("monitoring_visit_report"));
     $cases_database = explode(",", $this->session->get("cases_database"));
+    $case_types = explode(",", $this->session->get("case_types"));
     if (in_array("1", $strategic_plans) || in_array("1", $merl_framework) || in_array("1", $org_quarterly_narrative_report) || in_array("1", $org_quarterly_indicator_tracking_report) || in_array("1", $org_annual_narrative_report) || in_array("1", $org_annual_indicator_tracking_report) || in_array("1", $monitoring_visit_report) || in_array("1", $cases_database)) {
         echo "                                    \r\n                                    \r\n      <li class=\"";
         if (getSegment(1) == "planning" && getSegment(2) != "project" && getSegment(2) != "project_me_plan" && getSegment(2) != "project_annual_plan" || getSegment(3) == "org_quarterly_narrative_report" || getSegment(3) == "org_quarterly_indicator_tracking_report" || getSegment(3) == "org_annual_narrative_report" || getSegment(3) == "org_annual_indicator_tracking_report" || getSegment(3) == "cases_database" || getSegment(3) == "monitoring_visit_report") {
@@ -713,7 +714,188 @@ if ($this->session->get("user_type") == "Viewer") {
     }
     echo "\"> \r\n      \t\t<a href=\"";
     echo base_url() . "/dashboard";
-    echo "\" title=\"Dashboard\" data-filter-tags=\"dashboard\"> <i class=\"fal fa-tachometer\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.dashboard\">Dashboard</span> </a>\r\n      </li>\r\n     \r\n      \r\n      \r\n      <li  class=\"";
+    echo "\" title=\"Dashboard\" data-filter-tags=\"dashboard\"> <i class=\"fal fa-tachometer\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.dashboard\">Dashboard</span> </a>\r\n      </li>\r\n     \r\n      \r\n      \r\n      ";
+    $stratergic_annual_indicator_performance = explode(",", $this->session->get("stratergic_annual_indicator_performance"));
+    $stratergic_quarterly_indicator_performance = explode(",", $this->session->get("stratergic_quarterly_indicator_performance"));
+    $project_annual_indicator_performance = explode(",", $this->session->get("project_annual_indicator_performance"));
+    $project_quarterly_indicator_performance = explode(",", $this->session->get("project_quarterly_indicator_performance"));
+    $project_annual_activity_performance = explode(",", $this->session->get("project_annual_activity_performance"));
+    $project_quarterly_activity_performance = explode(",", $this->session->get("project_quarterly_activity_performance"));
+    $project_schedule = explode(",", $this->session->get("project_schedule"));
+    $cases_field_office = explode(",", $this->session->get("cases_field_office"));
+    $cases_overall = explode(",", $this->session->get("cases_overall"));
+    $beneficiaries_report_county = explode(",", $this->session->get("beneficiaries_report_county"));
+    $beneficiaries_report_national = explode(",", $this->session->get("beneficiaries_report_national"));
+    if (in_array("1", $stratergic_annual_indicator_performance) || in_array("1", $stratergic_quarterly_indicator_performance) || in_array("1", $project_annual_indicator_performance) || in_array("1", $project_quarterly_indicator_performance) || in_array("1", $project_annual_activity_performance) || in_array("1", $project_quarterly_activity_performance) || in_array("1", $project_schedule) || in_array("1", $cases_field_office) || in_array("1", $cases_overall) || in_array("1", $beneficiaries_report_county) || in_array("1", $beneficiaries_report_national)) {
+        echo "                            \r\n      \t\t\t\t\t\t<li class=\"";
+        if (getSegment(1) == "system_reports") {
+            echo "active open'";
+        }
+        echo "\"> \r\n      \t\t\t\t\t\t\t<a href=\"#\" title=\"Access System Reports\" data-filter-tags=\"form stuff\"> <i class=\"fal fa-chart-bar\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.form_stuff\">Access System Reports</span> </a>\r\n                                   \r\n                                  \r\n                                    <ul>\r\n                                      ";
+        if (in_array("1", $stratergic_annual_indicator_performance) || in_array("1", $stratergic_quarterly_indicator_performance)) {
+            echo "         \t\t\t\t\t\t\t\t\r\n                                        \r\n                                      <li class=\"";
+            if (getSegment(2) == "stratergic_annual_indicator_performance" || getSegment(2) == "stratergic_quarterly_indicator_performance") {
+                echo "active open'";
+            }
+            echo "\"> \r\n                                        \t\r\n                                         <a href=\"#\" title=\"Programs/Projects\" data-filter-tags=\"planning Projects\"> <span class=\"nav-link-text\" data-i18n=\"nav.planning_program_projects\">Strategic Report</span> \r\n                                        </a>\r\n                                        \r\n                                        <ul>\r\n                                          ";
+            if (in_array("1", $stratergic_annual_indicator_performance)) {
+                echo "                                          <li class=\"";
+                if (getSegment(2) == "stratergic_annual_indicator_performance") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n                                           <a href=\"";
+                echo base_url() . "/system_reports/stratergic_annual_indicator_performance";
+                echo "\" title=\"Strategic Annual Indicator Performance\" data-filter-tags=\"Strategic Annual Indicator Performance\"> <span class=\"nav-link-text\" data-i18n=\"nav.stratergic_annual_indicator_performance\">Annual Ind Performance </span> </a> </li>\r\n                                          ";
+            }
+            echo "                                          \r\n                                          \r\n                                          ";
+            if (in_array("1", $stratergic_quarterly_indicator_performance)) {
+                echo "                                          <li class=\"";
+                if (getSegment(2) == "stratergic_quarterly_indicator_performance") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n                                            <a href=\"";
+                echo base_url() . "/system_reports/stratergic_quarterly_indicator_performance";
+                echo "\" title=\"Quarterly Indicator Performance\" data-filter-tags=\"Quarterly Indicator Performance\"> <span class=\"nav-link-text\" data-i18n=\"nav.stratergic_quarterly_indicator_performance&_radio\">Quarter Ind Performance </span> \r\n                                            </a> \r\n                                           </li>\r\n                                          ";
+            }
+            echo "                                        </ul>\r\n                                        \r\n                                  </li>\r\n                                  ";
+        }
+        echo "          \r\n          \r\n          \r\n          \r\n          \r\n          \r\n          <!-----Project Ind Performance------>\r\n          \r\n          ";
+        if (in_array("1", $project_annual_indicator_performance) || in_array("1", $project_quarterly_indicator_performance) || in_array("1", $project_annual_activity_performance) || in_array("1", $project_quarterly_activity_performance) || in_array("1", $project_schedule)) {
+            echo "          \t\t\t\r\n                   \r\n                    <li class=\"";
+            if (getSegment(2) == "project_annual_indicator_performance" || getSegment(2) == "project_quarterly_indicator_performance" || getSegment(2) == "project_annual_activity_performance" || getSegment(2) == "project_quarterly_activity_performance" || getSegment(2) == "project_quarterly_narrative" || getSegment(2) == "project_annual_narrative" || getSegment(2) == "project_schedule") {
+                echo "active open'";
+            }
+            echo "\"> \r\n                            <a href=\"#\" title=\"Projects\" data-filter-tags=\"planning projects\"> <span class=\"nav-link-text\" data-i18n=\"nav.planning_program_projects\">Project Report</span> </a>\r\n            \r\n            <ul>\r\n            \r\n              ";
+            if (in_array("1", $project_annual_indicator_performance)) {
+                echo "              <li class=\"";
+                if (getSegment(2) == "project_annual_indicator_performance") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t<a href=\"";
+                echo base_url() . "/system_reports/project_annual_indicator_performance";
+                echo "\" title=\"Annual Indicator Performance\" data-filter-tags=\"Annual Indicator Performance\"> <span class=\"nav-link-text\" data-i18n=\"nav.project_annual_indicator_performance\">Annual Ind Performance </span> </a>\r\n              </li>\r\n              ";
+            }
+            echo "              \r\n              \r\n              \r\n              ";
+            if (in_array("1", $project_quarterly_indicator_performance)) {
+                echo "              <li class=\"";
+                if (getSegment(2) == "project_quarterly_indicator_performance") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n                 \r\n                 <a href=\"";
+                echo base_url() . "/system_reports/project_quarterly_indicator_performance";
+                echo "\" title=\"Quarterly Indicator Performance\" data-filter-tags=\"Quarterly Indicator Performance\"> <span class=\"nav-link-text\" data-i18n=\"nav.project_quarterly_indicator_performance\">Quarter Ind Performance </span> </a> </li>\r\n              ";
+            }
+            echo "              \r\n              \r\n              ";
+            if (in_array("1", $project_annual_activity_performance)) {
+                echo "              <li class=\"";
+                if (getSegment(2) == "project_annual_activity_performance") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n                        <a href=\"";
+                echo base_url() . "/system_reports/project_annual_activity_performance";
+                echo "\" title=\"Annual Activity Performance\" data-filter-tags=\"Annual Activity Performance\"> <span class=\"nav-link-text\" data-i18n=\"nav.project_annual_activity_performance\">Annual Activity Performance</span> </a> </li>\r\n              ";
+            }
+            echo "              \r\n              \r\n              ";
+            if (in_array("1", $project_quarterly_activity_performance)) {
+                echo "              <li class=\"";
+                if (getSegment(2) == "project_quarterly_activity_performance") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t\t<a href=\"";
+                echo base_url() . "/system_reports/project_quarterly_activity_performance";
+                echo "\" title=\"Activity Performance\" data-filter-tags=\"form stuff checkbox & radio\"> <span class=\"nav-link-text\" data-i18n=\"nav.form_stuff_checkbox_&_radio\">Quarter Activity Performance</span> </a> </li>\r\n              ";
+            }
+            echo "              \r\n              \r\n              ";
+            if (in_array("1", $project_quarterly_activity_performance)) {
+                echo "              <li class=\"";
+                if (getSegment(2) == "project_annual_narrative") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t<a href=\"";
+                echo base_url() . "/system_reports/project_annual_narrative";
+                echo "\" title=\"Project Annual Narrative Report\" data-filter-tags=\"project annual narrative Report\"> <span class=\"nav-link-text\" data-i18n=\"nav.project_annual_narrative\">Project Annual Narrative Report </span> \r\n                </a> \r\n                \t</li>\r\n              ";
+            }
+            echo "              \r\n              \r\n              ";
+            if (in_array("1", $project_quarterly_activity_performance)) {
+                echo "              <li class=\"";
+                if (getSegment(2) == "project_quarterly_narrative") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t<a href=\"";
+                echo base_url() . "/system_reports/project_quarterly_narrative";
+                echo "\" title=\"Project Quarterly Narrative Report\" data-filter-tags=\"project Quarterly Narrative Report\"> <span class=\"nav-link-text\" data-i18n=\"nav.project_schedule\">Project Quarterly Narrative Report </span> \r\n                </a> \r\n                \t</li>\r\n              ";
+            }
+            echo "              \r\n              \r\n              ";
+            if (in_array("1", $project_schedule)) {
+                echo "              <li class=\"";
+                if (getSegment(2) == "project_schedule") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t<a href=\"";
+                echo base_url() . "/system_reports/project_schedule";
+                echo "\" title=\"Project Schedule\" data-filter-tags=\"project schedule\"> <span class=\"nav-link-text\" data-i18n=\"nav.project_schedule\">Project Schedule Report </span> \r\n                </a> \r\n                \t</li>\r\n              ";
+            }
+            echo "              \r\n              \r\n              \r\n              \r\n              \r\n            </ul>\r\n          </li>\r\n          \r\n          ";
+        }
+        echo "          \r\n          <!-----Case Database Report------>\r\n         \r\n         \r\n          ";
+        if (in_array("1", $cases_field_office) || in_array("1", $cases_overall)) {
+            echo "          \r\n          <li class=\"";
+            if (getSegment(2) == "cases_field_office" || getSegment(2) == "cases_overall") {
+                echo "active open'";
+            }
+            echo "\"> \r\n          \t\t<a href=\"#\" title=\"Cases Database Report\" data-filter-tags=\"planning Program Projects\"> <span class=\"nav-link-text\" data-i18n=\"nav.planning_program_projects\">Cases Database Report </span> </a>\r\n           \r\n            <ul>\r\n              ";
+            if (in_array("1", $cases_field_office)) {
+                echo "             \r\n              <li class=\"";
+                if (getSegment(2) == "cases_field_office") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t<a href=\"";
+                echo base_url() . "/system_reports/cases_field_office";
+                echo "\" title=\"Cases Database Report County\" data-filter-tags=\"cases database field office\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by County </span> </a> \r\n             </li>\r\n              ";
+            }
+            echo "            \r\n              ";
+            if (in_array("1", $cases_overall)) {
+                echo "              \r\n              <li class=\"";
+                if (getSegment(2) == "cases_overall") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t<a href=\"";
+                echo base_url() . "/system_reports/cases_overall";
+                echo "\" title=\"Cases Database Report National\" data-filter-tags=\"cases database national\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_overall\">by National</span> </a> \r\n              </li>\r\n              ";
+            }
+            echo "              \r\n              \r\n            </ul>\r\n          </li>\r\n          ";
+        }
+        echo "          \r\n          \r\n          ";
+        if (in_array("1", $beneficiaries_report_county) || in_array("1", $beneficiaries_report_national)) {
+            echo "          \r\n          <li class=\"";
+            if (getSegment(2) == "beneficiaries_report_county" || getSegment(2) == "beneficiaries_report_national") {
+                echo "active open'";
+            }
+            echo "\"> \r\n          \t\t<a href=\"#\" title=\"Beneficiaries Report\" data-filter-tags=\"beneficiaries report\"> <span class=\"nav-link-text\" data-i18n=\"nav.beneficiaries_report_county\">Beneficiaries Report </span> </a>\r\n           \r\n            <ul>\r\n              ";
+            if (in_array("1", $beneficiaries_report_county)) {
+                echo "             \r\n              <li class=\"";
+                if (getSegment(2) == "beneficiaries_report_county") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t<a href=\"";
+                echo base_url() . "/system_reports/beneficiaries_report_county";
+                echo "\" title=\"Beneficiaries Report County\" data-filter-tags=\"beneficiaries report county\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by County </span> </a> \r\n             </li>\r\n              ";
+            }
+            echo "            \r\n              ";
+            if (in_array("1", $beneficiaries_report_national)) {
+                echo "              \r\n              <li class=\"";
+                if (getSegment(2) == "beneficiaries_report_national") {
+                    echo "active open'";
+                }
+                echo "\"> \r\n              \t<a href=\"";
+                echo base_url() . "/system_reports/beneficiaries_report_national";
+                echo "\" title=\"Beneficiaries Report National\" data-filter-tags=\"beneficiaries report national\"> <span class=\"nav-link-text\" data-i18n=\"nav.beneficiaries_report_national\">by National</span> </a> \r\n              </li>\r\n              ";
+            }
+            echo "              \r\n              \r\n            </ul>\r\n          </li>\r\n          ";
+        }
+        echo "          \r\n          \r\n          \r\n          <!-----Strategic Ind Performance------>\r\n          \r\n        </ul>\r\n      </li>\r\n      ";
+    }
+    echo "<li  class=\"";
     if (getSegment(1) == "user_management") {
         echo "active open'";
     }
