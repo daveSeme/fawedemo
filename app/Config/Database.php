@@ -34,7 +34,7 @@ class Database extends \CodeIgniter\Database\Config
 		'hostname' => 'localhost',
 		'username' => 'root',
 		'password' => '',
-		'database' => 'fawe_demo_db',
+		'database' => 'creaw_db',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
@@ -62,7 +62,7 @@ class Database extends \CodeIgniter\Database\Config
 		'hostname' => '127.0.0.1',
 		'username' => 'root',
 		'password' => '',
-		'database' => 'fawe_demo_db',
+		'database' => 'creaw_db',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',//'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
 		'pConnect' => false,
