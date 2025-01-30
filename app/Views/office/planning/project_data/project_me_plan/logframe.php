@@ -25,9 +25,9 @@ echo base_url() . "/planning/project_me_plan/" . $session->get("mode") . "/" . $
 echo "\" data-toggle=\"tooltip\" data-offset=\"0,10\" data-original-title=\"Cancel/Back to Main Page\"  class=\"btn btn-outline-default waves-themed waves-effect waves-themed\"><span class=\"fal fa-exclamation-triangle mr-1\"></span>Cancel/Back </a> \r\n        </div> \r\n      </div>\r\n      \r\n      <div class=\"panel-container show\">\r\n       \r\n        \r\n        <div class=\"panel-content p-0\">\r\n          <div class=\"panel-content\">\r\n    \r\n                <table class=\"table table-bordered\">\r\n                  <tbody>\r\n                    <tr>\r\n                      <th class=\"bg-highlight\">Project Name</th>\r\n                      <td>\r\n\t\t\t\t\t  ";
 $project_details = get_by_id("id", $frameworkdata["project"], "project");
 echo $project_details["name"];
-echo "                      </td>\r\n                    </tr>\r\n                  </tbody>\r\n                </table>\r\n                \r\n                \r\n \r\n         \r\n                <div class=\"tree well\">\r\n                <ul role=\"group\">\r\n                    <li>\r\n                    <div align=\"left\">\r\n                    <strong>:: Goals::</strong><a class=\"btn btn-primary btn-xs\" href=\"";
+echo "                      </td>\r\n                    </tr>\r\n                  </tbody>\r\n                </table>\r\n                \r\n                \r\n \r\n         \r\n                <div class=\"tree well\">\r\n                <ul role=\"group\">\r\n                    <li>\r\n                    <div align=\"left\">\r\n                    <strong>:: Components::</strong><a class=\"btn btn-primary btn-xs\" href=\"";
 echo base_url() . "/planning/project_me_plan/add_goal/" . $workflow_id;
-echo "\"><strong> Add Goal </strong> </a> \r\n                    </li>\r\n                  \r\n                  \r\n                ";
+echo "\"><strong> Add Component </strong> </a> \r\n                    </li>\r\n                  \r\n                  \r\n                ";
 $query_goal = $db->query("select * from  project_goal where workflow_id=\"" . $workflow_id . "\" and flag=0  order by id ");
 $g = 1;
 $results_goal = $query_goal->getResultArray();
@@ -38,9 +38,9 @@ foreach ($results_goal as $row_goal) {
     echo base_url() . "/planning/project_me_plan/edit_goal/" . $workflow_id . "/?id=" . $row_goal["id"];
     echo "');\"><i class=\"fal fa-edit\"></i></a> \r\n                \r\n                <a class=\"btn btn-sm btn-outline-primary btn-icon btn-inline-block mr-1\" style=\"color:blue\" href=\"#\"  title=\"Remove\"  onclick=\"javascript:del_rec_1('";
     echo base_url() . "/planning/project_me_plan/delete_goal/" . $workflow_id . "/?id=" . $row_goal["id"];
-    echo "');\"><i class=\"fal fa-times\"></i> </a>\r\n                </span>   \r\n               \r\n               \r\n                <ul>\r\n                \r\n                <li><strong>::Goal Indicator ::</strong> <a class=\"btn btn-primary btn-xs\" href=\"";
+    echo "');\"><i class=\"fal fa-times\"></i> </a>\r\n                </span>   \r\n               \r\n               \r\n                <ul>\r\n                \r\n                <li><strong>::Component Indicator ::</strong> <a class=\"btn btn-primary btn-xs\" href=\"";
     echo base_url() . "/planning/project_me_plan/add_goal_indicator/" . $workflow_id . "/?goal_id=" . $row_goal["id"];
-    echo "\"><strong><font color=\"white\"> Add Goal Indicator</font> </strong> </a></li>\r\n                \r\n                \r\n                ";
+    echo "\"><strong><font color=\"white\"> Add Component Indicator</font> </strong> </a></li>\r\n                \r\n                \r\n                ";
     $i = 3;
     $query_goal_ind = $db->query("select * from project_goal_indicator where goal_id='" . $row_goal["id"] . "'  order by id ");
     $results_goal_ind = $query_goal_ind->getResultArray();
@@ -155,7 +155,7 @@ foreach ($results_goal as $row_goal) {
         }
         echo "                  </ul> <!------output--->\r\n                    \r\n                  \r\n                  \r\n                  \r\n                  \r\n                        </li>\r\n                        \r\n                      \r\n                    \r\n                                      \r\n                </li>\r\n                        \r\n                 \r\n                 \r\n                      \r\n                        ";
     }
-    echo "                      </ul> <!--Goal Ind Ends-->\r\n\r\n\r\n                    </li>\r\n                    ";
+    echo "                      </ul> <!--Component Ind Ends-->\r\n\r\n\r\n                    </li>\r\n                    ";
 }
 echo "                  </ul>\r\n                 \r\n            </div>\r\n            \r\n             \r\n           \r\n            \r\n            <div class=\"panel-content border-faded border-left-0 border-right-0 border-bottom-0 d-flex flex-row align-items-center\">\r\n              <div class=\"col-lg-offset-5 col-lg-7\"> <a href=\"";
 echo base_url() . "/planning/project_me_plan/" . $session->get("mode") . "/" . $workflow_id;

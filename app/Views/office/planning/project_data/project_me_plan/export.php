@@ -39,7 +39,7 @@ $query_goal = $db->query("select * from project_goal where workflow_id= \"" . $i
 $g = 1;
 $results_goal = $query_goal->getResultArray();
 foreach ($results_goal as $row_goal) {
-    echo "\r\n                 <tr style=\"background:#ffc000;\">\r\n                    <td  colspan=\"9\">Goal : ";
+    echo "\r\n                 <tr style=\"background:#ffc000;\">\r\n                    <td  colspan=\"9\">Component : ";
     echo $row_goal["name"];
     echo " </td>\r\n                  </tr>                  \r\n                  \r\n                  \r\n\t\t\t\t";
     $query_goal_indicator = $db->query("select * from project_goal_indicator  Where goal_id='" . $row_goal["id"] . "' order by id ");
@@ -47,7 +47,7 @@ foreach ($results_goal as $row_goal) {
     foreach ($results_goal_indicator as $row_goal_indicator) {
         $unit_data = get_by_id("id", $row_goal_indicator["unit"], "mas_unit");
         $unit_name = $unit_data["name"];
-        echo "                 <tr style=\"background:#ffc000;\">\r\n                    <td >Goal Indicator</td>\r\n                    <td >";
+        echo "                 <tr style=\"background:#ffc000;\">\r\n                    <td >Component Indicator</td>\r\n                    <td >";
         echo $row_goal_indicator["indicator"];
         echo "</td>\r\n                    <td >";
         echo $row_goal_indicator["baseline"];
