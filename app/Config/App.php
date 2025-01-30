@@ -23,7 +23,7 @@ class App extends BaseConfig
 	*/
 	//public $baseURL = 'http://197.237.123.158:8888/';
 
-	// public $baseURL = 'http://102.37.249.108:8080/fawedemo/';
+	public $baseURL = '';
 
 	/*
 	|--------------------------------------------------------------------------
