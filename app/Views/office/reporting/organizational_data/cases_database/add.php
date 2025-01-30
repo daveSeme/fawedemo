@@ -14,7 +14,7 @@ echo "/public/js/jquery.min.js\"></script>\r\n\r\n<script src=\"";
 echo base_url();
 echo "/public/js/select2/select2.min.js\" defer></script>\r\n\r\n<link href=\"";
 echo base_url();
-echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#case_category').select2({placeholder: \"Select Thematic Area\"});\r\n\t\$('#incidents_referred').select2({placeholder: \"Select Thematic Area\"});\r\n\t\$('#case_context').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n\t\$('#services_provided').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n    \$('#person_responsible').select2();\r\n    \$('#implementing_partner').select2();\r\n    \$('#county').select2();\r\n\t\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
+echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#type_gbv').select2({placeholder: \"Select Thematic Area\"});\r\n\t\$('#incidents_referred').select2({placeholder: \"Select Thematic Area\"});\r\n\t\$('#case_context').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n\t\$('#services_provided').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n    \$('#person_responsible').select2();\r\n    \$('#implementing_partner').select2();\r\n    \$('#county').select2();\r\n\t\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
 echo base_url() . "/home";
 echo "\">Home</a></li>\r\n     <li class=\"breadcrumb-item active\">";
 echo $main_title;
@@ -60,7 +60,17 @@ foreach ($results as $row) {
     echo $row->name;
     echo "</option>\r\n                                ";
 }
-echo "                                </select>\r\n                   \t\t\t <div class=\"invalid-feedback\"> Please select a valid Field Office. </div>\r\n                  \t\t</div>\r\n\r\n\r\n<div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">County <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"county\" id=\"county\" class=\"custom-select\" >\r\n                                <option value=\"\">Select county</option>\r\n                                ";
+echo "                                </select>\r\n                   \t\t\t <div class=\"invalid-feedback\"> Please select a valid Field Office. </div>\r\n                  \t\t</div>\r\n\r\n\r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"age_survivor\">Age of Survivor <span class=\"text-danger\">*</span></label>\r\n                    <select name=\"age_survivor\" id=\"age_survivor\" class=\"custom-select select2\">\r\n                      <option value=\"\">Select Age of Survivor</option>\r\n                      <option value=\"18 yrs and Younger\">18 yrs and Younger</option>\r\n                      <option value=\"19-26 yrs\">19-26 yrs</option>\r\n                      <option value=\"27-49 yrs\">27-49 yrs</option>\r\n                      <option value=\"50 yrs and older\">50 yrs and older</option>\r\n                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Age of Survivor. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  <div class=\"col-md-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"gender\"><span id=\"title\">Gender </span> <span class=\"text-danger\">*</span></label>\r\n                    <div class=\"input-group\">\r\n                    <select name=\"gender\" id=\"gender\" class=\"custom-select\">\r\n                      <option value=\"\">Select Gender</option>\r\n                      <option value=\"Male\">Male</option>\r\n                      <option value=\"Female\">Female</option>\r\n                      <option value=\"Others\">Others</option>\r\n                    </select>\r\n                    </div>\r\n                    <div class=\"invalid-feedback\"> Please select Gender. </div>\r\n                  </div>\r\n                  \r\n                  \r\n<!--                  <div class=\"col-md-4 mb-3\">\r\n                    <label class=\"form-label\" for=\"male\"><span id=\"title\">Total Male </span> <span class=\"text-danger\">*</span></label>\r\n                    <div class=\"input-group\">\r\n \t\t\t\t\t\t<input type=\"text\" name=\"male\" class=\"form-control\" id=\"male\" value=\"";
+echo set_value("male");
+echo "\" placeholder=\"Enter Total No. of Male\" required=\"\">\r\n                        </div>\r\n                    <div class=\"invalid-feedback\"> Please select Male. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  <div class=\"col-md-4 mb-3\">\r\n                    <label class=\"form-label\" for=\"male\"><span id=\"title\">Total Female </span> <span class=\"text-danger\">*</span></label>\r\n                    <div class=\"input-group\">\r\n \t\t\t\t\t\t<input type=\"text\" name=\"female\" class=\"form-control\" id=\"female\" value=\"";
+echo set_value("female");
+echo "\" placeholder=\"Enter Total No. of female\" required=\"\">\r\n                        </div>\r\n                    <div class=\"invalid-feedback\"> Please select Female. </div>\r\n                  </div>\r\n-->                  \r\n                  \r\n                  \r\n                  <div class=\"col-md-4 mb-3\">\r\n                    <label class=\"form-label\" for=\"gender\"><span id=\"title\">Diversity  </span> <span class=\"text-danger\">*</span></label>\r\n                    <div class=\"input-group\">\r\n                    <select name=\"diversity\" id=\"diversity\" class=\"custom-select\">\r\n                      <option value=\"\">Select Diversity</option>\r\n                      <option value=\"PWD\">PWD</option>\r\n                      <option value=\"LGBTQ\">LGBTQ</option>\r\n                    </select>\r\n                    </div>\r\n                    <div class=\"invalid-feedback\"> Please select Diversity. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  <div class=\"col-md-4 mb-3\">\r\n                    <label class=\"form-label\" for=\"diversity_male\"><span id=\"title\">Total Male </span> <span class=\"text-danger\">*</span></label>\r\n                    <div class=\"input-group\">\r\n \t\t\t\t\t\t<input type=\"text\" name=\"diversity_male\" class=\"form-control\" id=\"diversity_male\" value=\"";
+echo set_value("diversity_male");
+echo "\" placeholder=\"Enter Total No. of Male\" required=\"\">\r\n                        </div>\r\n                    <div class=\"invalid-feedback\"> Please select Male. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  <div class=\"col-md-4 mb-3\">\r\n                    <label class=\"form-label\" for=\"diversity_female\"><span id=\"title\">Total Female </span> <span class=\"text-danger\">*</span></label>\r\n                    <div class=\"input-group\">\r\n \t\t\t\t\t\t<input type=\"text\" name=\"diversity_female\" class=\"form-control\" id=\"diversity_female\" value=\"";
+echo set_value("diversity_female");
+echo "\" placeholder=\"Enter Total No. of female\" required=\"\">\r\n                        </div>\r\n                    <div class=\"invalid-feedback\"> Please select Female. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  \r\n                  <div class=\"col-md-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"economic_status\"><span id=\"title\">Economic Status  </span> </label>\r\n                    <div class=\"input-group\">\r\n                    <select name=\"economic_status\" id=\"economic_status\" class=\"custom-select\">\r\n                      <option value=\"\">Select Economic Status</option>\r\n                      <option value=\"ES-1\">ES-1</option>\r\n                      <option value=\"ES-2\">ES-2</option>\r\n                      <option value=\"ES-3\">ES-3</option>\r\n                    </select>\r\n                    </div>\r\n                    <div class=\"invalid-feedback\"> Please select Economic Status. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  \r\n                  \r\n                  <div class=\"col-md-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"place_residence\"><span id=\"title\">Place of Residence </span> <span class=\"text-danger\">*</span></label>\r\n                    <div class=\"input-group\">\r\n                      <input type=\"text\" name=\"place_residence\" class=\"form-control\" id=\"place_residence\" value=\"";
+echo set_value("place_residence");
+echo "\" placeholder=\"Please Enter Place of Residence\" required=\"\">\r\n                    </div>\r\n                    <div class=\"invalid-feedback\"> Please enter Place of Residence. </div>\r\n                  </div>\r\n\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"countries\">County <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"county\" id=\"county\" class=\"custom-select\" >\r\n                                <option value=\"\">Select county</option>\r\n                                ";
 $db = Config\Database::connect();
 $query = $db->query("SELECT name, id FROM mas_county ");
 $results = $query->getResult();
@@ -68,78 +78,106 @@ foreach ($results as $row) {
     echo "                                <option value=\"";
     echo $row->id;
     echo "\" ";
-    if (set_value("counties") == $row->id) {
+    if (set_value("countries") == $row->id) {
         echo "selected=\"selected\"";
     }
     echo ">";
     echo $row->name;
     echo "</option>\r\n                                ";
 }
-echo "                                </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid County. </div>\r\n                  </div>\r\n\r\n\r\n<div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">Case Category reported  <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"case_category[]\" id=\"case_category\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                  <option value=\"\">Select Type of Case reported</option>\r\n                                  <option value=\"C001\" ";
-if (set_value("case_category") == "C001") {
+echo "                                </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid County. </div>\r\n                  </div>\r\n\r\n\r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"marital_status\">Marital Status of Survivor <span class=\"text-danger\">*</span></label>\r\n                    <select name=\"marital_status\" id=\"marital_status\" class=\"custom-select select2\">\r\n                      <option value=\"\">Select Marital Status</option>\r\n                      <option value=\"Single\" ";
+if (set_value("marital_status") == "Single") {
     echo "selected=\"selected\"";
 }
-echo ">Waste Management</option>\r\n                                  <option value=\"C002\" ";
-if (set_value("case_category") == "C002") {
+echo ">Single</option>\r\n                      <option value=\"Married\" ";
+if (set_value("marital_status") == "Married") {
     echo "selected=\"selected\"";
 }
-echo ">Water Pollution</option>\r\n                                  <option value=\"C003\" ";
-if (set_value("case_category") == "C003") {
+echo ">Married</option>\r\n                      <option value=\"Cohabiting\" ";
+if (set_value("marital_status") == "Cohabiting") {
     echo "selected=\"selected\"";
 }
-echo ">Air Pollution</option>\r\n                                  <option value=\"C004\" ";
-if (set_value("case_category") == "C004") {
+echo ">Cohabiting</option>\r\n                      <option value=\"Divorced\" ";
+if (set_value("marital_status") == "Divorced") {
     echo "selected=\"selected\"";
 }
-echo ">Noise Pollution</option>\r\n                                  <option value=\"C005\" ";
-if (set_value("case_category") == "C005") {
+echo ">Divorced</option>\r\n                      <option value=\"Separated\" ";
+if (set_value("marital_status") == "Separated") {
     echo "selected=\"selected\"";
 }
-echo ">Soil Degradation</option>\r\n </select>\r\n                    \t<div class=\"invalid-feedback\"> Please select a valid Case Category reported . </div>\r\n                  </div>\r\n\r\n\t\t\t\t  \r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"case_context\">Case Context <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"case_context[]\" id=\"case_context\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Case Context</option>\r\n                                  <option value=\"CT001\" ";
-if (set_value("case_context") == "CT001") {
+echo ">Separated</option>\r\n                      <option value=\"Widowed\" ";
+if (set_value("marital_status") == "Widowed") {
     echo "selected=\"selected\"";
 }
-echo ">Improper disposal of diapers</option>\r\n                                  <option value=\"CT002\" ";
-if (set_value("case_context") == "CT002") {
+echo ">Widowed</option>\r\n                       <option value=\"N/A\" ";
+if (set_value("marital_status") == "N/A") {
     echo "selected=\"selected\"";
 }
-echo ">Littering in public spaces</option>\r\n                                  \r\n                                  <option value=\"CT003\" ";
-if (set_value("case_context") == "CT003") {
+echo ">N/A</option>\r\n                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Marital Status of Survivor. </div>\r\n                  </div>\r\n\r\n\r\n\r\n                     \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n<!--------------------------------------------------Annual Repoting Timeline has Ended-------------------------------------------->                   \r\n\r\n\r\n\r\n\r\n\t\t\t\t  \r\n                  \r\n\t\t\t\t  \r\n                  \r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"countries\">Type of GBV reported  <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"type_gbv[]\" id=\"type_gbv\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                  <option value=\"\">Select Type of GBV reported</option>\r\n                                  <option value=\"Rape\" ";
+if (set_value("type_gbv") == "Rape") {
     echo "selected=\"selected\"";
 }
-echo ">Discharging untreated sewage into rivers</option>\r\n                                  \r\n                                  <option value=\"CT004\" ";
-if (set_value("case_context") == "CT004") {
+echo ">Rape</option>\r\n                                  <option value=\"Defilement\" ";
+if (set_value("type_gbv") == "Defilement") {
     echo "selected=\"selected\"";
 }
-echo ">Dumping plastics in lakes</option>\r\n                                 \r\n                                  <option value=\"CT005\" ";
-if (set_value("case_context") == "CT005") {
+echo ">Defilement</option>\r\n                                  <option value=\"Sexual Assault\" ";
+if (set_value("type_gbv") == "Sexual Assault") {
     echo "selected=\"selected\"";
 }
-echo ">Burning of waste in open spaces</option>\r\n                                \r\n                                  <option value=\"CT006\" ";
-if (set_value("case_context") == "CT006") {
+echo ">Sexual Assault</option>\r\n                                  <option value=\"Physical Assault\" ";
+if (set_value("type_gbv") == "Physical Assault") {
     echo "selected=\"selected\"";
 }
-echo ">Excessive vehicle emissions</option>\r\n                                \r\n                                  <option value=\"CT007\" ";
-if (set_value("case_context") == "CT007") {
+echo ">Physical Assault</option>\r\n                                  <option value=\"Sodomy\" ";
+if (set_value("type_gbv") == "Sodomy") {
     echo "selected=\"selected\"";
 }
-echo ">Loud music from nightclubs in residential areas</option>\r\n                                \r\n                                  <option value=\"CT008\" ";
-if (set_value("case_context") == "CT008") {
+echo ">Sodomy</option>\r\n                                  <option value=\"Incest\" ";
+if (set_value("type_gbv") == "Incest") {
     echo "selected=\"selected\"";
 }
-echo ">Construction noise during prohibited hours</option>\r\n                                \r\n                                  <option value=\"CT009\" ";
-if (set_value("case_context") == "CT009") {
+echo ">Incest</option>\r\n                                  <option value=\"Forced Marriage\" ";
+if (set_value("type_gbv") == "Forced Marriage") {
     echo "selected=\"selected\"";
 }
-echo ">Sand harvesting</option>\r\n                                \r\n                                  <option value=\"CT010\" ";
-if (set_value("case_context") == "CT010") {
+echo ">Forced Marriage</option>\r\n                                  <option value=\"Denial of Resources\" ";
+if (set_value("type_gbv") == "Denial of Resources") {
     echo "selected=\"selected\"";
 }
-echo ">Illegal mining activities</option>\r\n                                \r\n                                  <option value=\"CT011\" ";
-if (set_value("case_context") == "CT011") {
+echo ">Denial of Resources</option>\r\n                                  <option value=\"Psych\" ";
+if (set_value("type_gbv") == "Psych") {
     echo "selected=\"selected\"";
 }
-echo ">Deforestation</option>\r\n                                 \r\n                                </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Case Context. </div>\r\n                  </div>\r\n                  \r\n                  \r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"incidents_referred\">Incidents referred from other service providers <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"incidents_referred[]\" id=\"incidents_referred\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Incidents referred</option>\r\n                                  <option value=\"Health\" ";
+echo ">Psych</option>\r\n                                  <option value=\"Emotional Abuse\" ";
+if (set_value("type_gbv") == "Emotional Abuse") {
+    echo "selected=\"selected\"";
+}
+echo ">Emotional Abuse</option>\r\n                                </select>\r\n                    \t<div class=\"invalid-feedback\"> Please select a valid Type of GBV reported . </div>\r\n                  </div>\r\n\r\n\t\t\t\t  \r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"case_context\">Case Context <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"case_context[]\" id=\"case_context\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Case Context</option>\r\n                                  <option value=\"Intimate Partner Violence\" ";
+if (set_value("case_context") == "Intimate Partner Violence") {
+    echo "selected=\"selected\"";
+}
+echo ">Intimate Partner Violence</option>\r\n                                  <option value=\"Domestic Violence\" ";
+if (set_value("case_context") == "Domestic Violence") {
+    echo "selected=\"selected\"";
+}
+echo ">Domestic Violence</option>\r\n                                  \r\n                                  <option value=\"Child Abuse\" ";
+if (set_value("case_context") == "Child Abuse") {
+    echo "selected=\"selected\"";
+}
+echo ">Child Abuse</option>\r\n                                  \r\n                                  <option value=\"Early Mariage\" ";
+if (set_value("case_context") == "Early Mariage") {
+    echo "selected=\"selected\"";
+}
+echo ">Early Mariage</option>\r\n                                 \r\n                                  <option value=\"Possible Sexual Exploitation\" ";
+if (set_value("case_context") == "Possible Sexual Exploitation") {
+    echo "selected=\"selected\"";
+}
+echo ">Possible Sexual Exploitation</option>\r\n                                \r\n                                  <option value=\"Harmful Traditional Practices\" ";
+if (set_value("case_context") == "Harmful Traditional Practices") {
+    echo "selected=\"selected\"";
+}
+echo ">Harmful Traditional Practices</option>\r\n                                 \r\n                                </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Case Context. </div>\r\n                  </div>\r\n                  \r\n                  \r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"incidents_referred\">Incidents referred from other service providers <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"incidents_referred[]\" id=\"incidents_referred\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Incidents referred</option>\r\n                                  <option value=\"Health\" ";
 if (set_value("incidents_referred") == "Health") {
     echo "selected=\"selected\"";
 }
@@ -147,7 +185,15 @@ echo ">Health</option>\r\n                                \r\n                  
 if (set_value("incidents_referred") == "Medical Service") {
     echo "selected=\"selected\"";
 }
-echo ">Medical Service</option>\r\n                                 \r\n                                  <option value=\"Police\" ";
+echo ">Medical Service</option>\r\n                                 \r\n                                  <option value=\"Psychosocial\" ";
+if (set_value("incidents_referred") == "Psychosocial") {
+    echo "selected=\"selected\"";
+}
+echo ">Psychosocial</option>\r\n                                 \r\n                                  <option value=\"Counseling Service\" ";
+if (set_value("incidents_referred") == "Counseling Service") {
+    echo "selected=\"selected\"";
+}
+echo ">Counseling Service</option>\r\n                                  <option value=\"Police\" ";
 if (set_value("incidents_referred") == "Police") {
     echo "selected=\"selected\"";
 }
@@ -179,7 +225,11 @@ echo ">School Official</option>\r\n                                  \r\n       
 if (set_value("incidents_referred") == "Community Leader") {
     echo "selected=\"selected\"";
 }
-echo ">Community Leader</option>\r\n           <option value=\"Safehouse\" ";
+echo ">Community Leader</option>\r\n                                 \r\n                                  <option value=\"Children Department\" ";
+if (set_value("incidents_referred") == "Children Department") {
+    echo "selected=\"selected\"";
+}
+echo ">Children Department</option>\r\n                                  <option value=\"Safehouse\" ";
 if (set_value("incidents_referred") == "Safehouse") {
     echo "selected=\"selected\"";
 }
@@ -211,7 +261,23 @@ echo ">Health Services</option>\r\n                      <option value=\"Medical
 if (set_value("services_provided") == "Medical Services") {
     echo "selected=\"selected\"";
 }
-echo ">Medical Services</option>\r\n                      </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Services Provided . </div>\r\n                  </div>\r\n                    \r\n\t\t\t\t\t\r\n\r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"name\"><span id=\"title\">More information on the services provided </span> </label>\r\n                    <textarea  name=\"more_details_on_services_provided\" class=\"form-control\" id=\"more_details_on_services_provided\" placeholder=\"Please enter more details on Services Provided if any\">";
+echo ">Medical Services</option>\r\n                      <option value=\"Psychosocial Services\" ";
+if (set_value("services_provided") == "Psychosocial Services") {
+    echo "selected=\"selected\"";
+}
+echo ">Psychosocial Services</option>\r\n                      <option value=\"Counselling Services\" ";
+if (set_value("services_provided") == "Counselling Services") {
+    echo "selected=\"selected\"";
+}
+echo ">Counselling Services</option>\r\n                      <option value=\"Mediation Services\" ";
+if (set_value("services_provided") == "Mediation Services") {
+    echo "selected=\"selected\"";
+}
+echo ">Mediation Services</option>\r\n                      <option value=\"Court Process\" ";
+if (set_value("services_provided") == "Court Process") {
+    echo "selected=\"selected\"";
+}
+echo ">Court Process</option>\r\n                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Services Provided . </div>\r\n                  </div>\r\n                    \r\n\t\t\t\t\t\r\n\r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"name\"><span id=\"title\">More information on the services provided </span> </label>\r\n                    <textarea  name=\"more_details_on_services_provided\" class=\"form-control\" id=\"more_details_on_services_provided\" placeholder=\"Please enter more details on Services Provided if any\">";
 echo set_value("more_details_on_services_provided");
 echo "</textarea>\r\n                    <div class=\"invalid-feedback\"> Please enter more information on the services provided. </div>\r\n                  </div>\r\n\t\t\t\t  \r\n\t\t\t\t\t\r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"case_status\">Case Status <span class=\"text-danger\">*</span></label>\r\n                    <select name=\"case_status\" id=\"case_status\" class=\"custom-select select2\">\r\n                      <option value=\"\">Select Case Status</option>\r\n                      <option value=\"New\" ";
 if (set_value("case_status") == "New") {
@@ -225,7 +291,11 @@ echo ">Ongoing</option>\r\n                      <option value=\"Stood over Gene
 if (set_value("case_status") == "Stood over Generally") {
     echo "selected=\"selected\"";
 }
-echo ">Stood over Generally(SOG)</option>\r\n                      <option value=\"Closed\" ";
+echo ">Stood over Generally(SOG)</option>\r\n                      <option value=\"Out of Court Settlement\" ";
+if (set_value("case_status") == "Out of Court Settlement") {
+    echo "selected=\"selected\"";
+}
+echo ">Out of Court Settlement</option>\r\n                      <option value=\"Closed\" ";
 if (set_value("case_status") == "Closed") {
     echo "selected=\"selected\"";
 }

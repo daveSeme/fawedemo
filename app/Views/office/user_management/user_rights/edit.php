@@ -49,7 +49,7 @@ foreach ($results1 as $row_group) {
         $type = 2;
     }
     if (in_array($type, $permission)) {
-        echo "\t\t\t\t  \r\n                  \r\n                    <tr>\r\n                      <td colspan=\"9\" bgcolor=\"#a0833c\"><h3><span class=\"style1\">";
+        echo "\t\t\t\t  \r\n                  \r\n                    <tr>\r\n                      <td colspan=\"9\" bgcolor=\"#feffff\"><h3><span class=\"style1\">";
         echo $row_group["group_name"];
         echo "</span>\r\n                          <input name=\"checkbox\" type=\"checkbox\" id=\"cbgroup1_";
         echo $i;

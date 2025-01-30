@@ -8,10 +8,10 @@
 
 echo "<script src=\"";
 echo base_url();
-echo "/public/js/menu/ajax.js\"></script>\r\n";
-echo "<script> $('body').delegate('#project', 'change', function () { if ($(this).val() != '') { val = $(this).val(); $.ajax({ type: \"GET\", \turl: \"";
-echo base_url() . "/reporting/project_data/beneficiaries_report/get_plan" . "\",";
-echo "data:'project='+val , success: function(data){ $(\"#year\").html(data); //console.log(data); \r\n} }); } }); </script> \r\n";
-echo "<script>$(document).ready(function () { var val = $('#type_beneficiaries').val(); if (val == 'Direct Beneficiaries') {\r\n $(\"#DIV-direct-Benf\").fadeIn(); $(\"#DIV-Indirect-Benf\").fadeOut(); } if (val == 'Indirect Beneficiaries') { \r\n $(\"#DIV-Indirect-Benf\").fadeIn(); $(\"#DIV-direct-Benf\").fadeOut(); }  }); $('body').delegate('#type_beneficiaries', 'change', function () { if ($(this).val() != '') { //alert($(this).val()); \r\n if ($(this).val() == 'Direct Beneficiaries') { //alert($(this).val()); \r\n $(\"#DIV-direct-Benf\").fadeIn(); $(\"#DIV-Indirect-Benf\").fadeOut(); } if ($(this).val() == 'Indirect Beneficiaries') { //alert($(this).val()); \r\n $(\"#DIV-Indirect-Benf\").fadeIn(); $(\"#DIV-direct-Benf\").fadeOut(); } } }); </script>";
+echo "/public/js/menu/ajax.js\"></script>\r\n<script>\r\n\r\n\t// get the project value\r\n    \$('body').delegate('#year', 'change', function () {\r\n\t\t\t\tif(\$(\"#project\").val() !=\"\") { project =  \$(\"#project\").val(); } else{project = 0}\r\n\r\n \t\t \r\n        if (\$(this).val() != '') {\r\n\t\t\t\r\n\t\t\tval = \$(this).val();\r\n\t\t\t\r\n\tOpenAjaxPostCmd('";
+echo base_url() . "/reporting/project_data/project_annual_indicator_tracking_report/get_indicator_by_year/";
+echo "'+val+'/'+project,'project_div','validate','loading','','2','2');\r\n\t\t\t\r\n\t\t\t \r\n\t\t\t\r\n\t\t\t}\r\n    });\r\n\t\r\n\t \r\n\t   // get the ndicator value\r\n    \$('body').delegate('#project', 'change', function () {\r\n\t\t\r\n\t\t\r\n\t\t\r\n        if (\$(this).val() != '') {\r\n\t\t\t\r\n\t\t\tval = \$(this).val();\r\n\t\r\n\t\t\t\r\n\t\t\t\$.ajax({          \r\n        \ttype: \"GET\",\r\n        \turl: \"";
+echo base_url() . "/reporting/project_data/project_annual_indicator_tracking_report";
+echo "/get_plan\",\r\n        \tdata:'project='+val ,\r\n        \tsuccess: function(data){\r\n        \t\t\$(\"#year\").html(data);\r\n\t\t\t\t//console.log(data);\r\n        \t}\r\n\t}); \r\n\t\t\t\r\n\t\t\t}\r\n    });\r\n\r\n\t\r\n</script>";
 
 ?>

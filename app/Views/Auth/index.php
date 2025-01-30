@@ -6,37 +6,29 @@
  * @ Release: 01/09/2021
  */
 
- $login = ["name" => "login", "id" => "login", "class" => "login", "id" => "login", "value" => set_value("login"), "maxlength" => 80, "size" => 30];
- if ($login_by_username && $login_by_email) {
-     $login_label = "Email or Username";
-     $field_type = "text";
- } else {
-     if ($login_by_username) {
-         $login_label = "Login";
-         $field_type = "text";
-     } else {
-         $login_label = "Email";
-         $field_type = "email";
-     }
- }
-echo "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"utf-8\">\r\n        <title>Login - M&E System</title>\r\n        <meta name=\"description\" content=\"Login\">\r\n      ";
+$login = ["name" => "login", "id" => "login", "class" => "login", "id" => "login", "value" => set_value("login"), "maxlength" => 80, "size" => 30];
+if ($login_by_username && $login_by_email) {
+    $login_label = "Email or Username";
+    $field_type = "text";
+} else {
+    if ($login_by_username) {
+        $login_label = "Login";
+        $field_type = "text";
+    } else {
+        $login_label = "Email";
+        $field_type = "email";
+    }
+}
+echo "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"utf-8\">\r\n<title>Login - M&E System</title>\r\n<meta name=\"description\" content=\"Login\">\r\n";
 include "login-top.php";
-echo "  <div class=\"page-wrapper auth\">\r\n        <div class=\"page-inner bg-brand-gradient\">\r\n            <div class=\"page-content-wrapper bg-transparent m-0\">     \r\n\t\t\t";
+echo "<div class=\"page-wrapper auth\">\r\n  <div class=\"page-inner bg-brand-gradient\">\r\n    <div class=\"page-content-wrapper bg-transparent m-0\">\r\n      ";
 include "login-header.php";
-echo " \r\n\t\t\t\r\n\t\t\t<div class=\"flex-1\" style=\"background: url(";
+echo "      <div class=\"flex-1\" style=\"background: url(";
 echo base_url();
-echo "/public/img/svg/pattern-1.svg) no-repeat center bottom fixed; background-size: cover;\">\r\n";
-echo "<div class=\"container py-4 py-lg-5 my-lg-5 px-4 px-sm-0\">\r\n                            <div class=\"row\">\r\n                                ";
-// echo "<div class=\"col-xl-12\">\r\n                                    <h2 class=\"fs-xxl fw-500 mt-4 text-white text-center\">\r\n                                        \"Forgot Password ?\"\r\n                                        <small class=\"h3 fw-300 mt-3 mb-5 text-white opacity-60 hidden-sm-down\">\r\n                                            Not a problem, happens to the best of us. Just use the form below to reset it!\r\n                                        </small>\r\n                                    </h2>\r\n                                </div>\r\n                                ";
-echo "<div class=\"col-xl-6 ml-auto mr-auto\">\r\n";
-echo "<div class=\"col col-md-12 col-lg-12 text-center mb-4\">\r\n            <img src=\"";
+echo "/public/img/svg/pattern-1.svg) no-repeat center bottom fixed; background-size: cover;\">\r\n        <div class=\"container py-4 py-lg-5 my-lg-5 px-4 px-sm-0\">\r\n          <div class=\"row\">\r\n            <div class=\"col col-md-6 col-lg-7 hidden-sm-down\">\r\n            <img src=\"";
 echo base_url();
-echo "/public/img/logo-big.png\" alt=\"M&E Online\" aria-roledescription=\"logo\" style=\" height:160px;\"> ";
-echo "<h2 class=\"fw-500 mt-4 text-white\"> Monitoring & Evaluation System</h2>";
-echo "\r\n </div>";
-echo "<div class=\"card p-4 rounded-plus bg-faded\">\r\n                                        \r\n\t\t\t\t\t\t\t\t\t\t ";
-echo "\t\r\n                    ";
-echo "<form method=\"post\" id=\"js-login\" novalidate action=\"";
+echo "/public/img/logo-big.png\" alt=\"M&E Online\" aria-roledescription=\"logo\" style=\" height:165px;width:auto;\"> \r\n              <h2 class=\"fw-500 mt-4 text-Blue4\"> Monitoring & Evaluation Management Information System For FAWE \r\n              <small class=\"h3 fw-300 mt-3 text-black opacity-60\"> The Forum for African Women Educationalists (FAWE) is a pan-African Non-Governmental Organisation founded in 1992 by five women ministers of education to promote girls’ and women’s education in sub-Saharan Africa in line with Education for All.FAWE is a non-political, voluntary, charitable, non-sectarian, not-for-profit organisation and does not discriminate on the basis of race, ideology, colour, nationality or religious persuasion.The mission of FAWE is to promote gender responsive policies, practices, and attitudes in education to enhance equal opportunities for African girls and women.
+</small>\r\n\r\n\t\t\t<small class=\"h3 fw-300 mt-3 text-white opacity-60\"></small>\r\n \r\n              </h2>\r\n              \r\n            </div>\r\n            <div class=\"col-sm-12 col-md-6 col-lg-5 col-xl-4 ml-auto\">\r\n              <h1 class=\"text-white fw-300 mb-3 d-sm-block d-md-none\"> Secure login </h1>\r\n              <div class=\"card p-4 rounded-plus bg-faded\">\r\n                <form method=\"post\" id=\"js-login\" novalidate action=\"";
 echo site_url("auth/login");
 echo "\">\r\n                  <div class=\"form-group\">\r\n                    <div class=\"alert alert-info\" style=\"padding:1rem 10px;\"> <strong>Note:</strong> For Registered Users and Administrators! </div>\r\n                  </div>\r\n                  ";
 if (!empty($errors)) {
@@ -73,15 +65,13 @@ echo " </div>\r\n                    </div>\r\n                  </div>\r\n     
                             <div class=\"col-lg-6 pl-lg-1 my-2\">\r\n                      
 <button id=\"js-login-btn\" type=\"submit\" class=\"btn btn-primary btn-block btn-lg\">Sign in</button>\r\n       
 
-<a href=\"http://localhost:8888/creaw/Auth/microsoft_login?oauth_init=1\" style='display:none'>Sign in with Microsoft</a>\r\n
+
    
 
 
-</div>\r\n                  </div>\r\n                </form>\r\n";
-echo "</div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n          ";
+</div>\r\n                  </div>\r\n                </form>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          ";
 include "login-footer-top.php";
-echo "        </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <!-- BEGIN Color profile -->\r\n        <!-- this area is hidden and will not be seen on screens or screen readers -->\r\n        <!-- we use this only for CSS color refernce for JS stuff -->\r\n        <p id=\"js-color-profile\" class=\"d-none\">\r\n            <span class=\"color-primary-50\"></span>\r\n            <span class=\"color-primary-100\"></span>\r\n            <span class=\"color-primary-200\"></span>\r\n            <span class=\"color-primary-300\"></span>\r\n            <span class=\"color-primary-400\"></span>\r\n            <span class=\"color-primary-500\"></span>\r\n            <span class=\"color-primary-600\"></span>\r\n            <span class=\"color-primary-700\"></span>\r\n            <span class=\"color-primary-800\"></span>\r\n            <span class=\"color-primary-900\"></span>\r\n            <span class=\"color-info-50\"></span>\r\n            <span class=\"color-info-100\"></span>\r\n            <span class=\"color-info-200\"></span>\r\n            <span class=\"color-info-300\"></span>\r\n            <span class=\"color-info-400\"></span>\r\n            <span class=\"color-info-500\"></span>\r\n            <span class=\"color-info-600\"></span>\r\n            <span class=\"color-info-700\"></span>\r\n            <span class=\"color-info-800\"></span>\r\n            <span class=\"color-info-900\"></span>\r\n            <span class=\"color-danger-50\"></span>\r\n            <span class=\"color-danger-100\"></span>\r\n            <span class=\"color-danger-200\"></span>\r\n            <span class=\"color-danger-300\"></span>\r\n            <span class=\"color-danger-400\"></span>\r\n            <span class=\"color-danger-500\"></span>\r\n            <span class=\"color-danger-600\"></span>\r\n            <span class=\"color-danger-700\"></span>\r\n            <span class=\"color-danger-800\"></span>\r\n            <span class=\"color-danger-900\"></span>\r\n            <span class=\"color-warning-50\"></span>\r\n            <span class=\"color-warning-100\"></span>\r\n            <span class=\"color-warning-200\"></span>\r\n            <span class=\"color-warning-300\"></span>\r\n            <span class=\"color-warning-400\"></span>\r\n            <span class=\"color-warning-500\"></span>\r\n            <span class=\"color-warning-600\"></span>\r\n            <span class=\"color-warning-700\"></span>\r\n            <span class=\"color-warning-800\"></span>\r\n            <span class=\"color-warning-900\"></span>\r\n            <span class=\"color-success-50\"></span>\r\n            <span class=\"color-success-100\"></span>\r\n            <span class=\"color-success-200\"></span>\r\n            <span class=\"color-success-300\"></span>\r\n            <span class=\"color-success-400\"></span>\r\n            <span class=\"color-success-500\"></span>\r\n            <span class=\"color-success-600\"></span>\r\n            <span class=\"color-success-700\"></span>\r\n            <span class=\"color-success-800\"></span>\r\n            <span class=\"color-success-900\"></span>\r\n            <span class=\"color-fusion-50\"></span>\r\n            <span class=\"color-fusion-100\"></span>\r\n            <span class=\"color-fusion-200\"></span>\r\n            <span class=\"color-fusion-300\"></span>\r\n            <span class=\"color-fusion-400\"></span>\r\n            <span class=\"color-fusion-500\"></span>\r\n            <span class=\"color-fusion-600\"></span>\r\n            <span class=\"color-fusion-700\"></span>\r\n            <span class=\"color-fusion-800\"></span>\r\n            <span class=\"color-fusion-900\"></span>\r\n        </p>\r\n       ";
+echo "        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<!-- BEGIN Color profile --> \r\n<!-- this area is hidden and will not be seen on screens or screen readers --> \r\n<!-- we use this only for CSS color refernce for JS stuff -->\r\n<!--<p id=\"js-color-profile\" class=\"d-none\"> <span class=\"color-primary-50\"></span> <span class=\"color-primary-100\"></span> <span class=\"color-primary-200\"></span> <span class=\"color-primary-300\"></span> <span class=\"color-primary-400\"></span> <span class=\"color-primary-500\"></span> <span class=\"color-primary-600\"></span> <span class=\"color-primary-700\"></span> <span class=\"color-primary-800\"></span> <span class=\"color-primary-900\"></span> <span class=\"color-info-50\"></span> <span class=\"color-info-100\"></span> <span class=\"color-info-200\"></span> <span class=\"color-info-300\"></span> <span class=\"color-info-400\"></span> <span class=\"color-info-500\"></span> <span class=\"color-info-600\"></span> <span class=\"color-info-700\"></span> <span class=\"color-info-800\"></span> <span class=\"color-info-900\"></span> <span class=\"color-danger-50\"></span> <span class=\"color-danger-100\"></span> <span class=\"color-danger-200\"></span> <span class=\"color-danger-300\"></span> <span class=\"color-danger-400\"></span> <span class=\"color-danger-500\"></span> <span class=\"color-danger-600\"></span> <span class=\"color-danger-700\"></span> <span class=\"color-danger-800\"></span> <span class=\"color-danger-900\"></span> <span class=\"color-warning-50\"></span> <span class=\"color-warning-100\"></span> <span class=\"color-warning-200\"></span> <span class=\"color-warning-300\"></span> <span class=\"color-warning-400\"></span> <span class=\"color-warning-500\"></span> <span class=\"color-warning-600\"></span> <span class=\"color-warning-700\"></span> <span class=\"color-warning-800\"></span> <span class=\"color-warning-900\"></span> <span class=\"color-success-50\"></span> <span class=\"color-success-100\"></span> <span class=\"color-success-200\"></span> <span class=\"color-success-300\"></span> <span class=\"color-success-400\"></span> <span class=\"color-success-500\"></span> <span class=\"color-success-600\"></span> <span class=\"color-success-700\"></span> <span class=\"color-success-800\"></span> <span class=\"color-success-900\"></span> <span class=\"color-fusion-50\"></span> <span class=\"color-fusion-100\"></span> <span class=\"color-fusion-200\"></span> <span class=\"color-fusion-300\"></span> <span class=\"color-fusion-400\"></span> <span class=\"color-fusion-500\"></span> <span class=\"color-fusion-600\"></span> <span class=\"color-fusion-700\"></span> <span class=\"color-fusion-800\"></span> <span class=\"color-fusion-900\"></span> </p>\r\n-->";
 include "login-footer.php";
-echo " ";
 
 ?>

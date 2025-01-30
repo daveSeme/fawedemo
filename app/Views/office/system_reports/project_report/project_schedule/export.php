@@ -28,7 +28,7 @@ $results_plan = $query_plan->getResult();
 $row_plan = $query_plan->getRow();
 echo "\r\n";
 if (!empty($results_plan)) {
-    echo "\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"1\" style=\"width:100%;border-collapse:collapse;\">\r\n <thead class=\"bg-highlight\">\r\n      <tr>\r\n       <th>Phase Title</th>\r\n       <th>Start Date</th>\r\n       <th>End Date</th>\r\n       <th>Duration</th>\r\n       <th>Reporting Schedule</th>\r\n       <th>Reporting Timelines</th>\r\n       <th>Counties</th>\r\n       <th>Person Responsible</th>\r\n       <th>Funding Partner</th>\r\n       <th>Budget</th>\r\n       <th>Implementing partners</th>\r\n      </tr>\r\n  </thead>\r\n  \r\n  <tbody id=\"project_div\">\r\n      \r\n  ";
+    echo "\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"1\" style=\"width:100%;border-collapse:collapse;\">\r\n <thead class=\"bg-highlight\">\r\n      <tr>\r\n       <th>Phase Title</th>\r\n       <th>Start Date</th>\r\n       <th>End Date</th>\r\n       <th>Duration</th>\r\n       <th>Reporting Schedule</th>\r\n       <th>Reporting Timelines</th>\r\n       <th>countries</th>\r\n       <th>Person Responsible</th>\r\n       <th>Funding Partner</th>\r\n       <th>Budget</th>\r\n       <th>Implementing partners</th>\r\n      </tr>\r\n  </thead>\r\n  \r\n  <tbody id=\"project_div\">\r\n      \r\n  ";
     if ($project == "All") {
         $query_mon_progress_report = $db->query("select * from project  ");
     } else {

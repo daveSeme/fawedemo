@@ -136,7 +136,7 @@ echo ">\r\n          <div class=\"row\">\r\n            <div class=\"col-md-3\">
 echo $stdata["rs_annual_month"];
 echo " </div>\r\n            <div class=\"col-md-3\"> ";
 echo $stdata["rs_annual_month_date"];
-echo " </div>\r\n          </div>\r\n        </div>\r\n      </div></td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"form-label\">Counties</td>\r\n    <td >";
+echo " </div>\r\n          </div>\r\n        </div>\r\n      </div></td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"form-label\">countries</td>\r\n    <td >";
 $db = Config\Database::connect();
 $query_reg = $db->query("select name FROM project_map_county left join mas_county on project_map_county.county_id=mas_county.id where project_id=\"" . $id . "\" ");
 $county_listar = $query_reg->getResultArray();

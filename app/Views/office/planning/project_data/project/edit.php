@@ -14,7 +14,7 @@ echo "/public/js/jquery.min.js\"></script>\r\n\r\n<script src=\"";
 echo base_url();
 echo "/public/js/select2/select2.min.js\" defer></script>\r\n\r\n<link href=\"";
 echo base_url();
-echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#counties').select2({placeholder: \"Select Counties\"});\r\n\t\$('#thematic_area').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n    \$('#person_responsible').select2();\r\n    \$('#implementing_partner').select2();\r\n    \$('#notification_recepient').select2();\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
+echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#countries').select2({placeholder: \"Select countries\"});\r\n\t\$('#thematic_area').select2({placeholder: \"Select Thematic Area\"});\r\n\t\r\n    \$('#person_responsible').select2();\r\n    \$('#implementing_partner').select2();\r\n    \$('#notification_recepient').select2();\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
 echo base_url() . "/home";
 echo "\">Home</a></li>\r\n     <li class=\"breadcrumb-item active\">";
 echo $main_title;
@@ -39,11 +39,9 @@ $insert_url = "planning/project/edit/" . $stdata["id"];
 echo form_open($insert_url, "method=\"post\" id=\"Form\"  enctype=\"multipart/form-data\" class=\"needs-validation\" novalidate");
 echo "            \r\n              <div class=\"panel-content\">\r\n                <div class=\"form-row\">\r\n\r\n\r\n\t\t\t\t<!-- Form Starts here  --> \r\n\t\t\t\t\r\n\t\t\t\t \r\n                  <input type=\"hidden\" name=\"id\" class=\"form-control\" id=\"id\" value=\"";
 echo $stdata["id"];
-echo "\">\r\n\t\t\t\t  \r\n       ";
-// echo "          \r\n\t\t\t\t  \r\n\t\t\t\t\r\n\t\t\t\t  \r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"name\"><span id=\"title\">Project Code</span> </label>\r\n                    <input type=\"text\" name=\"project_code\" class=\"form-control\" id=\"project_code\" value=\"";
-// echo $stdata["project_code"];
-// echo "\"  placeholder=\"Please enter Project Code\">\r\n                    <div class=\"invalid-feedback\"> Please enter project code. </div>\r\n                  </div>\r\n                  \r\n\t\t\t\t  \r\n\t\t\t\t  \r\n               \r\n                  \r\n                \r\n                  \r\n\t\t\t\t  \r\n\t\t\t\t  ";
-echo "<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"name\">Name <span class=\"text-danger\">*</span></label>\r\n                    <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Please enter name\" required value=\"";
+echo "\">\r\n\t\t\t\t  \r\n                 \r\n\t\t\t\t  \r\n\t\t\t\t\r\n\t\t\t\t  \r\n                  <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"name\"><span id=\"title\">Project Code</span> </label>\r\n                    <input type=\"text\" name=\"project_code\" class=\"form-control\" id=\"project_code\" value=\"";
+echo $stdata["project_code"];
+echo "\"  placeholder=\"Please enter Project Code\">\r\n                    <div class=\"invalid-feedback\"> Please enter project code. </div>\r\n                  </div>\r\n                  \r\n\t\t\t\t  \r\n\t\t\t\t  \r\n               \r\n                  \r\n                \r\n                  \r\n\t\t\t\t  \r\n\t\t\t\t    <div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"name\">Name <span class=\"text-danger\">*</span></label>\r\n                    <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Please enter name\" required value=\"";
 echo $stdata["name"];
 echo "\">\r\n                    <div class=\"invalid-feedback\"> Please enter name. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  <div class=\"col-md-6 mb-3\">\r\n                    <label class=\"form-label\">Start Date</label>\r\n                    <div class=\"input-group\">\r\n                      <input type=\"text\" name=\"start_date\" class=\"form-control\" readonly=\"\" value=\"";
 echo changeDateFormat("d-m-Y", $stdata["start_date"]);
@@ -94,7 +92,7 @@ if ($stdata["reporting_schedule"] == "Quarterly") {
     echo "selected=\"selected\"";
 }
 echo ">Quarterly</option>\r\n                      <option value=\"Bi-Annual\" ";
-if ($stdata["reporting_schedule"] == "Bi-Annual") {
+if ($stdata["reporting_schedule"] == "Bi-Annua") {
     echo "selected=\"selected\"";
 }
 echo ">Bi-Annual</option>\r\n                      <option value=\"Annual\" ";
@@ -111,11 +109,11 @@ echo ">\r\n                       \r\n                        <div class=\"row\"
 if ($stdata["rs_monthly_jan"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_jan"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_jan"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_jan"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -171,11 +169,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_feb"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_feb"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_feb"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_feb"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -231,11 +229,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_mar"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_mar"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_mar"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_mar"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -291,11 +289,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_apr"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_apr"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_apr"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_apr"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -351,11 +349,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_may"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_may"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_may"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_may"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -411,11 +409,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_june"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_june"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_june"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_june"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -471,11 +469,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_july"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_july"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_july"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_july"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -531,11 +529,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_aug"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_aug"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_aug"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_aug"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -591,11 +589,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_sep"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_sep"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_sep"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_sep"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -651,11 +649,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_oct"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_oct"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_oct"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_oct"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -711,11 +709,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_nov"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_nov"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_nov"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_nov"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -771,11 +769,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_monthly_dec"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_monthly_dec"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_monthly_dec"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_monthly_dec"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -837,11 +835,11 @@ echo ">\r\n\r\n\t\t\t\t\t\t<div class=\"row\">\r\n                          <div
 if ($stdata["rs_quarterly_q1_month"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_quarterly_q1_month"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_quarterly_q1_month"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_quarterly_q1_month"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -897,11 +895,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_quarterly_q2_month"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_quarterly_q2_month"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_quarterly_q2_month"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_quarterly_q2_month"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -957,11 +955,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_quarterly_q3_month"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_quarterly_q3_month"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_quarterly_q3_month"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_quarterly_q3_month"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -1017,11 +1015,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_quarterly_q4_month"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_quarterly_q4_month"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_quarterly_q4_month"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_quarterly_q4_month"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -1083,11 +1081,11 @@ echo ">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div class=\"row\">\r\n              
 if ($stdata["rs_biannual1_month"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_biannual1_month"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_biannual1_month"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_biannual1_month"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -1143,11 +1141,11 @@ echo "                            </select>   \r\n                            </
 if ($stdata["rs_biannual2_month"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_biannual2_month"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_biannual2_month"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_biannual2_month"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -1209,11 +1207,11 @@ echo ">\r\n                        \r\n                        \r\n             
 if ($stdata["rs_annual_month"] == "January") {
     echo "selected=\"selected\"";
 }
-echo ">January</option>\r\n                              <option value=\"February\" ";
-if ($stdata["rs_annual_month"] == "February") {
+echo ">January</option>\r\n                              <option value=\"Februrary\" ";
+if ($stdata["rs_annual_month"] == "Februrary") {
     echo "selected=\"selected\"";
 }
-echo ">February</option>\r\n                              <option value=\"March\" ";
+echo ">Februrary</option>\r\n                              <option value=\"March\" ";
 if ($stdata["rs_annual_month"] == "March") {
     echo "selected=\"selected\"";
 }
@@ -1265,7 +1263,7 @@ for ($i = 1; $i <= 31; $i++) {
     echo $i;
     echo "</option>\r\n                              ";
 }
-echo "                            </select>   \r\n                            </div>\r\n                          </div>  \r\n                        \r\n                        </div>\r\n                        \r\n                        \r\n                        \r\n                        \r\n                        </div>                      \r\n                  \r\n\t\t\t\t\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">Counties <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"counties[]\" id=\"counties\" class=\"custom-select counties\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Counties</option>\r\n                                ";
+echo "                            </select>   \r\n                            </div>\r\n                          </div>  \r\n                        \r\n                        </div>\r\n                        \r\n                        \r\n                        \r\n                        \r\n                        </div>                      \r\n                  \r\n\t\t\t\t\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"countries\">countries <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"countries[]\" id=\"countries\" class=\"custom-select countries\" multiple=\"multiple\">\r\n                                <option value=\"\">Select countries</option>\r\n                                ";
 $db = Config\Database::connect();
 $county_list = [];
 $query_county = $db->query("SELECT * FROM project_map_county where project_id=\"" . $pid . "\" ");
@@ -1316,7 +1314,7 @@ foreach ($results as $row) {
     echo $row->name;
     echo "</option>\r\n                        ";
 }
-echo "                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Implementing Partner. </div>\r\n                  </div>\r\n                    \r\n\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">Thematic Area  <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"thematic_area[]\" id=\"thematic_area\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Thematic Area</option>\r\n                                ";
+echo "                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Implementing Partner. </div>\r\n                  </div>\r\n                    \r\n\r\n\r\n\t\t\t\t    <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"countries\">Thematic Area  <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"thematic_area[]\" id=\"thematic_area\" class=\"custom-select thematic_area\" multiple=\"multiple\">\r\n                                <option value=\"\">Select Thematic Area</option>\r\n                                ";
 $db = Config\Database::connect();
 $thematic_area_list = [];
 $query_th_area = $db->query("SELECT * FROM project_map_thematic_area where project_id=\"" . $pid . "\" ");
@@ -1372,16 +1370,7 @@ foreach ($results as $row) {
     echo $row->name;
     echo "</option>\r\n                                ";
 }
-echo "                                </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Report Notification Recepient. </div>\r\n                  </div>\r\n";
-echo "<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"project_logo\">Attach Project Logo (.png, .jpg, .jpeg) <span class=\"text-danger\">*</span></label>\r\n                    <div class=\"custom-file\">\r\n                        <input type=\"file\" class=\"custom-file-input is-valid\" name=\"project_logo\" id=\"project_logo\" ";
-echo $stdata["project_logo"] != '' ? "" : "required";
-echo ">\r\n                        <label class=\"custom-file-label\" for=\"customControlValidationSuccess7\">Choose file...</label>\r\n                        <div class=\"invalid-feedback\">Please select a valid file</div>\r\n                    </div>\r\n                  </div>\r\n";
-if($stdata["project_logo"] != '') {
-    echo "<div class=\"col-12 mb-3\">\r\n\t\t\t\t   <div class=\"col-6 mb-0\">\r\n                    <label class=\"form-label\" for=\"budget\">Attached Project Logo <span class=\"\"></span></label>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class=\"col-6 mb-3\">\r\n                    <div class=\"custom-file\">\r\n                        <a href=\"";
-    echo base_url() . "/public/uploads/project_logo/" . $stdata["project_logo"];
-    echo "\" class=\"btn btn-primary ml-auto waves-effect waves-themed\" ><span class=\"fal fa-check mr-1\"></span> Download</a>\r\n                        </div>\r\n                    </div>\r\n                  </div>";
-}
-echo "                    \r\n                    \r\n                   <!-- Form Ends here  --> \r\n                </div>\r\n              </div>\r\n              \r\n              \r\n              \r\n              <div class=\"panel-content border-faded border-left-0 border-right-0 border-bottom-0 d-flex flex-row align-items-center\">\r\n                <div class=\"col-lg-offset-5 col-lg-7\">\r\n              \r\n                  <button class=\"btn btn-success ml-auto waves-effect waves-themed\" type=\"submit\"><span class=\"fal fa-undo mr-1\"></span> Save &amp; Go back to list</button>\r\n                  <a href=\"";
+echo "                                </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Report Notification Recepient. </div>\r\n                  </div>\r\n                    \r\n                    \r\n                   <!-- Form Ends here  --> \r\n                </div>\r\n              </div>\r\n              \r\n              \r\n              \r\n              <div class=\"panel-content border-faded border-left-0 border-right-0 border-bottom-0 d-flex flex-row align-items-center\">\r\n                <div class=\"col-lg-offset-5 col-lg-7\">\r\n              \r\n                  <button class=\"btn btn-success ml-auto waves-effect waves-themed\" type=\"submit\"><span class=\"fal fa-undo mr-1\"></span> Save &amp; Go back to list</button>\r\n                  <a href=\"";
 echo base_url() . "/planning/project";
 echo "\" class=\"btn btn-outline-default waves-themed waves-effect waves-themed\"><span class=\"fal fa-exclamation-triangle mr-1\"></span>Cancel</a> </div>\r\n              </div>\r\n              \r\n              \r\n            </form>\r\n            \r\n            \r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  \r\n \r\n</main>\r\n<!-- this overlay is activated only when mobile menu is triggered -->\r\n<div class=\"page-content-overlay\" data-action=\"toggle\" data-class=\"mobile-nav-on\"></div>\r\n<!-- END Page Content --> \r\n<script>\r\n\r\n    \$('body').delegate('#reporting_schedule', 'change', function () {\r\n\t\t\r\n       if (\$(this).val() != '') {\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t//alert(\$(this).val());\r\n\t\t\t if (\$(this).val() == 'Monthly') {\r\n\t\t\t\t \r\n\t\t\t\t//alert(\$(this).val());\r\n\t\t\t\t\r\n\t\t\t\t\$(\".DivMonthly\").fadeIn();\r\n\t\t\t\t\$(\".DivQuarterly\").fadeOut();\r\n\t\t\t\t\$(\".DivBiannual\").fadeOut();\r\n\t\t\t\t\$(\".DivAnnual\").fadeOut();\r\n\t\t\t\t  \r\n\t\t\t\t \r\n\t\t\t }\r\n\t\t\t \r\n\t\t\t if (\$(this).val() == 'Quarterly') {\r\n\t\t\t\t \r\n\t\t\t\t //alert(\$(this).val());\r\n\t\t\t\t \r\n\t\t\t\t\$(\".DivQuarterly\").fadeIn();\r\n\t\t\t\t\$(\".DivMonthly\").fadeOut();\r\n\t\t\t\t\$(\".DivBiannual\").fadeOut();\r\n\t\t\t\t\$(\".DivAnnual\").fadeOut();\r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t }\r\n\r\n\r\n\t\t\t  if (\$(this).val() == 'Bi-Annual') {\r\n\t\t\t\t \r\n\t\t\t\t\$(\".DivBiannual\").fadeIn();\r\n\t\t\t\t\$(\".DivMonthly\").fadeOut();\r\n\t\t\t\t\$(\".DivQuarterly\").fadeOut();\r\n\t\t\t\t\$(\".DivAnnual\").fadeOut();\r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t }\r\n\r\n\t\t\t if (\$(this).val() == 'Annual') {\r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t\$(\".DivAnnual\").fadeIn();\r\n\t\t\t\t\$(\".DivMonthly\").fadeOut();\r\n\t\t\t\t\$(\".DivQuarterly\").fadeOut();\r\n\t\t\t\t\$(\".DivBiannual\").fadeOut();\r\n\t\t\t\t \r\n\t\t\t }\r\n\t\t\t \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t \r\n\t\t\t\t \r\n\t\t\t\r\n\t\t\t\r\n\t\t\t}\r\n   });\r\n</script>";
 

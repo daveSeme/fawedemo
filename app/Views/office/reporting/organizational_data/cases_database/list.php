@@ -18,7 +18,7 @@ echo "</li>\r\n    <li class=\"position-absolute pos-top pos-right d-none d-sm-b
 echo $title;
 echo " </h2>\r\n          <div class=\"panel-toolbar\"> <a href=\"";
 echo base_url() . "/reporting/organizational_data/cases_database/add";
-echo "\" class=\"btn btn-primary btn-sm waves-effect waves-themed\"><i class=\"fal fa-plus\"></i> Add</a> &nbsp;&nbsp;\r\n            </div>\r\n        </div>\r\n        <div class=\"panel-container show\">\r\n          <div class=\"panel-content\"> \r\n        \r\n            <!-- datatable start -->\r\n            <table id=\"dt-basic-example\" class=\"table table-bordered table-striped w-100\">\r\n              <thead class=\"bg-primary-600\">\r\n              \r\n                <tr>\r\n                  <th>Date of Case Reg. </th>\r\n                  <th>Case Type </th>\r\n                  <th>Case Number</th>\r\n                  <th>Field Office</th>\r\n                <th>Case Status </th>\r\n\t\t\t\t  <th>Action</th>\r\n                </tr>\r\n              </thead>\r\n              \r\n              <tbody>\r\n\t\t\t  ";
+echo "\" class=\"btn btn-primary btn-sm waves-effect waves-themed\"><i class=\"fal fa-plus\"></i> Add</a> &nbsp;&nbsp;\r\n            </div>\r\n        </div>\r\n        <div class=\"panel-container show\">\r\n          <div class=\"panel-content\"> \r\n        \r\n            <!-- datatable start -->\r\n            <table id=\"dt-basic-example\" class=\"table table-bordered table-striped w-100\">\r\n              <thead class=\"bg-primary-600\">\r\n              \r\n                <tr>\r\n                  <th>Date of Case Reg. </th>\r\n                  <th>Case Type </th>\r\n                  <th>Case Number</th>\r\n                  <th>Field Office</th>\r\n                  <th>Age of Survivor</th>\r\n                  <th>Case Status </th>\r\n\t\t\t\t  <th>Action</th>\r\n                </tr>\r\n              </thead>\r\n              \r\n              <tbody>\r\n\t\t\t  ";
 if ($data) {
     echo "          ";
     foreach ($data as $record) {
@@ -32,6 +32,8 @@ if ($data) {
         $ip = get_by_id("id", $record["field_office"], "field_office");
         echo $ip["name"];
         echo "                    </td>\r\n                    <td>";
+        echo $record["age_survivor"];
+        echo "</td>\r\n                    <td>";
         echo $record["case_status"];
         echo "</td>\r\n                    \r\n                    \r\n                    \r\n                    \r\n                    \r\n                    \r\n                    \r\n\t\t\t\t\t\r\n                  \r\n                  \r\n                  \r\n\t\t\t\t  \r\n\t\t\t\t   <td>\r\n                   <div class=\"d-flex demo\"> \r\n \t\t\t\t    <a href=\"#\"  onClick=\"javascript:del_rec_1('";
         echo base_url("reporting/organizational_data/cases_database/delete/" . $record["id"]);
