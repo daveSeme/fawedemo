@@ -18,7 +18,7 @@ echo "\" title=\"Home\" data-filter-tags=\"home\"> <i class=\"fal fa-home\"></i>
 $this->session = Config\Services::session();
 if ($this->session->get("user_type") == "admin") {
     echo "      ";
-    $chapters = explode(",", $this->session->get("counties"));
+    $counties = explode(",", $this->session->get("counties"));
     $unit = explode(",", $this->session->get("unit"));
     $dimensions = explode(",", $this->session->get("dimensions"));
     $implementing_partner = explode(",", $this->session->get("implementing_partner"));
