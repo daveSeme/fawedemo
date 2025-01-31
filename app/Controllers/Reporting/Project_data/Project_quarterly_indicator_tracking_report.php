@@ -230,7 +230,7 @@ class project_quarterly_indicator_tracking_report extends \App\Controllers\BaseC
         $data["base_id"] = $this->session->get("office");
         $data["project"] = $this->request->uri->getSegment(6);
         $data["year"] = $this->request->uri->getSegment(5);
-        echo "\t\t\t\t\t\t\r\n                        \r\n  <!----------------------------------------------Goal Indicator ---------------------------------------------------------------->                      \r\n                        \r\n\t\t\t\t\t\t\t";
+        echo "\t\t\t\t\t\t\r\n                        \r\n  <!----------------------------------------------Component Indicator ---------------------------------------------------------------->                      \r\n                        \r\n\t\t\t\t\t\t\t";
         $query_mon_progress_report = $this->db->query("\r\n\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t select * from project_goal \r\n\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t left join  \r\n\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t project_me_plan_workflow\r\n\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t on project_me_plan_workflow.id = project_goal.workflow_id\r\n\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t left join project_goal_indicator \r\n\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t  on project_goal_indicator.goal_id = project_goal.id\r\n\t\t\t\t\t\t\t  \r\n\t\t\t\t\t\t\t  left join project_goal_indicator_target \r\n\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t on project_goal_indicator.id=project_goal_indicator_target.indicator_id\r\n\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t  \r\n\t\t\t\t\t\r\nwhere project_me_plan_workflow.project='" . $data["project"] . "' and project_goal_indicator_target.year='" . $data["year"] . "' order by project_goal_indicator.id");
         $results_mon_progress_report = $query_mon_progress_report->getResultArray();
         foreach ($results_mon_progress_report as $row_mon_progress_report) {
@@ -250,7 +250,7 @@ class project_quarterly_indicator_tracking_report extends \App\Controllers\BaseC
                     echo $unit_name;
                 }
             }
-            echo "                    <input type=\"hidden\" name=\"category[]\" value=\"Goal Indicator\">\r\n                    <input type=\"hidden\" name=\"unit[]\" value=\"";
+            echo "                    <input type=\"hidden\" name=\"category[]\" value=\"Component Indicator\">\r\n                    <input type=\"hidden\" name=\"unit[]\" value=\"";
             echo $row_mon_progress_report["unit"] ?: 0;
             echo "\">\r\n                    <input type=\"hidden\" name=\"target[]\" value=\"";
             echo $row_mon_progress_report["target"];
@@ -326,16 +326,28 @@ class project_quarterly_indicator_tracking_report extends \App\Controllers\BaseC
     {
         $db = \Config\Database::connect();
         if ($this->request->getVar("project")) {
-            echo $project = $this->request->getVar("project");
-            echo " <option value=\"\">Select Year</option>";
+            $project = $this->request->getVar("project");
+            $year = " <option value=\"\">Select Year</option>";
             $query = $db->query("select  * FROM project where id=\"" . $project . "\"");
             $row = $query->getRowArray();
             $startdate = date("Y", strtotime($row["start_date"]));
             $enddate = date("Y", strtotime($row["end_date"]));
             $diff = $enddate - $startdate + 1;
             for ($i = $startdate; $i <= $enddate; $i++) {
-                echo "<option value=\"" . $i . "\">" . $i . "</option>";
+                $year .= "<option value=\"" . $i . "\">" . $i . "</option>";
             }
+
+            // Add Components
+            $components = " <option value=\"\">Select Component</option>";
+            $query1 = $db->query("select  * FROM project_goal where project_id=\"" . $project . "\"");
+            $results = $query1->getResultArray();
+            if(count($results) > 0) {
+                foreach($results as $result) {
+                    $components .= "<option value=\"" . $result['id'] . "\">" . $result['name'] . "</option>"; 
+                }
+            }
+
+            echo json_encode(["years" => $year, "components" => $components]);
         }
     }
     public function download_excel()

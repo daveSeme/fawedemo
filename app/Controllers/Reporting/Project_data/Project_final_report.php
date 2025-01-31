@@ -90,9 +90,22 @@ class Project_final_report extends \App\Controllers\BaseController
             $data["errors"] = [];
             if ($this->validate->withRequest($this->request)->run()) {
                 $id = $this->request->getVar("id");
-                $file = $this->request->getFile("report_file");
-                $newName = $file->getRandomName();
-                $file->move(ROOTPATH . "public/uploads/project_final_report", $newName);
+                // Check if the file is attached
+                $newName = "";
+                $existingFile = $data["stdata"]["report_file"];
+                if(is_uploaded_file($_FILES['report_file']['tmp_name'])) {
+                    // Remove the existing file before adding a new one
+                    if($existingFile != '') {
+                        // Remove the existing file
+                        unlink(ROOTPATH . "public/uploads/project_final_report/" . $existingFile);
+                    }
+                    $file = $this->request->getFile("report_file");
+                    $newName = $file->getRandomName();
+                    $file->move(ROOTPATH . "public/uploads/project_final_report", $newName);
+                } else {
+                    // use the existing file
+                    $newName =  $existingFile;
+                }
                 $postdata = ["project_name" => $this->request->getVar("project"), "base_id" => $this->session->get("office"), "report_name" => $this->request->getVar("report_name"), "report_file" => $newName, "updatedby" => $data["user_id"], "updatedtime" => date("Y-m-d H:i:s")];
                 $model = new \App\Models\reporting\project_data\Final_report_model();
                 $model->update($id, $postdata);

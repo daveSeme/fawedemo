@@ -57,7 +57,7 @@ class Project_annual_narrative_report extends \App\Controllers\BaseController
             $results = $query->getResult();
             if (count($results) <= 0) {
                 if ($this->validate->withRequest($this->request)->run()) {
-                    $postdata = ["base_id" => $this->session->get("office"), "project" => $this->request->getVar("project"), "year" => $this->request->getVar("year"), "key_highlights" => $this->request->getVar("key_highlights"), "challenges_experienced" => $this->request->getVar("challenges_experienced"), "success_stories" => $this->request->getVar("success_stories"), "activities_anticipated" => $this->request->getVar("activities_anticipated"), "createdby" => $data["user_id"], "createtime" => date("Y-m-d H:i:s")];
+                    $postdata = ["base_id" => $this->session->get("office"), "project" => $this->request->getVar("project"), "year" => $this->request->getVar("year"),"gender_action_plan" => $this->request->getVar("gender_action_plan"), "environmental_social_safeguards" => $this->request->getVar("environmental_social_safeguards"), "key_highlights" => $this->request->getVar("key_highlights"), "challenges_experienced" => $this->request->getVar("challenges_experienced"), "success_stories" => $this->request->getVar("success_stories"), "activities_anticipated" => $this->request->getVar("activities_anticipated"), "createdby" => $data["user_id"], "createtime" => date("Y-m-d H:i:s")];
                     $model = new \App\Models\reporting\project_data\Project_annual_narrative_report_model();
                     $workflow_id = $model->insert($postdata);
                     trail(1, "insert", $data["title"], $postdata);
@@ -104,7 +104,7 @@ class Project_annual_narrative_report extends \App\Controllers\BaseController
             $data["errors"] = [];
             if ($this->validate->withRequest($this->request)->run()) {
                 $id = $this->request->getVar("id");
-                $postdata = ["project" => $this->request->getVar("project"), "year" => $this->request->getVar("year"), "key_highlights" => $this->request->getVar("key_highlights"), "challenges_experienced" => $this->request->getVar("challenges_experienced"), "success_stories" => $this->request->getVar("success_stories"), "activities_anticipated" => $this->request->getVar("activities_anticipated"), "updatedby" => $data["user_id"], "updatedtime" => date("Y-m-d H:i:s")];
+                $postdata = ["project" => $this->request->getVar("project"), "year" => $this->request->getVar("year"), "gender_action_plan" => $this->request->getVar("gender_action_plan"), "environmental_social_safeguards" => $this->request->getVar("environmental_social_safeguards"), "key_highlights" => $this->request->getVar("key_highlights"), "challenges_experienced" => $this->request->getVar("challenges_experienced"), "success_stories" => $this->request->getVar("success_stories"), "activities_anticipated" => $this->request->getVar("activities_anticipated"), "updatedby" => $data["user_id"], "updatedtime" => date("Y-m-d H:i:s")];
                 $model = new \App\Models\reporting\project_data\Project_annual_narrative_report_model();
                 $model->update($id, $postdata);
                 trail(1, "update", $data["title"], $postdata, $data["stdata"]);
@@ -160,15 +160,27 @@ class Project_annual_narrative_report extends \App\Controllers\BaseController
         $db = \Config\Database::connect();
         if ($this->request->getVar("project")) {
             $project = $this->request->getVar("project");
-            echo " <option value=\"\">Select Year</option>";
+            $year = " <option value=\"\">Select Year</option>";
             $query = $db->query("select * from project where id=\"" . $project . "\"");
             $row = $query->getRowArray();
             $startdate = date("Y", strtotime($row["start_date"]));
             $enddate = date("Y", strtotime($row["end_date"]));
             $diff = $enddate - $startdate + 1;
             for ($i = $startdate; $i <= $enddate; $i++) {
-                echo "<option value=\"" . $i . "\">" . $i . "</option>";
+                 $year .= "<option value=\"" . $i . "\">" . $i . "</option>";
             }
+
+            // Add Components
+            $components = " <option value=\"\">Select Component</option>";
+            $query1 = $db->query("select  * FROM project_goal where project_id=\"" . $project . "\"");
+            $results = $query1->getResultArray();
+            if(count($results) > 0) {
+                foreach($results as $result) {
+                    $components .= "<option value=\"" . $result['id'] . "\">" . $result['name'] . "</option>"; 
+                }
+            }
+
+            echo json_encode(["years" => $year, "components" => $components]);
         }
     }
     public function download_excel()

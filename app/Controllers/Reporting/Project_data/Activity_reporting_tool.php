@@ -57,7 +57,7 @@ class Activity_reporting_tool extends \App\Controllers\BaseController
             $results = $query->getResult();
             if (count($results) <= 0) {
                 if ($this->validate->withRequest($this->request)->run()) {
-                    $postdata = ["base_id" => $this->session->get("office"), "project" => $this->request->getVar("project"), "activity_title" => $this->request->getVar("activity_title"), "activity_date" => changeDateFormat("Y-m-d", $this->request->getVar("activity_date")), "reported_by" => $this->request->getVar("reported_by"), "venue" => $this->request->getVar("venue"), "particiapnts_reached" => $this->request->getVar("particiapnts_reached"), "objective_activity" => $this->request->getVar("objective_activity"), "summary_events" => $this->request->getVar("summary_events"), "emerging_issues_activity" => $this->request->getVar("emerging_issues_activity"), "way_forward" => $this->request->getVar("way_forward"), "lesson_learnt" => $this->request->getVar("lesson_learnt"), "recommendations" => $this->request->getVar("recommendations"), "conclusions" => $this->request->getVar("conclusions"), "report_status" => "1", "createdby" => $data["user_id"], "createtime" => date("Y-m-d H:i:s")];
+                    $postdata = ["base_id" => $this->session->get("office"), "project" => $this->request->getVar("project"), "activity_title" => $this->request->getVar("activity_title"), "activity_date" => changeDateFormat("Y-m-d", $this->request->getVar("activity_date")), "reported_by" => $this->request->getVar("reported_by"), "venue" => $this->request->getVar("venue"), "objective_activity" => $this->request->getVar("objective_activity"), "summary_events" => $this->request->getVar("summary_events"), "emerging_issues_activity" => $this->request->getVar("emerging_issues_activity"), "lesson_learnt" => $this->request->getVar("lesson_learnt"), "recommendations" => $this->request->getVar("recommendations"), "conclusions" => $this->request->getVar("conclusions"), "report_status" => "1", "createdby" => $data["user_id"], "createtime" => date("Y-m-d H:i:s")];
                     $model = new \App\Models\reporting\project_data\Activity_reporting_tool_model();
                     $workflow_id = $model->insert($postdata);
                     trail(1, "insert", $data["title"], $postdata);
@@ -97,6 +97,15 @@ class Activity_reporting_tool extends \App\Controllers\BaseController
                             }
                         }
                     }
+                    $target = $this->request->getVar("target");
+                    $achievement = $this->request->getVar("achievement");
+                    if(is_array($target)) {
+                        foreach ($target as $key => $v) {
+                            $post_target_data = ["workflow_id" => $workflow_id,"project_id" => $this->request->getVar("project"), "target" => $v, "achievement" => $achievement[$key]];
+                            $this->db->table("activity_reporting_targets")->insert($post_target_data);
+                        }
+                    }
+
                     if ($this->request->getVar("action") == "submit_report") {
                         $project_id = $this->request->getVar("project");
                         $db = \Config\Database::connect();
@@ -132,7 +141,7 @@ class Activity_reporting_tool extends \App\Controllers\BaseController
                     echo "failed";
                 }
             } else {
-                $this->session->setFlashdata("feedback", "Beneficiaries  Report already created for this project, Please enter new one.");
+                $this->session->setFlashdata("feedback", "Activities Report already created for this project, Please enter new one.");
             }
         }
         $data["js_file"] = "office/reporting/project_data/activity_reporting_tool/add_js";
@@ -159,22 +168,22 @@ class Activity_reporting_tool extends \App\Controllers\BaseController
                 $model = new \App\Models\reporting\project_data\Activity_reporting_tool_model();
                 $model->update($id, $postdata);
                 trail(1, "update", $data["title"], $postdata, $data["stdata"]);
-                $query_delete = $this->db->query("delete from activity_reporting_tool_map  where  workflow_id =\"" . $id . "\"");
+                // $query_delete = $this->db->query("delete from activity_reporting_tool_map  where  workflow_id =\"" . $id . "\"");
                 $project_id = $this->request->getVar("project_id");
-                $output_id = $this->request->getVar("output_id");
-                $activity_id = $this->request->getVar("activity_id");
-                $part_0_12_female = $this->request->getVar("part_0_12_female");
-                $part_0_12_male = $this->request->getVar("part_0_12_male");
-                $part_13_18_female = $this->request->getVar("part_13_18_female");
-                $part_13_18_male = $this->request->getVar("part_13_18_male");
-                $part_19_25_female = $this->request->getVar("part_19_25_female");
-                $part_19_25_male = $this->request->getVar("part_19_25_male");
-                $part_26_35_female = $this->request->getVar("part_26_35_female");
-                $part_26_35_male = $this->request->getVar("part_26_35_male");
-                $part_36_49_female = $this->request->getVar("part_36_49_female");
-                $part_36_49_male = $this->request->getVar("part_36_49_male");
-                $part_50_plus_female = $this->request->getVar("part_50_plus_female");
-                $part_50_plus_male = $this->request->getVar("part_50_plus_male");
+                // $output_id = $this->request->getVar("output_id");
+                // $activity_id = $this->request->getVar("activity_id");
+                // $part_0_12_female = $this->request->getVar("part_0_12_female");
+                // $part_0_12_male = $this->request->getVar("part_0_12_male");
+                // $part_13_18_female = $this->request->getVar("part_13_18_female");
+                // $part_13_18_male = $this->request->getVar("part_13_18_male");
+                // $part_19_25_female = $this->request->getVar("part_19_25_female");
+                // $part_19_25_male = $this->request->getVar("part_19_25_male");
+                // $part_26_35_female = $this->request->getVar("part_26_35_female");
+                // $part_26_35_male = $this->request->getVar("part_26_35_male");
+                // $part_36_49_female = $this->request->getVar("part_36_49_female");
+                // $part_36_49_male = $this->request->getVar("part_36_49_male");
+                // $part_50_plus_female = $this->request->getVar("part_50_plus_female");
+                // $part_50_plus_male = $this->request->getVar("part_50_plus_male");
                 if (is_array($project_id)) {
                     foreach ($project_id as $key => $n) {
                         if ($project_id != "") {
@@ -192,6 +201,16 @@ class Activity_reporting_tool extends \App\Controllers\BaseController
                             $data_to_store_other = ["workflow_id" => $id, "base_id" => $this->session->get("office"), "title" => $title, "documents" => $newName];
                             $this->db->table("activity_reporting_tool_documents")->insert($data_to_store_other);
                         }
+                    }
+                }
+                $target = $this->request->getVar("target");
+                $achievement = $this->request->getVar("achievement");
+                if(is_array($target)) {
+                    // Delete the existing targets
+                    $this->db->table("activity_reporting_targets")->delete(["workflow_id" => $id,"project_id" => $this->request->getVar("project")]);
+                    foreach ($target as $key => $v) {
+                        $post_target_data = ["workflow_id" => $id,"project_id" => $this->request->getVar("project"), "target" => $v, "achievement" => $achievement[$key]];
+                        $this->db->table("activity_reporting_targets")->insert($post_target_data);
                     }
                 }
                 if ($this->request->getVar("action") == "submit_report") {
@@ -237,6 +256,11 @@ class Activity_reporting_tool extends \App\Controllers\BaseController
         $data["js_file"] = "office/reporting/project_data/activity_reporting_tool/add_js";
         $data["main_content"] = "office/reporting/project_data/activity_reporting_tool/edit";
         echo view("template/index", $data);
+    }
+    public function get_target_row() {
+        echo "<tr>\r\n <td><input class=\"form-control\" type=\"number\" name=\"target[]\" /></td>\r\n";
+        echo "<td><input class=\"form-control\" type=\"number\" name=\"achievement[]\" /></td>\r\n";
+        echo "<td><a class=\"btn btn-sm btn-outline-danger btn-icon btn-inline-block mr-1 remove_target_row\" title=\"Remove Row\"><i class=\"fal fa-times\"></i></a></td></tr>\r\n";
     }
     public function delete($id = NULL)
     {
