@@ -17,8 +17,8 @@ echo $main_title;
 echo "</li>\r\n    <li class=\"position-absolute pos-top pos-right d-none d-sm-block\"><span class=\"js-get-date\"></span></li>\r\n  </ol>\r\n  <div class=\"row\">\r\n    <div class=\"col-xl-12\">\r\n      <div id=\"panel-1\" class=\"panel\">\r\n        <div class=\"panel-hdr\">\r\n          <h2> ";
 echo $title;
 echo " </h2>\r\n          <div class=\"panel-toolbar\"> <a href=\"";
-echo base_url() . "/master/funding_partner/add";
-echo "\" class=\"btn btn-primary btn-sm waves-effect waves-themed\"><i class=\"fal fa-plus\"></i> Add</a> &nbsp;&nbsp;\r\n            </div>\r\n        </div>\r\n        <div class=\"panel-container show\">\r\n          <div class=\"panel-content\"> \r\n        \r\n            <!-- datatable start -->\r\n            <table id=\"dt-basic-example\" class=\"table table-bordered table-striped w-100\">\r\n              <thead class=\"bg-primary-600\">\r\n              \r\n                <tr>\r\n                 \r\n                  <th>Donor Name </th>\r\n                  <th>Contact Person </th>\r\n                  <th>Contact Email </th>\r\n                  <th>Phone </th>\r\n                  <th>Action </th>\r\n                  \r\n                </tr>\r\n              </thead>\r\n              \r\n              <tbody>\r\n\t\t\t  ";
+echo base_url() . "/master/field_office/add";
+echo "\" class=\"btn btn-primary btn-sm waves-effect waves-themed\"><i class=\"fal fa-plus\"></i> Add</a> &nbsp;&nbsp;\r\n            </div>\r\n        </div>\r\n        <div class=\"panel-container show\">\r\n          <div class=\"panel-content\"> \r\n        \r\n            <!-- datatable start -->\r\n            <table id=\"dt-basic-example\" class=\"table table-bordered table-striped w-100\">\r\n              <thead class=\"bg-primary-600\">\r\n              \r\n                <tr>\r\n                 \r\n                  <th>Field Office Name </th>\r\n                  <th>Contact Person </th>\r\n                  <th>Contact Email </th>\r\n                  <th>Phone </th>\r\n                  <th>Action </th>\r\n                  \r\n                </tr>\r\n              </thead>\r\n              \r\n              <tbody>\r\n\t\t\t  ";
 if ($data) {
     echo "          ";
     foreach ($data as $record) {
@@ -31,9 +31,9 @@ if ($data) {
         echo "</td>\r\n                  <td>";
         echo $record["phone"];
         echo "</td>\r\n\t\t\t\t  \r\n\t\t\t\t  \r\n\t\t\t\t   <td>\r\n                   <div class=\"d-flex demo\"> \r\n \t\t\t\t    <a href=\"#\"  onClick=\"javascript:del_rec_1('";
-        echo base_url("master/funding_partner/delete/" . $record["id"]);
+        echo base_url("master/field_office/delete/" . $record["id"]);
         echo "')\" class=\"btn btn-sm btn-outline-danger btn-icon btn-inline-block mr-1\" title=\"Delete Record\"><i class=\"fal fa-times\"></i></a> \r\n                                                        <a  href=\"#\" onClick=\"javascript:edit1('";
-        echo base_url("master/funding_partner/edit/" . $record["id"]);
+        echo base_url("master/field_office/edit/" . $record["id"]);
         echo "')\" class=\"btn btn-sm btn-outline-primary btn-icon btn-inline-block mr-1\" title=\"Edit\"><i class=\"fal fa-edit\"></i></a>\t\r\n\t\t\t\t   \r\n                                     </div>                   </td>\r\n                </tr>\r\n                \r\n              \r\n                \r\n                \r\n                \r\n                 ";
     }
     echo "         ";
