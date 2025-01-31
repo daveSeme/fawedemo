@@ -12,7 +12,7 @@ class Funding_partner_Model extends \CodeIgniter\Model
 {
     protected $table = "funding_partner";
     protected $primaryKey = "id";
-    protected $allowedFields = ["base_id", "name", "contact_person", "contact_email", "phone", "createdby", "updatedby", "createdtime", "updatedtime", "flag"];
+    protected $allowedFields = ["base_id", "name", "organization_name", "contact_person", "contact_email", "phone", "createdby", "updatedby", "createdtime", "updatedtime", "flag"];
 }
 
 ?>

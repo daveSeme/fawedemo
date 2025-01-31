@@ -59,10 +59,10 @@ class Funding_partner extends \App\Controllers\BaseController
             check_permision("funding_partner", "1", 0);
         }
         if ($this->request->getMethod() === "post") {
-            $this->validate->setRules(["name" => ["label" => "Partner Name", "rules" => "required|trim"], "contact_person" => ["label" => "Contact Person", "rules" => "required|trim"], "contact_email" => ["label" => "Contact Email", "rules" => "valid_email|trim"], "phone" => ["label" => "Phone No.", "rules" => "trim"]]);
+            $this->validate->setRules(["name" => ["label" => "Partner Name", "rules" => "required|trim"], "organization_name" => ["label" => "Organization Name ", "rules" => "required|trim"], "contact_person" => ["label" => "Contact Person", "rules" => "required|trim"], "contact_email" => ["label" => "Contact Email", "rules" => "valid_email|trim"], "phone" => ["label" => "Phone No.", "rules" => "trim"]]);
             $data["errors"] = [];
             if ($this->validate->withRequest($this->request)->run()) {
-                $data_post = ["name" => $this->request->getVar("name"), "contact_person" => $this->request->getVar("contact_person"), "contact_email" => $this->request->getVar("contact_email"), "phone" => $this->request->getVar("phone"), "createdby" => $data["user_id"], "createtime" => date("Y-m-d H:i:s")];
+                $data_post = ["name" => $this->request->getVar("name"), "organization_name" => $this->request->getVar("organization_name"), "contact_person" => $this->request->getVar("contact_person"), "contact_email" => $this->request->getVar("contact_email"), "phone" => $this->request->getVar("phone"), "createdby" => $data["user_id"], "createtime" => date("Y-m-d H:i:s")];
                 $Model = new \App\Models\master\Funding_partner_Model();
                 $status = $Model->insert($data_post);
                 trail($status, "insert", "funding_partner", $data_post);
@@ -109,11 +109,11 @@ class Funding_partner extends \App\Controllers\BaseController
             check_permision("funding_partner", "1", 0);
         }
         if ($this->request->getMethod() === "post") {
-            $this->validate->setRules(["name" => ["label" => "Partner Name", "rules" => "required|trim"], "contact_person" => ["label" => "Contact Person", "rules" => "required|trim"], "contact_email" => ["label" => "Contact Email", "rules" => "valid_email|trim"], "phone" => ["label" => "Phone No.", "rules" => "trim"]]);
+            $this->validate->setRules(["name" => ["label" => "Partner Name", "rules" => "required|trim"], "organization_name" => ["label" => "Organization Name ", "rules" => "required|trim"], "contact_person" => ["label" => "Contact Person", "rules" => "required|trim"], "contact_email" => ["label" => "Contact Email", "rules" => "valid_email|trim"], "phone" => ["label" => "Phone No.", "rules" => "trim"]]);
             $data["errors"] = [];
             if ($this->validate->withRequest($this->request)->run()) {
                 $id = $this->request->getVar("id");
-                $data_post = ["name" => $this->request->getVar("name"), "contact_person" => $this->request->getVar("contact_person"), "contact_email" => $this->request->getVar("contact_email"), "phone" => $this->request->getVar("phone"), "updatedby" => $data["user_id"], "updatedtime" => date("Y-m-d H:i:s")];
+                $data_post = ["name" => $this->request->getVar("name"), "organization_name" => $this->request->getVar("organization_name"), "contact_person" => $this->request->getVar("contact_person"), "contact_email" => $this->request->getVar("contact_email"), "phone" => $this->request->getVar("phone"), "updatedby" => $data["user_id"], "updatedtime" => date("Y-m-d H:i:s")];
                 $previous_values = get_by_id("id", $id, "funding_partner");
                 $Model = new \App\Models\master\Funding_partner_Model();
                 $Model->update($id, $data_post);

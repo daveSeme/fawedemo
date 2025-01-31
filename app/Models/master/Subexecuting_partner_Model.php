@@ -1,0 +1,18 @@
+<?php
+/*
+ * @ https://EasyToYou.eu - IonCube v10 Decoder Online
+ * @ PHP 7.2
+ * @ Decoder version: 1.0.4
+ * @ Release: 01/09/2021
+ */
+
+namespace App\Models\master;
+
+class Subexecuting_partner_Model extends \CodeIgniter\Model
+{
+    protected $table = "subexecuting_partner";
+    protected $primaryKey = "id";
+    protected $allowedFields = ["base_id", "name", "organization_name", "about", "contact_person", "contact_email", "createdby", "updatedby", "createdtime", "updatedtime", "flag"];
+}
+
+?>

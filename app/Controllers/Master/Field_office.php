@@ -59,7 +59,7 @@ class Field_office extends \App\Controllers\BaseController
             check_permision("field_office", "1", 0);
         }
         if ($this->request->getMethod() === "post") {
-            $this->validate->setRules(["name" => ["label" => "Partner Name", "rules" => "required|trim"], "contact_person" => ["label" => "Contact Person", "rules" => "trim"], "contact_email" => ["label" => "Contact Email", "rules" => "trim"], "phone" => ["label" => "Phone No.", "rules" => "trim"]]);
+            $this->validate->setRules(["name" => ["label" => "Field Office Name", "rules" => "required|trim"], "contact_person" => ["label" => "Contact Person", "rules" => "trim"], "contact_email" => ["label" => "Contact Email", "rules" => "trim"], "phone" => ["label" => "Phone No.", "rules" => "trim"]]);
             $data["errors"] = [];
             if ($this->validate->withRequest($this->request)->run()) {
                 $data_post = ["name" => $this->request->getVar("name"), "contact_person" => $this->request->getVar("contact_person"), "contact_email" => $this->request->getVar("contact_email"), "phone" => $this->request->getVar("phone"), "createdby" => $data["user_id"], "createtime" => date("Y-m-d H:i:s")];
@@ -109,7 +109,7 @@ class Field_office extends \App\Controllers\BaseController
             check_permision("field_office", "1", 0);
         }
         if ($this->request->getMethod() === "post") {
-            $this->validate->setRules(["name" => ["label" => "Partner Name", "rules" => "required|trim"], "contact_person" => ["label" => "Contact Person", "rules" => "trim"], "contact_email" => ["label" => "Contact Email", "rules" => "trim"], "phone" => ["label" => "Phone No.", "rules" => "trim"]]);
+            $this->validate->setRules(["name" => ["label" => "Field Office Name", "rules" => "required|trim"], "contact_person" => ["label" => "Contact Person", "rules" => "trim"], "contact_email" => ["label" => "Contact Email", "rules" => "trim"], "phone" => ["label" => "Phone No.", "rules" => "trim"]]);
             $data["errors"] = [];
             if ($this->validate->withRequest($this->request)->run()) {
                 $id = $this->request->getVar("id");

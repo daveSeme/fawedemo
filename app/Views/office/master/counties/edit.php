@@ -29,14 +29,14 @@ if ($validation->getErrors()) {
     echo "</div>";
 }
 echo "          </div>\r\n          <div class=\"panel-content p-0\">\r\n            \r\n         \r\n                                                ";
-$insert_url = "master/countries/edit/" . $stdata["id"];
+$insert_url = "master/counties/edit/" . $stdata["id"];
 echo form_open($insert_url, "method=\"post\" id=\"Form\"  enctype=\"multipart/form-data\" class=\"needs-validation\" validate");
 echo "              <div class=\"panel-content\">\r\n                <div class=\"form-row\">\r\n\r\n\r\n\t\t\t\t<!-- Form Starts here  --> \r\n                <input type=\"hidden\" name=\"id\" class=\"form-control\" id=\"id\" value=\"";
 echo $stdata["id"];
-echo "\">\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"sector\">County Name<span class=\"text-danger\">*</span></label>\r\n                   <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Please enter the name\" value=\"";
+echo "\">\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"sector\">Chapter Name<span class=\"text-danger\">*</span></label>\r\n                   <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Please enter the name\" value=\"";
 echo $stdata["name"];
-echo "\" required>\r\n                    <div class=\"invalid-feedback\"> Please enter the County Name  </div>\r\n                  </div>\r\n\t\t\t\t  \r\n\t\t\t\t   \r\n\t\t\t\t \r\n                   <!-- Form Ends here  --> \r\n                </div>\r\n              </div>\r\n              \r\n              \r\n              \r\n              <div class=\"panel-content border-faded border-left-0 border-right-0 border-bottom-0 d-flex flex-row align-items-center\">\r\n                <div class=\"col-lg-offset-5 col-lg-7\">\r\n                   <button class=\"btn btn-primary ml-auto waves-effect waves-themed\" type=\"submit\" name=\"action\" value=\"saveandback\"><span class=\"fal fa-undo mr-1\"></span> Save &amp; Go back to list</button>\r\n                  <a href=\"";
-echo base_url() . "/master/countries";
+echo "\" required>\r\n                    <div class=\"invalid-feedback\"> Please enter the Chapter Name  </div>\r\n                  </div>\r\n\t\t\t\t  \r\n\t\t\t\t   \r\n\t\t\t\t \r\n                   <!-- Form Ends here  --> \r\n                </div>\r\n              </div>\r\n              \r\n              \r\n              \r\n              <div class=\"panel-content border-faded border-left-0 border-right-0 border-bottom-0 d-flex flex-row align-items-center\">\r\n                <div class=\"col-lg-offset-5 col-lg-7\">\r\n                   <button class=\"btn btn-primary ml-auto waves-effect waves-themed\" type=\"submit\" name=\"action\" value=\"saveandback\"><span class=\"fal fa-undo mr-1\"></span> Save &amp; Go back to list</button>\r\n                  <a href=\"";
+echo base_url() . "/master/counties";
 echo "\" class=\"btn btn-outline-default waves-themed waves-effect waves-themed\"><span class=\"fal fa-exclamation-triangle mr-1\"></span>Cancel</a> </div>\r\n              </div>\r\n              \r\n              \r\n            </form>\r\n            \r\n            \r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  \r\n \r\n</main>\r\n<!-- this overlay is activated only when mobile menu is triggered -->\r\n<div class=\"page-content-overlay\" data-action=\"toggle\" data-class=\"mobile-nav-on\"></div>\r\n<!-- END Page Content --> \r\ns";
 
 ?>

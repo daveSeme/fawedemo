@@ -12,7 +12,7 @@ class Implementing_partner_Model extends \CodeIgniter\Model
 {
     protected $table = "implementing_partner";
     protected $primaryKey = "id";
-    protected $allowedFields = ["base_id", "name", "organization_name", "contact_person", "contact_email", "createdby", "updatedby", "createdtime", "updatedtime", "flag"];
+    protected $allowedFields = ["base_id", "name", "organization_name", "about", "contact_person", "contact_email", "createdby", "updatedby", "createdtime", "updatedtime", "flag"];
 }
 
 ?>
