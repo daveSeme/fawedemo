@@ -2425,12 +2425,12 @@ fieldset:disabled a.btn {
   border-color: #27408b; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #7453a6;
-    border-color: #6e4e9e; }
+    background-color: #597aad;
+    border-color: #4E6E9E; }
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
-    background-color: #7453a6;
-    border-color: #6e4e9e;
+    background-color: #597aad;
+    border-color: #4E6E9E;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(154, 128, 192, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(154, 128, 192, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
