@@ -2210,7 +2210,7 @@ var color = {
 		_300: rgb2hex(myapp_config.mythemeColorProfileID.find('.color-primary-300').css('color')) || '#a38cc6',
 		_400: rgb2hex(myapp_config.mythemeColorProfileID.find('.color-primary-400').css('color')) || '#967bbd',
 		_500: rgb2hex(myapp_config.mythemeColorProfileID.find('.color-primary-500').css('color')) || '#27408b',
-		_600: rgb2hex(myapp_config.mythemeColorProfileID.find('.color-primary-600').css('color')) || '#7a59ad',
+		_600: rgb2hex(myapp_config.mythemeColorProfileID.find('.color-primary-600').css('color')) || '#597aad',
 		_700: rgb2hex(myapp_config.mythemeColorProfileID.find('.color-primary-700').css('color')) || '#6e4e9e',
 		_800: rgb2hex(myapp_config.mythemeColorProfileID.find('.color-primary-800').css('color')) || '#62468d',
 		_900: rgb2hex(myapp_config.mythemeColorProfileID.find('.color-primary-900').css('color')) || '#563d7c'

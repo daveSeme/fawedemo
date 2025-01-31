@@ -758,7 +758,7 @@ RESULT:
 .daterangepicker table tr td.selected.highlighted.active.focus,
 .daterangepicker table tr td.selected:hover,
 .daterangepicker table tr td.selected.highlighted:hover {
-  background-color: #7a59ad;
+  background-color: #597aad;
   color: #fff; }
 
 .daterangepicker .calendar-table .next,

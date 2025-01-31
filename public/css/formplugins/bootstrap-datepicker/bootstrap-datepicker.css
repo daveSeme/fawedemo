@@ -1118,7 +1118,7 @@ RESULT:
 .datepicker table tr td.selected.highlighted.active.focus,
 .datepicker table tr td.selected:hover,
 .datepicker table tr td.selected.highlighted:hover {
-  background-color: #7a59ad;
+  background-color: #597aad;
   border-color: #6e4e9e;
   color: #fff; }
 
