@@ -38,7 +38,7 @@ if ($this->session->get("user_type") == "admin") {
             }
             echo "\"> <a href=\"";
             echo base_url() . "/master/counties";
-            echo "\" title=\"Counties\" data-filter-tags=\"config counties\"> <span class=\"nav-link-text\" data-i18n=\"nav.config_counties\">Counties </span> </a> </li>\r\n          ";
+            echo "\" title=\"Chapters\" data-filter-tags=\"config counties\"> <span class=\"nav-link-text\" data-i18n=\"nav.config_counties\">Chapters </span> </a> </li>\r\n          ";
         }
         echo "          \r\n          \r\n          ";
         if (in_array("1", $unit) || $this->session->get("user_type") == "admin") {
