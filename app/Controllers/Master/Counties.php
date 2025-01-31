@@ -49,15 +49,15 @@ class Counties extends \App\Controllers\BaseController
         $data["user_id"] = $this->tank_auth->get_user_id();
         $data["username"] = $this->tank_auth->get_username();
         $data["user_level"] = $this->tank_auth->get_user_level();
-        $data["title"] = "Add County";
-        $data["main_title"] = "Counties";
+        $data["title"] = "Add Chapter";
+        $data["main_title"] = "Chapters";
         if ($this->session->get("user_type") == "admin") {
             check_permision("counties", "2", 1);
         } else {
             check_permision("counties", "2", 0);
         }
         if ($this->request->getMethod() === "post") {
-            $this->validate->setRules(["name" => ["label" => "County Name", "rules" => "required|trim"]]);
+            $this->validate->setRules(["name" => ["label" => "Chapter Name", "rules" => "required|trim"]]);
             $data["errors"] = [];
             if ($this->validate->withRequest($this->request)->run()) {
                 $data_post = ["name" => $this->request->getVar("name"), "createdby" => $data["user_id"], "createtime" => date("Y-m-d H:i:s")];
@@ -96,8 +96,8 @@ class Counties extends \App\Controllers\BaseController
         $data["user_id"] = $this->tank_auth->get_user_id();
         $data["username"] = $this->tank_auth->get_username();
         $data["user_level"] = $this->tank_auth->get_user_level();
-        $data["title"] = "Edit Counties";
-        $data["main_title"] = "Counties";
+        $data["title"] = "Edit Chapter";
+        $data["main_title"] = "Chapters";
         if ($this->session->get("user_type") == "admin") {
             check_permision("counties", "4", 1);
         } else {
