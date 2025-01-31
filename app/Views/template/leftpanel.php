@@ -33,7 +33,7 @@ if ($this->session->get("user_type") == "admin") {
         echo "\"> \r\n      \t\t<a href=\"#\" title=\"System Configuration\" data-filter-tags=\"config\"> <i class=\"fal fa-tasks\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.planning\">System Configuration </span> </a>\r\n        \r\n        <ul>\r\n        \r\n          ";
         if (in_array("1", $counties) || $this->session->get("user_type") == "admin") {
             echo "          <li  class=\"";
-            if (getSegment(2) == "counties") {
+            if (getSegment(2) == "Chapters") {
                 echo "active open'";
             }
             echo "\"> <a href=\"";
