@@ -655,7 +655,7 @@ if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user
                 }
                 echo "\"> \r\n              \t<a href=\"";
                 echo base_url() . "/system_reports/cases_field_office";
-                echo "\" title=\"Cases Database Report County\" data-filter-tags=\"cases database field office\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by County </span> </a> \r\n             </li>\r\n              ";
+                echo "\" title=\"Cases Database Report County\" data-filter-tags=\"cases database field office\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by Chapter </span> </a> \r\n             </li>\r\n              ";
             }
             echo "            \r\n              ";
             if (in_array("1", $cases_overall)) {
@@ -683,7 +683,7 @@ if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user
                 }
                 echo "\"> \r\n              \t<a href=\"";
                 echo base_url() . "/system_reports/beneficiaries_report_county";
-                echo "\" title=\"Beneficiaries Report County\" data-filter-tags=\"beneficiaries report county\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by County </span> </a> \r\n             </li>\r\n              ";
+                echo "\" title=\"Beneficiaries Report County\" data-filter-tags=\"beneficiaries report county\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by Chapter </span> </a> \r\n             </li>\r\n              ";
             }
             echo "            \r\n              ";
             if (in_array("1", $beneficiaries_report_national)) {
@@ -700,27 +700,70 @@ if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user
         echo "          \r\n          \r\n          \r\n          <!-----Strategic Ind Performance------>\r\n          \r\n        </ul>\r\n      </li>\r\n      ";
     }
 
-        $workplan_resources = explode(",", $this->session->get("resources"));
-        $workplan_workshop_reporting_tool = explode(",", $this->session->get("workshop_reporting_tool"));
-        if (in_array("1", $workplan_resources) || in_array("1", $workplan_workshop_reporting_tool)) {
-            echo "              \r\n              <li class=\"";
-            if (getSegment(2) == "resources") {
+    $workplan_resources = explode(",", $this->session->get("resources"));
+    $workplan_workshop_reporting_tool = explode(",", $this->session->get("workshop_reporting_tool"));
+    $workplan_questionnaires = explode(",", $this->session->get("questionnaires")); // Added Questionnaires
+    
+    if (in_array("1", $workplan_resources) || in_array("1", $workplan_workshop_reporting_tool)) {
+        echo "              \r\n              <li class=\"";
+        if (getSegment(2) == "resources") {
+            echo "active open'";
+        }
+        echo "\"> \r\n          
+        <a href=\"#\" title=\"Knowledge Center\" data-filter-tags=\"form stuff\"> 
+            <i class=\"fal fa-toolbox\"></i> 
+            <span class=\"nav-link-text\" data-i18n=\"nav.knowledge_center\">Knowledge Center</span> 
+        </a>\r\n        
+        <ul>\r\n         
+        
+        <li>";
+        echo "\t<a href=\"";
+        echo base_url() . "/knowledge_center/resources";
+        echo "\" title=\"Resources\" data-filter-tags=\"resources\"> 
+            <span class=\"nav-link-text\" data-i18n=\"nav.resources\">Resources</span> 
+        </a> 
+        </li>\r\n";
+    
+        echo "              \r\n              <li class=\"";
+        if (getSegment(2) == "workshop_reporting_tool" || getSegment(2) == "questionnaires") { 
+            // Keep the "active open" for both Workshop Reporting Tool and Questionnaires
+            echo "active open'";
+        }
+        echo "\"> \r\n              
+            <a href=\"#\" title=\"Workshop Reporting Tool\" data-filter-tags=\"workshop reporting tool\"> 
+                <span class=\"nav-link-text\" data-i18n=\"nav.workshop_reporting_tool\">Workshop Reporting Tool</span> 
+            </a>\r\n        
+            <ul>\r\n"; 
+    
+        echo "<li>";
+        echo "\t<a href=\"";
+        echo base_url() . "/knowledge_center/workshop_reporting_tool";
+        echo "\" title=\"Workshop Reporting Tool\" data-filter-tags=\"workshop reporting tool\"> 
+            <span class=\"nav-link-text\" data-i18n=\"nav.workshop_reporting_tool\">Workshop Reporting Tool</span> 
+        </a> 
+        </li>\r\n";
+    
+        // Adding Questionnaire under Workshop Reporting Tool
+        if (in_array("1", $workplan_questionnaires)) { 
+            echo "<li class=\"";
+            if (getSegment(2) == "questionnaires") {
                 echo "active open'";
             }
-            echo "\"> \r\n          <a href=\"#\" title=\"Knowledge Center\" data-filter-tags=\"form stuff\"> <i class=\"fal fa-toolbox\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.knowledge_center\">Knowledge Center</span> </a>\r\n        <ul>\r\n         \r\n  <li>";
-            echo "\t<a href=\"";
-            echo base_url() . "/knowledge_center/resources";
-            echo "\" title=\"Resources\" data-filter-tags=\"resources\"> <span class=\"nav-link-text\" data-i18n=\"nav.resources\">Resources</span> </a> \r\n              </li>\r\n              ";
-
-            echo "              \r\n              <li class=\"";
-            if (getSegment(2) == "workshop_reporting_tool") {
-                echo "active open'";
-            }
-            echo "\"> \r\n              \t<a href=\"";
-            echo base_url() . "/knowledge_center/workshop_reporting_tool";
-            echo "\" title=\"Workshop Reporting Tool\" data-filter-tags=\"workshop reporting tool\"> <span class=\"nav-link-text\" data-i18n=\"nav.workshop_reporting_tool\">Workshop Reporting Tool</span> </a> \r\n              </li>\r\n              ";
-            echo "</li>\r\n          \r\n        </ul>\r\n      </li>\r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      ";
-         }
+            echo "\"> \r\n              
+                <a href=\"";
+            echo base_url() . "/knowledge_center/questionnaires";
+            echo "\" title=\"Questionnaires\" data-filter-tags=\"questionnaires\"> 
+                <span class=\"nav-link-text\" data-i18n=\"nav.questionnaires\">Questionnaires</span> 
+            </a> 
+            </li>\r\n";
+        }
+    
+        echo "</ul>\r\n"; // Close Workshop Reporting Tool submenu
+        echo "</li>\r\n"; // Close Workshop Reporting Tool list item
+        echo "</ul>\r\n"; // Close Knowledge Center menu
+        echo "</li>\r\n"; // Close Knowledge Center list item
+    }
+    
 
     echo "      <li  class=\"";
     if (getSegment(1) == "user_management") {
@@ -885,7 +928,7 @@ if ($this->session->get("user_type") == "Viewer") {
                 }
                 echo "\"> \r\n              \t<a href=\"";
                 echo base_url() . "/system_reports/cases_field_office";
-                echo "\" title=\"Cases Database Report County\" data-filter-tags=\"cases database field office\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by County </span> </a> \r\n             </li>\r\n              ";
+                echo "\" title=\"Cases Database Report County\" data-filter-tags=\"cases database field office\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by Chapter </span> </a> \r\n             </li>\r\n              ";
             }
             echo "            \r\n              ";
             if (in_array("1", $cases_overall)) {
@@ -913,7 +956,7 @@ if ($this->session->get("user_type") == "Viewer") {
                 }
                 echo "\"> \r\n              \t<a href=\"";
                 echo base_url() . "/system_reports/beneficiaries_report_county";
-                echo "\" title=\"Beneficiaries Report County\" data-filter-tags=\"beneficiaries report county\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by County </span> </a> \r\n             </li>\r\n              ";
+                echo "\" title=\"Beneficiaries Report County\" data-filter-tags=\"beneficiaries report county\"> <span class=\"nav-link-text\" data-i18n=\"nav.cases_field_office\">by Chapter </span> </a> \r\n             </li>\r\n              ";
             }
             echo "            \r\n              ";
             if (in_array("1", $beneficiaries_report_national)) {
