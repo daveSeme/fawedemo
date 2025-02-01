@@ -16,7 +16,7 @@ echo "/public/js/jquery.min.js\"></script>\r\n\r\n<script src=\"";
 echo base_url();
 echo "/public/js/select2/select2.min.js\" defer></script>\r\n\r\n<link href=\"";
 echo base_url();
-echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#county').select2({placeholder: \"select Chapter\"});\r\n\t\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
+echo "/public/js/select2/select2.min.css\" rel=\"stylesheet\" />\r\n\r\n<script>\r\n\r\n\$(document).ready(function() {\r\n\t\r\n\t\$('#county').select2({placeholder: \"Select County\"});\r\n\t\r\n\t\r\n \t\$(\"#Form\").validate({\r\n\r\n \t\tignore: null,\r\n\r\n    \t \r\n\r\n \t\trules: { },\r\n\r\n \t\tmessages: { }\r\n\r\n \t});\r\n\t\r\n\t\r\n\t\r\n});\r\n</script>\r\n\r\n\r\n\r\n<main id=\"js-page-content\" role=\"main\" class=\"page-content\">\r\n<ol class=\"breadcrumb page-breadcrumb\">\r\n    <li class=\"breadcrumb-item\"><a href=\"";
 echo base_url() . "/home";
 echo "\">Home</a></li>\r\n     <li class=\"breadcrumb-item active\">";
 echo $main_title;
