@@ -708,19 +708,19 @@ if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user
         if (getSegment(2) == "resources") {
             echo "active open'";
         }
-        echo "\"> \r\n          <a href=\"#\" title=\"Knowledge Center\" data-filter-tags=\"form stuff\"> <i class=\"fal fa-toolbox\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.knowledge_center\">Knowledge Center</span> </a>\r\n        <ul>\r\n         \r\n  <li>";
-        echo "\t<a href=\"";
-        echo base_url() . "/knowledge_center/resources";
-        echo "\" title=\"Resources\" data-filter-tags=\"resources\"> <span class=\"nav-link-text\" data-i18n=\"nav.resources\">Resources</span> </a> \r\n              </li>\r\n              ";
+        echo "\"> \r\n          <a href=\"#\" title=\"Data Gathering\" data-filter-tags=\"form stuff\"> <i class=\"fal fa-toolbox\"></i> <span class=\"nav-link-text\" data-i18n=\"nav.knowledge_center\">Data Gathering</span> </a>\r\n        <ul>\r\n         \r\n  <li>";
+        //echo "\t<a href=\"";
+        // echo base_url() . "/knowledge_center/resources";
+        // echo "\" title=\"Resources\" data-filter-tags=\"resources\"> <span class=\"nav-link-text\" data-i18n=\"nav.resources\">Resources</span> </a> \r\n              </li>\r\n              ";
 
-        echo "              \r\n              <li class=\"";
-        if (getSegment(2) == "workshop_reporting_tool") {
-            echo "active open'";
-        }
-        echo "\"> \r\n              \t<a href=\"";
-        echo base_url() . "/knowledge_center/workshop_reporting_tool";
-        echo "\" title=\"Workshop Reporting Tool\" data-filter-tags=\"workshop reporting tool\"> <span class=\"nav-link-text\" data-i18n=\"nav.workshop_reporting_tool\">Workshop Reporting Tool</span> </a> \r\n              </li>\r\n              ";
-        echo "</li>\r\n          \r\n    ";  
+        // echo "              \r\n              <li class=\"";
+        // if (getSegment(2) == "workshop_reporting_tool") {
+        //     echo "active open'";
+        // }
+        // echo "\"> \r\n              \t<a href=\"";
+        // echo base_url() . "/knowledge_center/workshop_reporting_tool";
+        // echo "\" title=\"Workshop Reporting Tool\" data-filter-tags=\"workshop reporting tool\"> <span class=\"nav-link-text\" data-i18n=\"nav.workshop_reporting_tool\">Workshop Reporting Tool</span> </a> \r\n              </li>\r\n              ";
+        // echo "</li>\r\n          \r\n    ";  
         
         echo "              \r\n              <li class=\"";
         if (getSegment(2) == "questionnaires") {
