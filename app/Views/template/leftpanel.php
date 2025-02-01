@@ -720,8 +720,7 @@ if ($this->session->get("user_type") == "FAWE User" || $this->session->get("user
         // echo "\"> \r\n              \t<a href=\"";
         // echo base_url() . "/knowledge_center/workshop_reporting_tool";
         // echo "\" title=\"Workshop Reporting Tool\" data-filter-tags=\"workshop reporting tool\"> <span class=\"nav-link-text\" data-i18n=\"nav.workshop_reporting_tool\">Workshop Reporting Tool</span> </a> \r\n              </li>\r\n              ";
-        // echo "</li>\r\n          \r\n    ";  
-        
+        // echo "</li>\r\n          \r\n    ";        
         echo "              \r\n              <li class=\"";
         if (getSegment(2) == "questionnaires") {
             echo "active open'";
