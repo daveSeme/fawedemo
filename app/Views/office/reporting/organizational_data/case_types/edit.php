@@ -68,7 +68,7 @@ foreach ($results as $row) {
     echo $row->name;
     echo "</option>\r\n                                ";
 }
-echo "                                </select>\r\n                   \t\t\t <div class=\"invalid-feedback\"> Please select a valid Field Office. </div>\r\n                  \t\t</div>\r\n\r\n\r\n                   <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">County <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"county\" id=\"county\" class=\"custom-select\" >\r\n                                <option value=\"\">Select county</option>\r\n                                ";
+echo "                                </select>\r\n                   \t\t\t <div class=\"invalid-feedback\"> Please select a valid Field Office. </div>\r\n                  \t\t</div>\r\n\r\n\r\n                   <div class=\"col-12 mb-3\" >\r\n                    <label class=\"form-label\" for=\"counties\">County <span class=\"text-danger\">*</span></label>\r\n                            <select name=\"county\" id=\"county\" class=\"custom-select\" >\r\n                                <option value=\"\">select Chapter</option>\r\n                                ";
 $db = Config\Database::connect();
 $query = $db->query("SELECT name, id FROM mas_county ");
 $results = $query->getResult();

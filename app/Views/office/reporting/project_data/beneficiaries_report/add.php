@@ -64,7 +64,7 @@ foreach($reporting_periods as $period) {
     echo "</option>\r\n\t\t\t\t\t ";
 }
 echo "</select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Reporting date. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  \r\n                \r\n                  ";
-echo "<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"county\">County<span class=\"text-danger\">*</span></label>\r\n                    <select class=\"custom-select\" name=\"county\" id=\"county\" required=\"\">\r\n                      <option value=\"\">Select County</option>\r\n                        \r\n                    ";
+echo "<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"county\">Chapter<span class=\"text-danger\">*</span></label>\r\n                    <select class=\"custom-select\" name=\"Chapter\" id=\"county\" required=\"\">\r\n                      <option value=\"\">select Chapter</option>\r\n                        \r\n                    ";
 foreach ($counties as $row) {
     echo "               \t\t\t\t<option value=\"";
     echo $row["id"];
@@ -76,7 +76,7 @@ foreach ($counties as $row) {
     echo $row["name"];
     echo "</option>\r\n\t\t\t\t\t\t \t";
 }
-echo "</select>\r\n                    <div class=\"invalid-feedback\"> Please County. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  \r\n                \r\n                  ";
+echo "</select>\r\n                    <div class=\"invalid-feedback\"> Please Chapter. </div>\r\n                  </div>\r\n                  \r\n                  \r\n                  \r\n                \r\n                  ";
 echo "<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"type_beneficiaries\">Type of Beneficiaries <span class=\"text-danger\">*</span></label>\r\n                    <select class=\"custom-select\" name=\"type_beneficiaries\" id=\"type_beneficiaries\" required=\"\">\r\n                      ";
 echo "<option value=\"\">Select Type of Beneficiary</option>";
 echo "<option value=\"Direct Beneficiaries\">Direct Beneficiaries</option>";

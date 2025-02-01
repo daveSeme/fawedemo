@@ -1,5 +1,5 @@
 <?php
-//define("ENVIRONMENT","production");
+//define("ENVIRONMENT","development");
 define("ENVIRONMENT","production");
 // Valid PHP Version?
 $minPHPVersion = '7.2';

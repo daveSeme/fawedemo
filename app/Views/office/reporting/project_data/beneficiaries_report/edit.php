@@ -81,7 +81,7 @@ foreach($reporting_periods as $period) {
     echo "</option>\r\n\t\t\t\t\t ";
 }
 echo "                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Reporting Period. </div>\r\n                  </div>\r\n                \r\n                \r\n                \r\n                \r\n                \r\n                 ";
-echo "<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"county\">County <span class=\"text-danger\">*</span></label>\r\n                    <select class=\"custom-select cls_type\" name=\"county\" id=\"county\" required=\"\">\r\n                      <option value=\"\">Select County</option>\r\n                       ";
+echo "<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"county\">Chapter <span class=\"text-danger\">*</span></label>\r\n                    <select class=\"custom-select cls_type\" name=\"county\" id=\"county\" required=\"\">\r\n                      <option value=\"\">select Chapter</option>\r\n                       ";
 $db = Config\Database::connect();
 $query = $db->query("Select  * FROM mas_county where id=" . $stdata["county"] . "");
 $results = $query->getResultArray();
@@ -96,7 +96,7 @@ foreach ($results as $row) {
     echo $row["name"];
     echo "</option>\r\n\t\t\t\t\t ";
 }
-echo "                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid County. </div>\r\n                  </div>\r\n                \r\n                \r\n                \r\n                \r\n                \r\n                 ";
+echo "                    </select>\r\n                    <div class=\"invalid-feedback\"> Please select a valid Chapter. </div>\r\n                  </div>\r\n                \r\n                \r\n                \r\n                \r\n                \r\n                 ";
 echo "<div class=\"col-12 mb-3\">\r\n                    <label class=\"form-label\" for=\"type_beneficiaries\">Type of Beneficiaries <span class=\"text-danger\">*</span></label>\r\n                    <select class=\"custom-select cls_type\" name=\"type_beneficiaries\" id=\"type_beneficiaries\" required=\"\">\r\n                      <option value=\"\">Select Type of Beneficiary</option>\r\n                       ";
 $type_of_beneficiaries = ["Direct Beneficiaries", "Indirect Beneficiaries"];
 foreach ($type_of_beneficiaries as $row) {

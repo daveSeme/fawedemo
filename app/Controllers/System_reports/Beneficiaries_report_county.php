@@ -32,7 +32,7 @@ class beneficiaries_report_county extends \App\Controllers\BaseController
         $data["user_id"] = $this->tank_auth->get_user_id();
         $data["username"] = $this->tank_auth->get_username();
         $data["user_level"] = $this->tank_auth->get_user_level();
-        $data["title"] = "Beneficiaries Report County";
+        $data["title"] = "Beneficiaries Report Chapter";
         $data["main_title"] = "Access System Reports / Beneficiaries Reports";
         $data["base_id"] = $this->session->get("office");
         $data["year"] = "";
@@ -66,7 +66,7 @@ class beneficiaries_report_county extends \App\Controllers\BaseController
         $response = service("response");
         $data["base_id"] = $this->session->get("office");
         $data["id"] = $this->request->uri->getSegment(5);
-        $data["title"] = "Beneficiaries Report County";
+        $data["title"] = "Beneficiaries Report Chapter";
         $data["project"] = $this->request->uri->getSegment(4);
         $data["year"] = $this->request->uri->getSegment(5);
         $data["county"] = $this->request->uri->getSegment(6);
@@ -81,7 +81,7 @@ class beneficiaries_report_county extends \App\Controllers\BaseController
         $response = service("response");
         $data["base_id"] = $this->session->get("office");
         $data["id"] = $this->request->uri->getSegment(5);
-        $data["title"] = "Beneficiaries Report County";
+        $data["title"] = "Beneficiaries Report Chapter";
         $data["project"] = $this->request->uri->getSegment(4);
         $data["year"] = $this->request->uri->getSegment(5);
         $data["county"] = $this->request->uri->getSegment(6);
@@ -95,7 +95,7 @@ class beneficiaries_report_county extends \App\Controllers\BaseController
     {
         $data["base_id"] = $this->session->get("office");
         $data["id"] = $this->request->uri->getSegment(5);
-        $data["title"] = "Beneficiaries Report County";
+        $data["title"] = "Beneficiaries Report Chapter";
         $data["project"] = $this->request->uri->getSegment(4);
         $data["year"] = $this->request->uri->getSegment(5);
         $data["county"] = $this->request->uri->getSegment(6);
@@ -111,7 +111,7 @@ class beneficiaries_report_county extends \App\Controllers\BaseController
     {
         $data["base_id"] = $this->session->get("office");
         $data["id"] = $this->request->uri->getSegment(5);
-        $data["title"] = "Beneficiaries Report County";
+        $data["title"] = "Beneficiaries Report Chapter";
         $data["project"] = $this->request->uri->getSegment(4);
         $data["year"] = $this->request->uri->getSegment(5);
         $data["county"] = $this->request->uri->getSegment(6);
